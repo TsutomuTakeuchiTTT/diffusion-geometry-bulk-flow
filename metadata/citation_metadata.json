@@ -1,0 +1,93 @@
+{
+  "cff-version": "1.2.0",
+  "type": "software",
+  "title": "Diffusion geometry for galaxy bulk-flow reconstruction",
+  "message": "Please cite this fixed software version and the relevant accompanying papers. Code/documentation: BSD-3-Clause; saved numerical results: CC-BY-4.0.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "family-names": "Takeuchi",
+      "given-names": "Tsutomu T.",
+      "orcid": "https://orcid.org/0000-0001-8416-7673",
+      "affiliation": "Division of Particle and Astrophysical Science, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8602, Japan; The Research Center for Statistical Machine Learning, The Institute of Statistical Mathematics, 10-3 Midori-cho, Tachikawa, Tokyo 190-8562, Japan"
+    },
+    {
+      "family-names": "Asok",
+      "given-names": "Gayathri",
+      "orcid": "https://orcid.org/0009-0001-5284-6759",
+      "affiliation": "Division of Particle and Astrophysical Science, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8602, Japan"
+    },
+    {
+      "family-names": "Ma",
+      "given-names": "Hai-Xia",
+      "orcid": "https://orcid.org/0000-0002-5237-9433",
+      "affiliation": "Division of Particle and Astrophysical Science, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8602, Japan"
+    },
+    {
+      "family-names": "Ogane",
+      "given-names": "Yu",
+      "orcid": "https://orcid.org/0009-0001-9463-0673",
+      "affiliation": "Division of Particle and Astrophysical Science, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8602, Japan"
+    }
+  ],
+  "license": "BSD-3-Clause",
+  "abstract": "Paper-associated research sources, saved results, configuration evidence, and executable component and result-level checks for full-vector and radial potential-flow reconstruction.",
+  "keywords": [
+    "cosmology",
+    "diffusion geometry",
+    "peculiar velocities",
+    "potential flow"
+  ],
+  "references": [
+    {
+      "type": "unpublished",
+      "title": "Diffusion Geometry for Galaxy Bulk-Flow Reconstruction I: Foundations and Full-Vector Validation",
+      "authors": [
+        {
+          "family-names": "Takeuchi",
+          "given-names": "Tsutomu T."
+        },
+        {
+          "family-names": "Asok",
+          "given-names": "Gayathri"
+        },
+        {
+          "family-names": "Ma",
+          "given-names": "Hai-Xia"
+        },
+        {
+          "family-names": "Ogane",
+          "given-names": "Yu"
+        }
+      ],
+      "year": 2026
+    },
+    {
+      "type": "unpublished",
+      "title": "Diffusion Geometry for Galaxy Bulk-Flow Reconstruction II: Three-Dimensional Potential-Flow Reconstruction from Radial Velocities",
+      "authors": [
+        {
+          "family-names": "Takeuchi",
+          "given-names": "Tsutomu T."
+        },
+        {
+          "family-names": "Asok",
+          "given-names": "Gayathri"
+        },
+        {
+          "family-names": "Ma",
+          "given-names": "Hai-Xia"
+        },
+        {
+          "family-names": "Ogane",
+          "given-names": "Yu"
+        }
+      ],
+      "year": 2026
+    }
+  ],
+  "doi": "10.5281/zenodo.22898864",
+  "repository-code": "https://github.com/TsutomuTakeuchiTTT/diffusion-geometry-bulk-flow",
+  "url": "https://doi.org/10.5281/zenodo.22898864",
+  "date-released": "2026-09-23"
+}

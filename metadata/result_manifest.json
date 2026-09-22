@@ -1,0 +1,1252 @@
+{
+  "files": [
+    {
+      "path": "results/saved/mock1_bulk_seed_scale_robustness_runs.csv",
+      "original_sha256": "8d7eabe01aaf6d621513726cd0fc091600b505f28d71eed9cff603882a4204eb",
+      "release_sha256": "8d7eabe01aaf6d621513726cd0fc091600b505f28d71eed9cff603882a4204eb",
+      "size_bytes": 25813,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_bulk_seed_scale_robustness_selected_hyperparameters.csv",
+      "original_sha256": "4f1a7de4503994a37949b6e6079860136c58397a71d0b7acc37176c215bf7f9d",
+      "release_sha256": "4f1a7de4503994a37949b6e6079860136c58397a71d0b7acc37176c215bf7f9d",
+      "size_bytes": 2192,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_bulk_seed_scale_robustness_summary.csv",
+      "original_sha256": "56c96cb4870f1d92696760a962b8043cb6f6739af49f7c95dda4216bead176c9",
+      "release_sha256": "56c96cb4870f1d92696760a962b8043cb6f6739af49f7c95dda4216bead176c9",
+      "size_bytes": 9704,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_bulk_seed_scale_robustness_summary.json",
+      "original_sha256": "d544e076b6b883e7145d3f0b13a6022794ae4a28245cabbf2b371960cd61e8e3",
+      "release_sha256": "d544e076b6b883e7145d3f0b13a6022794ae4a28245cabbf2b371960cd61e8e3",
+      "size_bytes": 32644,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_complete_sphere/mock1.txt",
+      "original_sha256": "88dfd526f257a301e39abc6fe62c3030226516c28a459e14d7e606a9b0632f16",
+      "release_sha256": "88dfd526f257a301e39abc6fe62c3030226516c28a459e14d7e606a9b0632f16",
+      "size_bytes": 357,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_mode_number_convergence_v2/mock1_mode_number_convergence_aggregate_to_2048.csv",
+      "original_sha256": "bbcbc3d0ade439f29f9651c70858148ac85397cceb2171e6afaac81bbd477742",
+      "release_sha256": "bbcbc3d0ade439f29f9651c70858148ac85397cceb2171e6afaac81bbd477742",
+      "size_bytes": 18439,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_mode_number_convergence_v2/mock1_mode_number_convergence_continuity_audit_at_1024.csv",
+      "original_sha256": "dd1fa24a3504c54569ef99a80fceef573ab3a8b0e3bfcf0ca0d29bb842413adf",
+      "release_sha256": "dd1fa24a3504c54569ef99a80fceef573ab3a8b0e3bfcf0ca0d29bb842413adf",
+      "size_bytes": 436,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_mode_number_convergence_v2/mock1_mode_number_convergence_diffusion_vs_local.csv",
+      "original_sha256": "d48d9557f2215d90bc9263488465f0c9bd7d3bf63c1036c1f4b3cf9ad8dc480e",
+      "release_sha256": "d48d9557f2215d90bc9263488465f0c9bd7d3bf63c1036c1f4b3cf9ad8dc480e",
+      "size_bytes": 12225,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_mode_number_convergence_v2/mock1_mode_number_convergence_diffusion_vs_local_summary.csv",
+      "original_sha256": "ec314137b68943581bc8a9d1924869582fb78bba4fe627eeccf93450090dbaa1",
+      "release_sha256": "ec314137b68943581bc8a9d1924869582fb78bba4fe627eeccf93450090dbaa1",
+      "size_bytes": 3360,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_mode_number_convergence_v2/mock1_mode_number_convergence_geometry_audit_to_2048.csv",
+      "original_sha256": "5f6f8b5d3aed765f1d94f37623d574d5ffd7fe9fbacaf489a187faf5ab857c9d",
+      "release_sha256": "5f6f8b5d3aed765f1d94f37623d574d5ffd7fe9fbacaf489a187faf5ab857c9d",
+      "size_bytes": 897,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_mode_number_convergence_v2/mock1_mode_number_convergence_lambda_frequency_to_2048.csv",
+      "original_sha256": "6a115832d5e13e5e6fc12917a1faf8b08400c6ad0ad36ceeb05997721ecc4dc2",
+      "release_sha256": "6a115832d5e13e5e6fc12917a1faf8b08400c6ad0ad36ceeb05997721ecc4dc2",
+      "size_bytes": 708,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_mode_number_convergence_v2/mock1_mode_number_convergence_paired_summary_relative_to_1024.csv",
+      "original_sha256": "86eefd7caac7f02792b4ba8e6ad3636b6bb4c021464ca28fb3e9b0d4a13a7f87",
+      "release_sha256": "86eefd7caac7f02792b4ba8e6ad3636b6bb4c021464ca28fb3e9b0d4a13a7f87",
+      "size_bytes": 3246,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_mode_number_convergence_v2/mock1_mode_number_convergence_plateau_diagnostic_final_summary.json",
+      "original_sha256": "636c67048eb53a1087185783395cf4839b95831861d964a22adf21b24b9b2e12",
+      "release_sha256": "883d4872a4f14c40a7f0b979c1e09c4760f5b47daf17540813832ae81ffa0430",
+      "size_bytes": 633,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock1_mode_number_convergence_v2/mock1_mode_number_convergence_plateau_diagnostics.csv",
+      "original_sha256": "239f410df5737fd5d3445c73ceacba80f8dc71c9a2976b77a645f577c6b2e8b1",
+      "release_sha256": "239f410df5737fd5d3445c73ceacba80f8dc71c9a2976b77a645f577c6b2e8b1",
+      "size_bytes": 2178,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_mode_number_convergence_v2/mock1_mode_number_convergence_practical_selection.csv",
+      "original_sha256": "c95b95d44d2208d173a20916f06a3c7545ab6f12857f96d5d3be27737e439382",
+      "release_sha256": "c95b95d44d2208d173a20916f06a3c7545ab6f12857f96d5d3be27737e439382",
+      "size_bytes": 681,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_mode_number_convergence_v2/mock1_mode_number_convergence_runs_to_2048.csv",
+      "original_sha256": "374f4d1659a5a4a19d8135b158936a4ae016ad9e62493c3833f57a7aa8503950",
+      "release_sha256": "374f4d1659a5a4a19d8135b158936a4ae016ad9e62493c3833f57a7aa8503950",
+      "size_bytes": 142622,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_mode_number_convergence_v2/mock1_mode_number_convergence_summary_to_2048.json",
+      "original_sha256": "99d657366f68a0ef2075c98f18f4f9b6f16cac1aef65183b3943587f26b3ad83",
+      "release_sha256": "31a08e11b5b060224367eb349cca11b64d905204b60ada7c03da3f9913abbc67",
+      "size_bytes": 14965,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock1_mode_number_convergence_v2/mock1_mode_number_convergence_validation_to_2048.csv",
+      "original_sha256": "5c686cddb249e5de15c6a6560c5cf5201d900acbffce3d19a929cb3c7861a2b9",
+      "release_sha256": "5c686cddb249e5de15c6a6560c5cf5201d900acbffce3d19a929cb3c7861a2b9",
+      "size_bytes": 120343,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_full_robustness_v5/mock1_potential_flow_full_robustness_closure.csv",
+      "original_sha256": "da01729ccc5a9767a3c184e45cf36fbc4e2bd9691f11a138ced6fb69d780e8d0",
+      "release_sha256": "da01729ccc5a9767a3c184e45cf36fbc4e2bd9691f11a138ced6fb69d780e8d0",
+      "size_bytes": 2480,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_full_robustness_v5/mock1_potential_flow_full_robustness_gradient_diagnostics.csv",
+      "original_sha256": "7c694ec18735ebf1b7a2d141e207ff18f9958c41e75b299f19b5600ce0f61167",
+      "release_sha256": "7c694ec18735ebf1b7a2d141e207ff18f9958c41e75b299f19b5600ce0f61167",
+      "size_bytes": 1135,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_full_robustness_v5/mock1_potential_flow_full_robustness_linear_algebra_summary.csv",
+      "original_sha256": "f12c27b183a65969ea75997cd7e49baa59ebb2f22efc97dae7853d6913f3a480",
+      "release_sha256": "f12c27b183a65969ea75997cd7e49baa59ebb2f22efc97dae7853d6913f3a480",
+      "size_bytes": 1249,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_full_robustness_v5/mock1_potential_flow_full_robustness_operational_hyperparameters.csv",
+      "original_sha256": "a58c05ebb38555dc4a95993bc4ca39ca8fabd7adca8aaa9f3024cb0ff140d546",
+      "release_sha256": "a58c05ebb38555dc4a95993bc4ca39ca8fabd7adca8aaa9f3024cb0ff140d546",
+      "size_bytes": 2851,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_full_robustness_v5/mock1_potential_flow_full_robustness_operational_success_summary.csv",
+      "original_sha256": "06fa4265a071f54acbf5e53171e446b37024e726b79b82653416ecd25e9868b4",
+      "release_sha256": "06fa4265a071f54acbf5e53171e446b37024e726b79b82653416ecd25e9868b4",
+      "size_bytes": 1255,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_full_robustness_v5/mock1_potential_flow_full_robustness_paired_differences.csv",
+      "original_sha256": "cee8bb1710296ed0507b1da32e14eb8c9b68b791612cd3d1f5f1faff842ed0f6",
+      "release_sha256": "cee8bb1710296ed0507b1da32e14eb8c9b68b791612cd3d1f5f1faff842ed0f6",
+      "size_bytes": 4771,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_full_robustness_v5/mock1_potential_flow_full_robustness_reference_fields.csv",
+      "original_sha256": "f3d7861bcd00a31b556897b91e79dd6c3df3cd7c7b39826f3a9563908e96ba4b",
+      "release_sha256": "78a62e342e55490926d503bc1cfc2cfc899f18efa2e43c91df4eb592c8ce84b9",
+      "size_bytes": 4023,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_full_robustness_v5/mock1_potential_flow_full_robustness_scale_model_summary.csv",
+      "original_sha256": "b4706894c9c599454a42fa606db5ab7f73926b10a845a46f8c46121df0827f9f",
+      "release_sha256": "b4706894c9c599454a42fa606db5ab7f73926b10a845a46f8c46121df0827f9f",
+      "size_bytes": 8986,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_full_robustness_v5/mock1_potential_flow_full_robustness_selector_summary.csv",
+      "original_sha256": "8245a50e5da7089355d491bb01f65cc53cabf08c20f75c0fbc8275f87f050dd8",
+      "release_sha256": "8245a50e5da7089355d491bb01f65cc53cabf08c20f75c0fbc8275f87f050dd8",
+      "size_bytes": 22678,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_full_robustness_v5/mock1_potential_flow_full_robustness_summary.json",
+      "original_sha256": "8d3224a079974d1155dd811430ed9952863ec5f0de2186fb80b689bf4f2fca6d",
+      "release_sha256": "15349b5d3734abec14200d66405a0f2197ecffcc6bd763094d046803187b05bf",
+      "size_bytes": 46930,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_full_robustness_v5/mock1_potential_flow_full_robustness_test_comparison.csv",
+      "original_sha256": "8560e4ccd9b1e1c345577d00a39e68a4c8d625a489f82decb1412547e1dee16c",
+      "release_sha256": "bdd00dc4024cd35cf9fb44785899a31ce31dd4f4d0c1d31ae3e9098307bc046e",
+      "size_bytes": 45664,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_aggregate.csv",
+      "original_sha256": "695d917306859111047f7e3435b52981ca59cce89c1fc00ca968ee37d587f1cd",
+      "release_sha256": "695d917306859111047f7e3435b52981ca59cce89c1fc00ca968ee37d587f1cd",
+      "size_bytes": 45653,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_aggregate.csv",
+      "original_sha256": "4b60d50935a2c13823d0eb0d5381454ec8b56fce8222a6439c98f26d440ed70c",
+      "release_sha256": "4b60d50935a2c13823d0eb0d5381454ec8b56fce8222a6439c98f26d440ed70c",
+      "size_bytes": 42686,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_selection.csv",
+      "original_sha256": "de9dc02e96867d151e639fbd11246af979ddbd82e18773eb95e478c180a4f4ab",
+      "release_sha256": "de9dc02e96867d151e639fbd11246af979ddbd82e18773eb95e478c180a4f4ab",
+      "size_bytes": 3673,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_closure.csv",
+      "original_sha256": "323757b00a50420e502dbe21d77e88ed99b1cfcbef17ae0b858da1d6d2051a01",
+      "release_sha256": "323757b00a50420e502dbe21d77e88ed99b1cfcbef17ae0b858da1d6d2051a01",
+      "size_bytes": 2287,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_decision.csv",
+      "original_sha256": "f128995643d6aaa3b67457debe094c4bae7eda419fbff79a17144e8d6f513066",
+      "release_sha256": "f128995643d6aaa3b67457debe094c4bae7eda419fbff79a17144e8d6f513066",
+      "size_bytes": 437,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_geometry_continuity.csv",
+      "original_sha256": "88e221d9a1051317dd2f60cb58392eca91c8539aa209b36a65a1eefc31674e82",
+      "release_sha256": "3aac7f8572d0d7f232367e4418818c7801cef64314687f5985d24f36d7a36836",
+      "size_bytes": 445,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_global_scale_aggregate.csv",
+      "original_sha256": "b764121b12ec828b3a2e85c3251785e86eea187142c11bcc62d5ac2ea659ec1e",
+      "release_sha256": "b764121b12ec828b3a2e85c3251785e86eea187142c11bcc62d5ac2ea659ec1e",
+      "size_bytes": 5326,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_global_scale_seed_mean.csv",
+      "original_sha256": "49248db497e00e4dabeedcf4f70192212d7ca3628375703b907a6eb03c1c955e",
+      "release_sha256": "49248db497e00e4dabeedcf4f70192212d7ca3628375703b907a6eb03c1c955e",
+      "size_bytes": 25654,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_gradient_diagnostics.csv",
+      "original_sha256": "4de293f1a8812c52454ef007d4302339e2bb60a34d24bc095b1870b3b3e8118c",
+      "release_sha256": "4de293f1a8812c52454ef007d4302339e2bb60a34d24bc095b1870b3b3e8118c",
+      "size_bytes": 623,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_hyperparameter_frequency.csv",
+      "original_sha256": "1555c56c581c69da5f87b2def315b199d711d50e968f8a40e3b84a47844f66a3",
+      "release_sha256": "1555c56c581c69da5f87b2def315b199d711d50e968f8a40e3b84a47844f66a3",
+      "size_bytes": 828,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_paired_differences.csv",
+      "original_sha256": "eb9d7203d23d0f45eaf737fd99ef4481cc8f179b77a2c4efd18885e57e4c4af4",
+      "release_sha256": "eb9d7203d23d0f45eaf737fd99ef4481cc8f179b77a2c4efd18885e57e4c4af4",
+      "size_bytes": 518435,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_paired_summary.csv",
+      "original_sha256": "9631fffe28a4982bc59c780c9597d6125d8b61ec0ea4afdbf886213d09cb6b9d",
+      "release_sha256": "9631fffe28a4982bc59c780c9597d6125d8b61ec0ea4afdbf886213d09cb6b9d",
+      "size_bytes": 33714,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_practical_configurations.csv",
+      "original_sha256": "c2d6b00dfb99f87789b4a8536b7ee919e438753ccd4346243fa1097190c5d8ef",
+      "release_sha256": "c2d6b00dfb99f87789b4a8536b7ee919e438753ccd4346243fa1097190c5d8ef",
+      "size_bytes": 47868,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_profile_diagnostics.csv",
+      "original_sha256": "ae12a6fa2bf9a8309e7515eaeb08ff19dca055fe415ad0624b680ed8c4950e71",
+      "release_sha256": "ae12a6fa2bf9a8309e7515eaeb08ff19dca055fe415ad0624b680ed8c4950e71",
+      "size_bytes": 2423,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_seed_aggregate.csv",
+      "original_sha256": "c57a60907a6716dee825f2154d8bdd2aaf3c53eaf585744d7cd20c22ee2218b5",
+      "release_sha256": "c57a60907a6716dee825f2154d8bdd2aaf3c53eaf585744d7cd20c22ee2218b5",
+      "size_bytes": 69219,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_seed_capacity_mean.csv",
+      "original_sha256": "49788a082836e7b78a58ae82b3669610c4487fe645b283b14fbd56de3839cf59",
+      "release_sha256": "49788a082836e7b78a58ae82b3669610c4487fe645b283b14fbd56de3839cf59",
+      "size_bytes": 156800,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_selector_aggregate.csv",
+      "original_sha256": "fdff2b2e14610dc20793ab1d08940ffcc44224968036923b88daf5a20e856c98",
+      "release_sha256": "fdff2b2e14610dc20793ab1d08940ffcc44224968036923b88daf5a20e856c98",
+      "size_bytes": 3637,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_stage1b_capacity_comparison.csv",
+      "original_sha256": "8a753fe8b94fe67b0bdd6f1ea239b22fce37e288b9eecf573cb697c29cddac1c",
+      "release_sha256": "8a753fe8b94fe67b0bdd6f1ea239b22fce37e288b9eecf573cb697c29cddac1c",
+      "size_bytes": 1999,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_summary.json",
+      "original_sha256": "f0c908a8e5c8bc8844a37d4526cba3aa3346bc238f65aef5235bf162594c7b1e",
+      "release_sha256": "a574795b27f8cedc0a81e6ab96b2e3a69c107e09785ea37a5a4b7bec08e4e182",
+      "size_bytes": 19657,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_aggregate.csv",
+      "original_sha256": "bd29eca6282998b2f41bd7df2629cbed0ffbc59e32d97c557ff41a855e4a6e20",
+      "release_sha256": "bd29eca6282998b2f41bd7df2629cbed0ffbc59e32d97c557ff41a855e4a6e20",
+      "size_bytes": 16337,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_capacity_aggregate.csv",
+      "original_sha256": "2002e3fab52ff67feda3ea60fcc1bc9aaed35c32f35cd5f27e9ed477aab116a7",
+      "release_sha256": "2002e3fab52ff67feda3ea60fcc1bc9aaed35c32f35cd5f27e9ed477aab116a7",
+      "size_bytes": 19700,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_capacity_selection.csv",
+      "original_sha256": "dc7a976c67dfe5b9a36df0dd62f9d5803635f964383fca9ac51aa5b8ec9ece72",
+      "release_sha256": "dc7a976c67dfe5b9a36df0dd62f9d5803635f964383fca9ac51aa5b8ec9ece72",
+      "size_bytes": 1511,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_closure.csv",
+      "original_sha256": "35b36c0a4f9f66812ed617cf1e74892b6abe613e096a98ee57393e78702b5bfe",
+      "release_sha256": "35b36c0a4f9f66812ed617cf1e74892b6abe613e096a98ee57393e78702b5bfe",
+      "size_bytes": 2491,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_geometry_continuity.csv",
+      "original_sha256": "88e221d9a1051317dd2f60cb58392eca91c8539aa209b36a65a1eefc31674e82",
+      "release_sha256": "3aac7f8572d0d7f232367e4418818c7801cef64314687f5985d24f36d7a36836",
+      "size_bytes": 445,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_gradient_diagnostics.csv",
+      "original_sha256": "4de293f1a8812c52454ef007d4302339e2bb60a34d24bc095b1870b3b3e8118c",
+      "release_sha256": "4de293f1a8812c52454ef007d4302339e2bb60a34d24bc095b1870b3b3e8118c",
+      "size_bytes": 623,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_h2_continuity.csv",
+      "original_sha256": "77e5925ea8dec046a49a4c47695b1eadfe238eefd0ea560be1f5d184393efb79",
+      "release_sha256": "77e5925ea8dec046a49a4c47695b1eadfe238eefd0ea560be1f5d184393efb79",
+      "size_bytes": 334,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_hidden_selected_diagnostic.csv",
+      "original_sha256": "73820000b38918e1d2fa123036173eca3e7bbc0664e5bcd703cd3d929f4ead33",
+      "release_sha256": "73820000b38918e1d2fa123036173eca3e7bbc0664e5bcd703cd3d929f4ead33",
+      "size_bytes": 89273,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_hyperparameter_frequency.csv",
+      "original_sha256": "7e9724703e40fe7a5907957cf3308b1d07ef953740a4c2058f2151cfc0410aeb",
+      "release_sha256": "7e9724703e40fe7a5907957cf3308b1d07ef953740a4c2058f2151cfc0410aeb",
+      "size_bytes": 309,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_noise_design.csv",
+      "original_sha256": "6ca05e3bd6e7f635b426bab84c4cf57991e4f1be7b831a6c70431cee4dc9949b",
+      "release_sha256": "6ca05e3bd6e7f635b426bab84c4cf57991e4f1be7b831a6c70431cee4dc9949b",
+      "size_bytes": 1960,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_raw_argmin_selected.csv",
+      "original_sha256": "c9fc055d8c68a212c66946e457257864e08c5f52eb4d5190f23699a38bbe056a",
+      "release_sha256": "c9fc055d8c68a212c66946e457257864e08c5f52eb4d5190f23699a38bbe056a",
+      "size_bytes": 89251,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_runs.csv",
+      "original_sha256": "6733416db240a26eba1a70b4d1c56005e11a652b4cc9f17ee3f6a645fb3c1f71",
+      "release_sha256": "6733416db240a26eba1a70b4d1c56005e11a652b4cc9f17ee3f6a645fb3c1f71",
+      "size_bytes": 337093,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_seed_aggregate.csv",
+      "original_sha256": "377875d299b4fb64c9e02b5996402ac25640335c3f1ec246bac9470b09bf3c93",
+      "release_sha256": "377875d299b4fb64c9e02b5996402ac25640335c3f1ec246bac9470b09bf3c93",
+      "size_bytes": 23552,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_seed_capacity_mean.csv",
+      "original_sha256": "536f45120d3ecaaf997abb50960b3d90be455878a3859d0eddda0d20fc1a521e",
+      "release_sha256": "536f45120d3ecaaf997abb50960b3d90be455878a3859d0eddda0d20fc1a521e",
+      "size_bytes": 61689,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_seed_scan.csv",
+      "original_sha256": "1e86fa3bb94f6e90bd9e94c75ece0314a3edd1818ecd0d1b1fac702a1c54d78f",
+      "release_sha256": "1e86fa3bb94f6e90bd9e94c75ece0314a3edd1818ecd0d1b1fac702a1c54d78f",
+      "size_bytes": 315,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_summary.json",
+      "original_sha256": "6c73a3fb7ce443b5d29e2fe35d1b01467ff4ad8b8d298c49f441745ec8453677",
+      "release_sha256": "6f1fbb4e9b7e3cadf385315e9adc10a634a6f6e31dfebd1388eb9da729b0223f",
+      "size_bytes": 18132,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_all_method_aggregate.csv",
+      "original_sha256": "e1321953f5f2310818be8087ee59b01b02ed32e96c71fa3562fe09b00d9176f2",
+      "release_sha256": "e1321953f5f2310818be8087ee59b01b02ed32e96c71fa3562fe09b00d9176f2",
+      "size_bytes": 4298,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_geometry_aggregate.csv",
+      "original_sha256": "a2759bcc96638ddaa6ba5aea34d1193e73038620886da8933d6a9c881fd2d0be",
+      "release_sha256": "a2759bcc96638ddaa6ba5aea34d1193e73038620886da8933d6a9c881fd2d0be",
+      "size_bytes": 3105,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_geometry_information.csv",
+      "original_sha256": "028e26c5f665bc3864ef5d8a83cddf9aa6fb5ab562a30bf3dff525898cb96cba",
+      "release_sha256": "028e26c5f665bc3864ef5d8a83cddf9aa6fb5ab562a30bf3dff525898cb96cba",
+      "size_bytes": 289,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_geometry_paired_summary.csv",
+      "original_sha256": "64f3a41d545d1c349743a6ebbde1d811582544699e5bed4b901fe5d8f1f7b829",
+      "release_sha256": "64f3a41d545d1c349743a6ebbde1d811582544699e5bed4b901fe5d8f1f7b829",
+      "size_bytes": 3238,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_geometry_role_configurations.csv",
+      "original_sha256": "0443510e37ea6cb9776766e84fccdae046305ebd19504fc2667413da43841449",
+      "release_sha256": "0443510e37ea6cb9776766e84fccdae046305ebd19504fc2667413da43841449",
+      "size_bytes": 768,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_geometry_runs.csv",
+      "original_sha256": "3f84a290c1896bc87926fe9f7d2ab5704b4c4430ce14593964f0475b5836ecce",
+      "release_sha256": "3f84a290c1896bc87926fe9f7d2ab5704b4c4430ce14593964f0475b5836ecce",
+      "size_bytes": 100010,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_local_aggregate.csv",
+      "original_sha256": "92760213902a584577714d60f41c224ff560bd72a3f62b402ebc5c0f04811434",
+      "release_sha256": "92760213902a584577714d60f41c224ff560bd72a3f62b402ebc5c0f04811434",
+      "size_bytes": 1864,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_local_paired_summary.csv",
+      "original_sha256": "e4fc000555826a623c07302562344eb63bb5eee8dec8c42ef88d0ac0eebc5bc5",
+      "release_sha256": "e4fc000555826a623c07302562344eb63bb5eee8dec8c42ef88d0ac0eebc5bc5",
+      "size_bytes": 2531,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_local_runs.csv",
+      "original_sha256": "d588d74e8e2a1baaa37ca5be8d8e420c161c07891ba93b7f7422b56a4a16a1bc",
+      "release_sha256": "d588d74e8e2a1baaa37ca5be8d8e420c161c07891ba93b7f7422b56a4a16a1bc",
+      "size_bytes": 49379,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_local_selected_frequency.csv",
+      "original_sha256": "31b6e4cd59c4982b3cf31983f2313d631ab734a37952a1d1776cae947aef2ffd",
+      "release_sha256": "31b6e4cd59c4982b3cf31983f2313d631ab734a37952a1d1776cae947aef2ffd",
+      "size_bytes": 335,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_primary_result_audit.csv",
+      "original_sha256": "b8e0fb5d729e6fd09144f0426351e6418818f3b2da6af1f7bf4eacafbc15c2b6",
+      "release_sha256": "b8e0fb5d729e6fd09144f0426351e6418818f3b2da6af1f7bf4eacafbc15c2b6",
+      "size_bytes": 683,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_redraw_final_summary.json",
+      "original_sha256": "33253410fc6eb1ef92deae29c5cabeaeb831a93492aac86cb9ca05ac988c008b",
+      "release_sha256": "7ed960797eb02d21929ce79c8509e06146a5b8435f84626d482ed44c7be42d4e",
+      "size_bytes": 4929,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_redraw_summary.json",
+      "original_sha256": "14cf766780cd2fd4a27207539f241e8bf0658c16fc9163fb0887a35938d72082",
+      "release_sha256": "5f0cc3b5be9a615a37474cf1f1d57707ecbb5f2ef94a36f8b38c43d288d4a7f8",
+      "size_bytes": 4676,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_summary.json",
+      "original_sha256": "9f39ec1f08bca6083c0dead3dd22145ce27f88ce163340f0cd5f7685958bfeb2",
+      "release_sha256": "e5db056b7203854171d9e786a20bad6cd6e3c405da0817ba6922d7352a0723ed",
+      "size_bytes": 32043,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_aggregate_to_4096.csv",
+      "original_sha256": "4aae8fe7154de85989fd45775ade0eab4e084a420a130bee4f7496d43fae9b97",
+      "release_sha256": "4aae8fe7154de85989fd45775ade0eab4e084a420a130bee4f7496d43fae9b97",
+      "size_bytes": 4807,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_basis_runs_to_4096.csv",
+      "original_sha256": "ac86107af1ace3ddec4becedde64a1ef53e2a6d5122ca0380111ec2884178f13",
+      "release_sha256": "ac86107af1ace3ddec4becedde64a1ef53e2a6d5122ca0380111ec2884178f13",
+      "size_bytes": 330745,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_geometry_audit.csv",
+      "original_sha256": "ed54a945b1ce3844db7f12ff0b39e7a467fd67db5138857f2c5008d1f7e1cd58",
+      "release_sha256": "ed54a945b1ce3844db7f12ff0b39e7a467fd67db5138857f2c5008d1f7e1cd58",
+      "size_bytes": 374,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_legacy_512_audit_summary.csv",
+      "original_sha256": "c0dcb6993797f36848b1f7c9c9702527bcdbb8ecdaef5faef13a44f18c659972",
+      "release_sha256": "c0dcb6993797f36848b1f7c9c9702527bcdbb8ecdaef5faef13a44f18c659972",
+      "size_bytes": 187,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_local_baseline.csv",
+      "original_sha256": "94d361e9ea6572dbe8638a841f4efcf905ec4b710bcb497a0f2e4c025c758e16",
+      "release_sha256": "94d361e9ea6572dbe8638a841f4efcf905ec4b710bcb497a0f2e4c025c758e16",
+      "size_bytes": 5250,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_matched_grid.csv",
+      "original_sha256": "258f494227934cd7549933aaecd8b6a75528576891d047fae19c5f94255fa3b3",
+      "release_sha256": "258f494227934cd7549933aaecd8b6a75528576891d047fae19c5f94255fa3b3",
+      "size_bytes": 293319,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_matched_summary.csv",
+      "original_sha256": "b7ae9cf39db5698df71527968a613e320c3c0f0cebd580d909c226cb59aebe25",
+      "release_sha256": "b7ae9cf39db5698df71527968a613e320c3c0f0cebd580d909c226cb59aebe25",
+      "size_bytes": 1769,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_overlap_2048_audit.csv",
+      "original_sha256": "abe06c9e0d0294ed9758b4318b61c385c3a2e8faa35955b2e259f6cc482d4987",
+      "release_sha256": "abe06c9e0d0294ed9758b4318b61c385c3a2e8faa35955b2e259f6cc482d4987",
+      "size_bytes": 279,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_plateau_diagnostics.csv",
+      "original_sha256": "8e4baac756c7b2171c7623be2b7ed91578b3b9d66e4b15d184b82d0a8e35c002",
+      "release_sha256": "8e4baac756c7b2171c7623be2b7ed91578b3b9d66e4b15d184b82d0a8e35c002",
+      "size_bytes": 1304,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_practical_runs.csv",
+      "original_sha256": "27809f7a56a723e778011d926675a2d920364ec1e98259352df6fc69038d1dd2",
+      "release_sha256": "27809f7a56a723e778011d926675a2d920364ec1e98259352df6fc69038d1dd2",
+      "size_bytes": 32696,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_practical_selection.csv",
+      "original_sha256": "023029ab5d91addb25e459ac98bbb995ebe4c53c472d3e9948e0d0d38c218517",
+      "release_sha256": "023029ab5d91addb25e459ac98bbb995ebe4c53c472d3e9948e0d0d38c218517",
+      "size_bytes": 424,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_summary_to_4096.json",
+      "original_sha256": "de84435c10b112ad07b84b3091957456ab2a26ef9f53c4e534a342f02421ca6b",
+      "release_sha256": "ed63afa22eacf084f04dd820444a16792a1d14a86848b3e990d69255a0408651",
+      "size_bytes": 29336,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_validation_to_4096.csv",
+      "original_sha256": "d79e5423c2199203fcdc32b3c96c63556c4fc0f68abb2c3f53c812018e34ae67",
+      "release_sha256": "d79e5423c2199203fcdc32b3c96c63556c4fc0f68abb2c3f53c812018e34ae67",
+      "size_bytes": 143663,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_capacity_h3_v1/cache/highmode_basis_metadata.json",
+      "original_sha256": "969b3e39f0998c974370c6a20e5977a2cd01adfa5766cf948ff1e1b12681c218",
+      "release_sha256": "3928ec4c3b658dcfcdeff16f92503356882aed14be4a229f8c67acc2bd391adf",
+      "size_bytes": 155185,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_capacity_h3_v1/cache/mock2_unweighted_alpha0_geometry_m4352_metadata.json",
+      "original_sha256": "9f5a66955bc0606d0d81ce0de6bf7ce6f0b2274a54fa2c57c8b2e349b25504a4",
+      "release_sha256": "3343c3d7faf7d85e5e4534fc045474281bb4a5aca0d3c4a2e115f94e13fafadb",
+      "size_bytes": 1288,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_capacity_h3_v1/mock2_radial_potential_highmode_capacity_h3_capacity_selection.csv",
+      "original_sha256": "ca0e5247cd51b1820e4b21dfd38cda811b95ae927e2d15d574ea3369495c1c59",
+      "release_sha256": "ca0e5247cd51b1820e4b21dfd38cda811b95ae927e2d15d574ea3369495c1c59",
+      "size_bytes": 964,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_capacity_h3_v1/mock2_radial_potential_highmode_capacity_h3_closure.csv",
+      "original_sha256": "e1401cbf57ed69f58ed178e8501a03887a7215f4db5dd63078f91f02799ce28b",
+      "release_sha256": "e1401cbf57ed69f58ed178e8501a03887a7215f4db5dd63078f91f02799ce28b",
+      "size_bytes": 261,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_capacity_h3_v1/mock2_radial_potential_highmode_capacity_h3_geometry_continuity.csv",
+      "original_sha256": "3465e249e2a857a6d71ac4f4516af70aab5760c306cb2755516652343bfdd287",
+      "release_sha256": "3465e249e2a857a6d71ac4f4516af70aab5760c306cb2755516652343bfdd287",
+      "size_bytes": 371,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_capacity_h3_v1/mock2_radial_potential_highmode_capacity_h3_summary.json",
+      "original_sha256": "1454caa1b688694a3a9ffc62b5db9e13a8212302a89cea7b0320837df5628900",
+      "release_sha256": "75bb5cc9578c6964f5ad7e0961fed32f340bba2e5c0adde48691fb8e631c5608",
+      "size_bytes": 187958,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_capacity_aggregate.csv",
+      "original_sha256": "a7fab5c5681032e591ba33bcceb750f61087c7afdabce1a862bad84f742e5c7a",
+      "release_sha256": "a7fab5c5681032e591ba33bcceb750f61087c7afdabce1a862bad84f742e5c7a",
+      "size_bytes": 23025,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_capacity_selection.csv",
+      "original_sha256": "0cc6a613c605a0293fbb1c04873c5a36f9894213471af966f10496178e44ba5a",
+      "release_sha256": "0cc6a613c605a0293fbb1c04873c5a36f9894213471af966f10496178e44ba5a",
+      "size_bytes": 1012,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_decision.csv",
+      "original_sha256": "68c002083dde128cc8042f103bf4467004428f0ac1723de7a5b8271427e70eb5",
+      "release_sha256": "68c002083dde128cc8042f103bf4467004428f0ac1723de7a5b8271427e70eb5",
+      "size_bytes": 222,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_family_practical_configurations.csv",
+      "original_sha256": "05368eae6ec22889f646598c62e1c5eb790ff273b979df4a6534aaa2320a027e",
+      "release_sha256": "05368eae6ec22889f646598c62e1c5eb790ff273b979df4a6534aaa2320a027e",
+      "size_bytes": 7047,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_final_selected_configurations.csv",
+      "original_sha256": "01100111c7ba4752cc7b4f79b43cc73197df37765bb8f4b192b4c6bd9ff6b8f9",
+      "release_sha256": "01100111c7ba4752cc7b4f79b43cc73197df37765bb8f4b192b4c6bd9ff6b8f9",
+      "size_bytes": 23898,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_global_practical_policy.csv",
+      "original_sha256": "c0fbfb6ef5ba4e8b8de64459fa4bacdad8bcf448597bd9667baa0e42a7383777",
+      "release_sha256": "c0fbfb6ef5ba4e8b8de64459fa4bacdad8bcf448597bd9667baa0e42a7383777",
+      "size_bytes": 430,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_h3_representative_continuity.csv",
+      "original_sha256": "a640fc0dd9be98166062649ac141fa7b46ed854dd28852186bd82581f14e1284",
+      "release_sha256": "a640fc0dd9be98166062649ac141fa7b46ed854dd28852186bd82581f14e1284",
+      "size_bytes": 323,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_legacy_514_continuity.csv",
+      "original_sha256": "1344d64d69ea5e8359ee07fa26e283ae98bb7b1688ffffb93b951589fb8ae241",
+      "release_sha256": "1344d64d69ea5e8359ee07fa26e283ae98bb7b1688ffffb93b951589fb8ae241",
+      "size_bytes": 370,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_model_summary.csv",
+      "original_sha256": "4677d095701a03d109515abd43182ec90fb475a6a7d98adbc86db813be2d993d",
+      "release_sha256": "4677d095701a03d109515abd43182ec90fb475a6a7d98adbc86db813be2d993d",
+      "size_bytes": 17181,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_paired_differences.csv",
+      "original_sha256": "89e9054af1c8ee3b0f5af067c200f31cfaaa0c0c010250d424193af1cc450796",
+      "release_sha256": "89e9054af1c8ee3b0f5af067c200f31cfaaa0c0c010250d424193af1cc450796",
+      "size_bytes": 49754,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_paired_summary.csv",
+      "original_sha256": "a8fe1f606cca0c1ed91640a83e1a48c5cfe2bf2bfca992ee4df58a229b77ced7",
+      "release_sha256": "a8fe1f606cca0c1ed91640a83e1a48c5cfe2bf2bfca992ee4df58a229b77ced7",
+      "size_bytes": 17157,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_plateau_diagnostic.csv",
+      "original_sha256": "9b60fb2f756218a66c37a635b7ad7510a2e7e48cb726993dde1631c4b4447752",
+      "release_sha256": "9b60fb2f756218a66c37a635b7ad7510a2e7e48cb726993dde1631c4b4447752",
+      "size_bytes": 4911,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_practical_hyperparameter_frequency.csv",
+      "original_sha256": "683f28b1727bdb13f0fef9fcee4e62703079592e34a94bfc91f1f6d3f2743ca7",
+      "release_sha256": "683f28b1727bdb13f0fef9fcee4e62703079592e34a94bfc91f1f6d3f2743ca7",
+      "size_bytes": 310,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_selector_agreement.csv",
+      "original_sha256": "cb405f655962e441e15cb0be1622a323a8920a19862b817feb3be1c78c1e8270",
+      "release_sha256": "cb405f655962e441e15cb0be1622a323a8920a19862b817feb3be1c78c1e8270",
+      "size_bytes": 255,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_selector_evaluation.csv",
+      "original_sha256": "c3fc51ff156f0a70b3e0bcfcf359b980537b192a372bc4975ca8e98c94999587",
+      "release_sha256": "c3fc51ff156f0a70b3e0bcfcf359b980537b192a372bc4975ca8e98c94999587",
+      "size_bytes": 46471,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_selectors.csv",
+      "original_sha256": "ee7949c9d67d8c439121f3406309d3ba2a57acaa07da5a93262cc8e401f0b947",
+      "release_sha256": "ee7949c9d67d8c439121f3406309d3ba2a57acaa07da5a93262cc8e401f0b947",
+      "size_bytes": 8065,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_summary.json",
+      "original_sha256": "4fb07ddff3de2a73b512d705953d0a9e4c5088e36f82fa25607d144c6e2a9980",
+      "release_sha256": "73e6cec1ae80f62933b859e9e2680aab5ab38e189f2e939a3ce42b15184d491a",
+      "size_bytes": 8442,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_unweighted_selector_diagnostic.csv",
+      "original_sha256": "a1cfc7724027394b199e2cf346037fd90b1cc42cd7176e9376ab48a7c3a7a86a",
+      "release_sha256": "a1cfc7724027394b199e2cf346037fd90b1cc42cd7176e9376ab48a7c3a7a86a",
+      "size_bytes": 4130,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_weight_diagnostics.csv",
+      "original_sha256": "0c2ab1b90c4e396521c5a6616a74cd88eb928fb5a3250e7d824011e11499b98f",
+      "release_sha256": "0c2ab1b90c4e396521c5a6616a74cd88eb928fb5a3250e7d824011e11499b98f",
+      "size_bytes": 610,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_schechter_selection/mock2.txt",
+      "original_sha256": "20f0ea2082c39cb65d283631dc2b876eba121225bc1c830242cb6132c1eaa908",
+      "release_sha256": "20f0ea2082c39cb65d283631dc2b876eba121225bc1c830242cb6132c1eaa908",
+      "size_bytes": 473,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_continuity_audit.csv",
+      "original_sha256": "0e815172dfab6ee920fb5c0515b65574b968e9e46cd69c5dad1a61435c76eb69",
+      "release_sha256": "0e815172dfab6ee920fb5c0515b65574b968e9e46cd69c5dad1a61435c76eb69",
+      "size_bytes": 829,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_matched_basis_grid.csv",
+      "original_sha256": "ed3900025525f35881ddaee217fbb7b5b835fbb83110cfd340d92f7ce24a9478",
+      "release_sha256": "ed3900025525f35881ddaee217fbb7b5b835fbb83110cfd340d92f7ce24a9478",
+      "size_bytes": 79112,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_matched_basis_paired_summary.csv",
+      "original_sha256": "17db96dc08ff7e51b67c750d3f78b43d5fc79f4a7706b8273613666262101057",
+      "release_sha256": "17db96dc08ff7e51b67c750d3f78b43d5fc79f4a7706b8273613666262101057",
+      "size_bytes": 27699,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_matched_basis_summary.csv",
+      "original_sha256": "4dbd4f5a4ee97f960ecd5a7c370fa8151ca24ce2d4c3008ac674453367d15da2",
+      "release_sha256": "4dbd4f5a4ee97f960ecd5a7c370fa8151ca24ce2d4c3008ac674453367d15da2",
+      "size_bytes": 5320,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_paired_summary.csv",
+      "original_sha256": "73dac9d99a9b8462f184d276541164365a1a12fb856e554a388b464cefb83602",
+      "release_sha256": "73dac9d99a9b8462f184d276541164365a1a12fb856e554a388b464cefb83602",
+      "size_bytes": 13071,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_protocol_runs.csv",
+      "original_sha256": "240e9535504de49fda36f780f5d4effc297f755b76225988e62597dc4b19607d",
+      "release_sha256": "240e9535504de49fda36f780f5d4effc297f755b76225988e62597dc4b19607d",
+      "size_bytes": 40855,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_protocol_summary.csv",
+      "original_sha256": "5e4e734e1450cc9c490ecf8ace742fcafcb2cc11c975626f00e009c3e085a725",
+      "release_sha256": "5e4e734e1450cc9c490ecf8ace742fcafcb2cc11c975626f00e009c3e085a725",
+      "size_bytes": 8801,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_retuned_selection_frequency.csv",
+      "original_sha256": "d40f91bf0ab811094dfd27dd5323128c07deecddbc5b7749dc18e0f8390f8464",
+      "release_sha256": "d40f91bf0ab811094dfd27dd5323128c07deecddbc5b7749dc18e0f8390f8464",
+      "size_bytes": 381,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_summary.json",
+      "original_sha256": "bd03fc5e4b8b3ea60a577c24e6fda256c366bf3980335ffa0c047be80267c800",
+      "release_sha256": "930e5465bb6468e6e35b5bfdbb27a719dd159295163b922fb4f841c89d949ff0",
+      "size_bytes": 137850,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_validation_aggregate.csv",
+      "original_sha256": "9e1f7b4d3235b19d301ee9c094e69afad8a49a21d9c83d2b9ec3f807f4494e76",
+      "release_sha256": "9e1f7b4d3235b19d301ee9c094e69afad8a49a21d9c83d2b9ec3f807f4494e76",
+      "size_bytes": 6223,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_validation_grid.csv",
+      "original_sha256": "d887e26a627e7618e95f04197be3bc34d1a00aef2566e566e5ae9c136f7bb8c6",
+      "release_sha256": "d887e26a627e7618e95f04197be3bc34d1a00aef2566e566e5ae9c136f7bb8c6",
+      "size_bytes": 36177,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_weight_summary.csv",
+      "original_sha256": "463bc925381c64a099d18661250c6a65682587e97e94c8b3e89fa93248e17665",
+      "release_sha256": "463bc925381c64a099d18661250c6a65682587e97e94c8b3e89fa93248e17665",
+      "size_bytes": 427,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_inhomogeneous_survey/mock3.txt",
+      "original_sha256": "39709e45aeb7ea4ecbe565914f2cb8f7aafdc0d2f44aa5871d4cac67849b37b0",
+      "release_sha256": "39709e45aeb7ea4ecbe565914f2cb8f7aafdc0d2f44aa5871d4cac67849b37b0",
+      "size_bytes": 840,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_primary_mode_convergence_to_4096_v1/mock3_primary_mode_convergence_to_4096_aggregate.csv",
+      "original_sha256": "0df59878d37579e68fb217b56a6a4f014f5979a0106bf71cc87e1a5727c6cc07",
+      "release_sha256": "0df59878d37579e68fb217b56a6a4f014f5979a0106bf71cc87e1a5727c6cc07",
+      "size_bytes": 2956,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_primary_mode_convergence_to_4096_v1/mock3_primary_mode_convergence_to_4096_geometry_continuity_audit.csv",
+      "original_sha256": "1e8f68166714cb71273a3e2ce8d0e5e1f9b019795486b4e2e7ec5801a737e3c2",
+      "release_sha256": "1e8f68166714cb71273a3e2ce8d0e5e1f9b019795486b4e2e7ec5801a737e3c2",
+      "size_bytes": 245,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_primary_mode_convergence_to_4096_v1/mock3_primary_mode_convergence_to_4096_plateau_diagnostics.csv",
+      "original_sha256": "4854e11c31e748453fb2ce0d061570b01b83841452a1a7d910078abc9669ff64",
+      "release_sha256": "4854e11c31e748453fb2ce0d061570b01b83841452a1a7d910078abc9669ff64",
+      "size_bytes": 454,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_primary_mode_convergence_to_4096_v1/mock3_primary_mode_convergence_to_4096_practical_selection.csv",
+      "original_sha256": "dee5fd6ca2d6b7b8c892590e649839039cf5264fb81123d9c833678ae3442c43",
+      "release_sha256": "dee5fd6ca2d6b7b8c892590e649839039cf5264fb81123d9c833678ae3442c43",
+      "size_bytes": 249,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_primary_mode_convergence_to_4096_v1/mock3_primary_mode_convergence_to_4096_runs.csv",
+      "original_sha256": "6604cd3c2011a72869fe2f9b27b4efaf0c5d27be8c421eb3bf58dfa46d5df489",
+      "release_sha256": "6604cd3c2011a72869fe2f9b27b4efaf0c5d27be8c421eb3bf58dfa46d5df489",
+      "size_bytes": 30616,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_primary_mode_convergence_to_4096_v1/mock3_primary_mode_convergence_to_4096_summary.json",
+      "original_sha256": "6616de5c218f104c23ca91cad4707325c83ed3c17c89ef36d6fdebf1df7a8b58",
+      "release_sha256": "8b503ac9022e4e920d82ca152c76d2ada7950ca69b380fd1216d0dd34cda51c5",
+      "size_bytes": 2947,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_capacity_h2_v1/cache/highmode_basis_metadata.json",
+      "original_sha256": "8577879ca51a6e6013531454c3aadb0352e39dda6c175f71baa71f8041ba4c60",
+      "release_sha256": "7ccd6fd67491d13e36bb4d175e90f49b46471b13a176e61dc76eb2f854818283",
+      "size_bytes": 155145,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_capacity_h2_v1/cache/mock3_unweighted_alpha0_geometry_m4352_metadata.json",
+      "original_sha256": "4dd63df0f65bb32a6e23eca79a10d3a9438a695577c73314178c1843589e574f",
+      "release_sha256": "e183ab707a68681e13f7f408d750d2f6f208e0fc388f47a066f773859a87bf24",
+      "size_bytes": 1237,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_capacity_h2_v1/mock3_radial_potential_highmode_capacity_h2_capacity_selection.csv",
+      "original_sha256": "9e1e4dfcc1f3157461777ecf31ca3ac1b392859747a3090e82256c03c5c73343",
+      "release_sha256": "9e1e4dfcc1f3157461777ecf31ca3ac1b392859747a3090e82256c03c5c73343",
+      "size_bytes": 811,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_capacity_h2_v1/mock3_radial_potential_highmode_capacity_h2_closure.csv",
+      "original_sha256": "9d28ae04f26fd7ecb4e0d26f41dc2e1b90f76f887a4f3c107cb600d13551a6f4",
+      "release_sha256": "9d28ae04f26fd7ecb4e0d26f41dc2e1b90f76f887a4f3c107cb600d13551a6f4",
+      "size_bytes": 259,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_capacity_h2_v1/mock3_radial_potential_highmode_capacity_h2_geometry_continuity.csv",
+      "original_sha256": "a9f2c31ab9051475864ba626e3483ef54bdcaf20e5539c90159d1b233698b4ae",
+      "release_sha256": "a9f2c31ab9051475864ba626e3483ef54bdcaf20e5539c90159d1b233698b4ae",
+      "size_bytes": 355,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_capacity_h2_v1/mock3_radial_potential_highmode_capacity_h2_summary.json",
+      "original_sha256": "35837feb76379b3590eece08ef60715e4649b9c79b298b4aa152b378442e69ca",
+      "release_sha256": "608bc5b09fef049566d88acb3e1e83126794f9aa2d26b59aaa18f9dd0c53711d",
+      "size_bytes": 187529,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_capacity_aggregate.csv",
+      "original_sha256": "c2847ccf327551a19c8032837aca04b3bb3c247dfb7d95f566338ecd914e8de3",
+      "release_sha256": "c2847ccf327551a19c8032837aca04b3bb3c247dfb7d95f566338ecd914e8de3",
+      "size_bytes": 22551,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_capacity_selection.csv",
+      "original_sha256": "71e71ec315f9c5ea1b5f762883497d7d09a7f1d92c4283e828c32d902c879831",
+      "release_sha256": "71e71ec315f9c5ea1b5f762883497d7d09a7f1d92c4283e828c32d902c879831",
+      "size_bytes": 976,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_decision.csv",
+      "original_sha256": "853b8ca98ce5f85dd8b168791952297a082e8394ef9eb764d1aadebb9f7abbd4",
+      "release_sha256": "853b8ca98ce5f85dd8b168791952297a082e8394ef9eb764d1aadebb9f7abbd4",
+      "size_bytes": 480,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_family_practical_configurations.csv",
+      "original_sha256": "e788b7973a00bbf01c5a828e9d6cef9251568bd10a9f9b8593249027078ea028",
+      "release_sha256": "e788b7973a00bbf01c5a828e9d6cef9251568bd10a9f9b8593249027078ea028",
+      "size_bytes": 10014,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_final_selected_configurations.csv",
+      "original_sha256": "4c0073deeb20d5917e14c6449cabc0294652ee76dec07a8430ee91fd6a616181",
+      "release_sha256": "4c0073deeb20d5917e14c6449cabc0294652ee76dec07a8430ee91fd6a616181",
+      "size_bytes": 22333,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_global_practical_policy.csv",
+      "original_sha256": "ac8172748798e7b4409d679a72169d260e76a8979d1f27ebab030782fe696709",
+      "release_sha256": "ac8172748798e7b4409d679a72169d260e76a8979d1f27ebab030782fe696709",
+      "size_bytes": 404,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_h2_representative_continuity.csv",
+      "original_sha256": "b579f5456d2e2ae01c0fbdb72619d9e81ed3eb1fa49c4c94afeb24d3bd088ba6",
+      "release_sha256": "b579f5456d2e2ae01c0fbdb72619d9e81ed3eb1fa49c4c94afeb24d3bd088ba6",
+      "size_bytes": 485,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_legacy_514_continuity.csv",
+      "original_sha256": "90437a59b1a9a015e3f0c1ea36ec72d8c7e4f6165bbc0e8d94f4f0f36db60c19",
+      "release_sha256": "90437a59b1a9a015e3f0c1ea36ec72d8c7e4f6165bbc0e8d94f4f0f36db60c19",
+      "size_bytes": 549,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_model_summary.csv",
+      "original_sha256": "f7e1aa3819dba1000cc05f00eee3142283dcf2d7b0776c5ee31ab39ca0237f12",
+      "release_sha256": "f7e1aa3819dba1000cc05f00eee3142283dcf2d7b0776c5ee31ab39ca0237f12",
+      "size_bytes": 55502,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_octant_robustness.csv",
+      "original_sha256": "bed696136aceeb6103e51cabe8bd5aca69eed8ee1eb93c54478ba94fc16365c0",
+      "release_sha256": "bed696136aceeb6103e51cabe8bd5aca69eed8ee1eb93c54478ba94fc16365c0",
+      "size_bytes": 7661,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_octant_seed_summary.csv",
+      "original_sha256": "0f2d0f13ab627e42c76310f20c9dd1840f2c243d748bafeefc6bf1b5e8114e26",
+      "release_sha256": "0f2d0f13ab627e42c76310f20c9dd1840f2c243d748bafeefc6bf1b5e8114e26",
+      "size_bytes": 53536,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_octant_stratified_split.csv",
+      "original_sha256": "5b81d25980132f29eb683062292429bfb7e3530f41e79a62edd04066ad5327b4",
+      "release_sha256": "5b81d25980132f29eb683062292429bfb7e3530f41e79a62edd04066ad5327b4",
+      "size_bytes": 10421,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_paired_differences.csv",
+      "original_sha256": "591b32da8eb0e6bb4444d3ae5293fd3576bd5b8d86ad0552e9cebb9ddc96b4ad",
+      "release_sha256": "591b32da8eb0e6bb4444d3ae5293fd3576bd5b8d86ad0552e9cebb9ddc96b4ad",
+      "size_bytes": 227782,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_paired_summary.csv",
+      "original_sha256": "1b296210b19c6604bc14a4de6ebd81cb76adb59b726172edbeb66fcb03fd3019",
+      "release_sha256": "1b296210b19c6604bc14a4de6ebd81cb76adb59b726172edbeb66fcb03fd3019",
+      "size_bytes": 97675,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_per_octant_summary.csv",
+      "original_sha256": "e6bfdd4226f71664f275736deaf0d31a90a8f44601883d96f04004a883b37585",
+      "release_sha256": "e6bfdd4226f71664f275736deaf0d31a90a8f44601883d96f04004a883b37585",
+      "size_bytes": 30327,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_plateau_diagnostic.csv",
+      "original_sha256": "61fd8c1459e72826e3885e880409d7214b69a800664f3f977cc8e64898294ef1",
+      "release_sha256": "61fd8c1459e72826e3885e880409d7214b69a800664f3f977cc8e64898294ef1",
+      "size_bytes": 4441,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_practical_hyperparameter_frequency.csv",
+      "original_sha256": "b58223c60fbabe060b43fbed912d71c69413a9ad8bbd425034e099f35e7ec8e3",
+      "release_sha256": "b58223c60fbabe060b43fbed912d71c69413a9ad8bbd425034e099f35e7ec8e3",
+      "size_bytes": 169,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_selector_agreement.csv",
+      "original_sha256": "32970595de0c02bac25ff298ec382964a3a36b391a81ffd717a071634c059e2b",
+      "release_sha256": "32970595de0c02bac25ff298ec382964a3a36b391a81ffd717a071634c059e2b",
+      "size_bytes": 258,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_selector_evaluation.csv",
+      "original_sha256": "3165d821ebf663006a8e0236ae49695a833b17690ac5861f15c3f2d4c7a3aae9",
+      "release_sha256": "3165d821ebf663006a8e0236ae49695a833b17690ac5861f15c3f2d4c7a3aae9",
+      "size_bytes": 395963,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_selectors.csv",
+      "original_sha256": "41a13172ae92e7b929264c4fdeffa5fd082e53f6f6c6da26b6b500840746b689",
+      "release_sha256": "41a13172ae92e7b929264c4fdeffa5fd082e53f6f6c6da26b6b500840746b689",
+      "size_bytes": 12140,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_summary.json",
+      "original_sha256": "719fcaff178e7a537f82b7195ee3f18fd06107da472a2980d40aadaa3e83c9a3",
+      "release_sha256": "6cae0bc1784e27f2c9ddf5e1bcdb4161f2686b719e68e4796b89196fec45c106",
+      "size_bytes": 6554,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_unweighted_selector_diagnostic.csv",
+      "original_sha256": "22b35e7d90f7b0f642179eea50d9f647c0225e840a56d33ab248a01e64b78937",
+      "release_sha256": "22b35e7d90f7b0f642179eea50d9f647c0225e840a56d33ab248a01e64b78937",
+      "size_bytes": 6324,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_weight_diagnostics.csv",
+      "original_sha256": "68a7dcca92fa6b0ac9c561bfd30c3bb9b2bd3c204b981a01e23b4db1108b0558",
+      "release_sha256": "68a7dcca92fa6b0ac9c561bfd30c3bb9b2bd3c204b981a01e23b4db1108b0558",
+      "size_bytes": 598,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/paperI_figures/figure2_diffusion_modes/paperI_fig2_diffusion_modes_m2048_final_summary.json",
+      "original_sha256": "71651e8ae14017d9949f511839cc41be59ce4346ad983797fa63bf02df59d838",
+      "release_sha256": "d24340fe77f49d3b3495e790245d3206fb9aa179817d0d818a39216f91439003",
+      "size_bytes": 2731,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/paperI_figures/figure3_gradient_calibration/paperI_fig3_gradient_calibration_final_v4_summary.json",
+      "original_sha256": "b0aca6479b51c146eace7fa436df38053c58ffe84803b123d46445e43407faa1",
+      "release_sha256": "068ab1f7a79b5dcf51a5bb043972b6761c0e76c8d5ed29aab7590a0cfa1fb11b",
+      "size_bytes": 1989,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_paired.csv",
+      "original_sha256": "e1604be42f64b01c1cec9d975dac460f9f5e9202a2ad82d90305cdcd11649afd",
+      "release_sha256": "e1604be42f64b01c1cec9d975dac460f9f5e9202a2ad82d90305cdcd11649afd",
+      "size_bytes": 15078,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_summary.csv",
+      "original_sha256": "a2548ea393de342b5863d3047f494e8e6d877d0f2139441d9806694b6788645f",
+      "release_sha256": "a2548ea393de342b5863d3047f494e8e6d877d0f2139441d9806694b6788645f",
+      "size_bytes": 2216,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_summary.json",
+      "original_sha256": "83a060cc34b7d2eee4be06694b898b542b61d4f68eb99dd13a529dcaf9b1481f",
+      "release_sha256": "d4d05440fd362bd94a1ce36282914a51a9be17d5d421a1c04e83397c49c53d0f",
+      "size_bytes": 7316,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/paperI_figures/mock_catalog_spatial_distributions/paperI_mock123_spatial_distribution_summary.json",
+      "original_sha256": "4bd46a2f453470dc685d644d7e8e793a8e302321a397616a98710f0dbc7419c2",
+      "release_sha256": "07b3e7dbad413422ea72222f925052a69ce4f1aa8b5cc2e19742ac9020cda91e",
+      "size_bytes": 2821,
+      "private_path_redacted": true
+    },
+    {
+      "path": "results/saved/mock1_potential_flow_constrained_v4/mock1_potential_flow_constrained_in_span_closure.csv",
+      "original_sha256": "a7793bacb926255ec88c56461ed1fa29ad07ada5e013b418255582b2446f0730",
+      "release_sha256": "a7793bacb926255ec88c56461ed1fa29ad07ada5e013b418255582b2446f0730",
+      "size_bytes": 4692,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock2_radial_potential_selection_v1/mock2_radial_potential_selection_out_of_sample_closure.csv",
+      "original_sha256": "32aed016d24445185ac259a6d1d7ac36aaa98fa9ee3e8eecc15a4d2d5c4f2d57",
+      "release_sha256": "32aed016d24445185ac259a6d1d7ac36aaa98fa9ee3e8eecc15a4d2d5c4f2d57",
+      "size_bytes": 1393,
+      "private_path_redacted": false
+    },
+    {
+      "path": "results/saved/mock3_radial_potential_octant_selection_v1/mock3_radial_potential_octant_selection_out_of_sample_closure.csv",
+      "original_sha256": "08d603e6c58ba32af4421a2c4f1a7689bccbde18b01cc41080cd1bd48703b53c",
+      "release_sha256": "08d603e6c58ba32af4421a2c4f1a7689bccbde18b01cc41080cd1bd48703b53c",
+      "size_bytes": 2391,
+      "private_path_redacted": false
+    }
+  ],
+  "redacted_files": [
+    "mock1_mode_number_convergence_v2/mock1_mode_number_convergence_plateau_diagnostic_final_summary.json",
+    "mock1_mode_number_convergence_v2/mock1_mode_number_convergence_summary_to_2048.json",
+    "mock1_potential_flow_full_robustness_v5/mock1_potential_flow_full_robustness_reference_fields.csv",
+    "mock1_potential_flow_full_robustness_v5/mock1_potential_flow_full_robustness_summary.json",
+    "mock1_potential_flow_full_robustness_v5/mock1_potential_flow_full_robustness_test_comparison.csv",
+    "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_geometry_continuity.csv",
+    "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_summary.json",
+    "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_geometry_continuity.csv",
+    "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_summary.json",
+    "mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_redraw_final_summary.json",
+    "mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_redraw_summary.json",
+    "mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_summary.json",
+    "mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_summary_to_4096.json",
+    "mock2_radial_potential_highmode_capacity_h3_v1/cache/highmode_basis_metadata.json",
+    "mock2_radial_potential_highmode_capacity_h3_v1/cache/mock2_unweighted_alpha0_geometry_m4352_metadata.json",
+    "mock2_radial_potential_highmode_capacity_h3_v1/mock2_radial_potential_highmode_capacity_h3_summary.json",
+    "mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_summary.json",
+    "mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_summary.json",
+    "mock3_primary_mode_convergence_to_4096_v1/mock3_primary_mode_convergence_to_4096_summary.json",
+    "mock3_radial_potential_highmode_capacity_h2_v1/cache/highmode_basis_metadata.json",
+    "mock3_radial_potential_highmode_capacity_h2_v1/cache/mock3_unweighted_alpha0_geometry_m4352_metadata.json",
+    "mock3_radial_potential_highmode_capacity_h2_v1/mock3_radial_potential_highmode_capacity_h2_summary.json",
+    "mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_summary.json",
+    "paperI_figures/figure2_diffusion_modes/paperI_fig2_diffusion_modes_m2048_final_summary.json",
+    "paperI_figures/figure3_gradient_calibration/paperI_fig3_gradient_calibration_final_v4_summary.json",
+    "paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_summary.json",
+    "paperI_figures/mock_catalog_spatial_distributions/paperI_mock123_spatial_distribution_summary.json"
+  ],
+  "scope": "Saved numerical outputs and settings; not raw catalogs or cache arrays. <MOCK_DATA_ROOT> is a redaction token, not an executable historical cache path."
+}

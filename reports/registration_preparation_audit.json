@@ -1,0 +1,81 @@
+{
+  "software_version": "0.1.0",
+  "target_github_tag": "v0.1.0",
+  "preparation_date": "2026-09-22",
+  "baseline_archive": "Diffusion_Geometry_Bulk_Flow_public_release_0.1.0rc1.zip",
+  "baseline_archive_sha256": "2db32cbb15e7c99836445a2f31295c2007c210693f0db2dfbeb4d14ca5a320bb",
+  "authors_confirmed": true,
+  "author_order": [
+    "Tsutomu T. Takeuchi",
+    "Gayathri Asok",
+    "Hai-Xia Ma",
+    "Yu Ogane"
+  ],
+  "code_documentation_license": "BSD-3-Clause",
+  "saved_result_license": "CC-BY-4.0",
+  "licenses_apply_to_separate_components": true,
+  "scientific_source_files_byte_identical_to_rc1": 22,
+  "saved_records_byte_identical_to_rc1": 174,
+  "original_scientific_function_bodies_modified": false,
+  "manuscripts_modified": false,
+  "local_unit_tests": {
+    "total": 35,
+    "passed": 35,
+    "failed": 0,
+    "new_metadata_binding_tests": 16
+  },
+  "synthetic_demo_rerun": {
+    "checks": 90,
+    "all_passed": true,
+    "environment": {
+      "python": "3.13.5",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "pandas": "2.2.3"
+    },
+    "scope": "Original-function component smoke; exact in-span fields and a small synthetic-noise grid on independently generated synthetic positions by default; optional user-supplied catalog positions. NOT full-paper performance reproduction."
+  },
+  "saved_capacity_groups_recomputed_in_unit_tests": 27,
+  "archived_table_check_rows_exported_in_unit_tests": 373,
+  "unresolved_rounding_notes_retained": 2,
+  "citation_yaml_parsed_and_canonical_metadata_matched": true,
+  "full_official_cff_schema_validation_performed": false,
+  "doi_binding_tested_with_synthetic_identifiers_only": true,
+  "test_identifier_archive_forbidden_as_user_release": true,
+  "binding_creates_new_copy_without_mutating_input": true,
+  "zip_content_checksum_and_deterministic_build_test_passed": true,
+  "unassigned_doi_repository_date_left_empty": true,
+  "metadata_check": {
+    "version": "0.1.0",
+    "confirmed_authors": 4,
+    "author_order_and_orcids_match": true,
+    "metadata_consistent": true,
+    "identifiers_bound": false,
+    "missing_real_account_fields": [
+      "version_doi",
+      "repository_url",
+      "publication_date"
+    ],
+    "remote_publication_checked": false,
+    "note": "Local metadata checks never establish DOI ownership or publication."
+  },
+  "zenodo_route": "single manual software record; reserve version DOI before freezing archive",
+  "automatic_github_zenodo_archiving_for_this_version": false,
+  "fresh_install_retested": false,
+  "github_actions_run": false,
+  "full_production_sweeps_rerun": false,
+  "github_repository_created": false,
+  "github_release_created": false,
+  "zenodo_draft_created": false,
+  "zenodo_doi_reserved": false,
+  "zenodo_published": false,
+  "publication_date_assigned": false,
+  "raw_catalogs_snapshots_or_large_caches_included": false,
+  "font_files_included": false,
+  "remaining_actual_account_steps": [
+    "Create/use the authorized GitHub repository and Zenodo software draft.",
+    "Reserve its actual version DOI and supply the repository URL and publication date.",
+    "Bind identifiers, upload the verified source tree, pass remote CI, and publish the matching GitHub release.",
+    "Publish the same ZIP in the same reserved Zenodo draft and verify public DOI/author/version/file checksums before paper submission."
+  ]
+}

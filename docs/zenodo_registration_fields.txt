@@ -1,0 +1,48 @@
+Zenodo software registration: Diffusion geometry for galaxy bulk-flow reconstruction
+Version: 0.1.0
+Resource type: Software
+Visibility: Public
+Publisher: Zenodo
+Publication date: 2026-09-23
+Version DOI: 10.5281/zenodo.22898864
+Repository: https://github.com/TsutomuTakeuchiTTT/diffusion-geometry-bulk-flow
+
+CREATORS (keep this order)
+1. Takeuchi, Tsutomu T.
+ORCID: 0000-0001-8416-7673
+Affiliation: Division of Particle and Astrophysical Science, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8602, Japan
+Affiliation: The Research Center for Statistical Machine Learning, The Institute of Statistical Mathematics, 10-3 Midori-cho, Tachikawa, Tokyo 190-8562, Japan
+2. Asok, Gayathri
+ORCID: 0009-0001-5284-6759
+Affiliation: Division of Particle and Astrophysical Science, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8602, Japan
+3. Ma, Hai-Xia
+ORCID: 0000-0002-5237-9433
+Affiliation: Division of Particle and Astrophysical Science, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8602, Japan
+4. Ogane, Yu
+ORCID: 0009-0001-9463-0673
+Affiliation: Division of Particle and Astrophysical Science, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8602, Japan
+
+DESCRIPTION
+This software release accompanies Diffusion Geometry for Galaxy Bulk-Flow Reconstruction I: Foundations and Full-Vector Validation, and Diffusion Geometry for Galaxy Bulk-Flow Reconstruction II: Three-Dimensional Potential-Flow Reconstruction from Radial Velocities.
+
+The archive contains 22 selected research scripts, 174 saved numerical-output and configuration records, paper-to-code mappings, explicit numerical conventions, and documented component and result-level checks. It covers diffusion-geometric full-vector reconstruction and radial potential-flow reconstruction on irregular tracer point clouds, including spectral regularization, metric-calibrated gradients, Nyström extension, selection weighting, capacity selection, and controlled measurement-noise experiments.
+
+A self-contained synthetic demonstration does not require the cosmological catalogs or historical caches. Documented executable checks recompute 27 capacity choices from saved curves, export a provenance-linked 373-cell comparison record, and redraw the Paper I Mock-1 scale-comparison figure from saved CSVs. The synthetic component checks are algebraic implementation tests, not a rerun of the papers’ cosmological performance experiments.
+
+The original N-body-derived catalogs, simulation snapshots, large geometry/gradient caches, and manuscript PDFs are not included. Some archived production scripts require external authorized inputs and preceding outputs. This is not a one-command reproduction of all high-mode experiments or all 31 final figures, and is not a validated real-survey analysis pipeline.
+
+Code and documentation are licensed under BSD-3-Clause. Saved numerical records in results/saved/ and their source-provenance metadata are licensed under CC BY 4.0, as specified in results/LICENSE. These are component-specific licenses, not alternative licenses for the same files; omitted catalogs and third-party dependencies are not relicensed.
+
+Private path text has been removed from the distributed copies without changing numerical values. Source/result fingerprints and numerical notes preserve provenance, including two documented last-digit manuscript rounding differences. The record describes a research-software archive and selected saved results, not the peer-review or publication status of the accompanying manuscripts.
+
+LICENSES (different file scopes)
+BSD-3-Clause: Code and documentation, unless a more specific license notice applies
+CC-BY-4.0: results/saved/ and their source-provenance metadata, per results/LICENSE
+
+KEYWORDS
+cosmology; large-scale structure; galaxy peculiar velocities; diffusion geometry; diffusion maps; potential-flow reconstruction; research software; reproducibility
+
+RELATED IDENTIFIERS
+isIdenticalTo: https://github.com/TsutomuTakeuchiTTT/diffusion-geometry-bulk-flow/releases/tag/v0.1.0
+
+Do not enable a second automatic GitHub archive for this same version. Do not use a paper DOI.

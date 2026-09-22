@@ -1,0 +1,11 @@
+% Insert the DOI-bound entry only after the Zenodo software record is published.
+% The key is shared by Papers I and II. This is not either paper's DOI.
+@misc{takeuchi2026diffusionbulkflowsoftware,
+  author = {Takeuchi, Tsutomu T. and Asok, Gayathri and Ma, Hai-Xia and Ogane, Yu},
+  title = {{Diffusion geometry for galaxy bulk-flow reconstruction}},
+  year = {@RELEASE_YEAR@},
+  howpublished = {Zenodo},
+  note = {Research software and selected numerical results, version @RELEASE_VERSION@},
+  doi = {@ZENODO_VERSION_DOI@},
+  url = {https://doi.org/@ZENODO_VERSION_DOI@}
+}

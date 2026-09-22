@@ -1,0 +1,174 @@
+{
+  "status": "Recovered evidence, not a universal or fully proven run configuration.",
+  "graph": {
+    "mock1_saved": {
+      "n_neighbors": 48,
+      "bandwidth_neighbor": 16,
+      "bandwidth_multiplier": 1.0,
+      "alpha": 0.0,
+      "generator_scale": 0.3645665244463656,
+      "orthogonality_rms": 8.89119295234575e-16,
+      "orthogonality_kind": "sampled",
+      "orthogonality_modes": 308,
+      "column_norm_max_abs_error": 1.7763568394002505e-15,
+      "kernel_nnz": 561454
+    },
+    "mock2_saved": {
+      "max_basis": 4096,
+      "graph_neighbors": 48,
+      "graph_bandwidth_neighbor": 16,
+      "alpha_dm": 0.0,
+      "generator_scale": 0.3318733470664714,
+      "cache": "<mock_data>/mock2_loss_weight_mode_convergence_to_4096_v2/cache/mock2_unweighted_alpha0_geometry_m4096.npz",
+      "loaded_from_cache": true,
+      "reference_geometry": "<mock_data>/mock2_loss_weight_high_mode_revalidation_v1/cache/mock2_unweighted_alpha0_geometry_m2048.npz"
+    },
+    "symmetrization": {
+      "value": "max(K, K.T); diagonal=1",
+      "evidence": "Recovered common source",
+      "historical_cache_matrix_checked": false
+    }
+  },
+  "homoscedastic_saved_design": {
+    "seed_pairs": [
+      [
+        20260805,
+        20260804
+      ],
+      [
+        20260815,
+        20260814
+      ],
+      [
+        20260825,
+        20260824
+      ],
+      [
+        20260905,
+        20260904
+      ],
+      [
+        20260915,
+        20260914
+      ]
+    ],
+    "reference_scale": "fiducial",
+    "noise_fractions": [
+      0.0,
+      0.05,
+      0.1,
+      0.2,
+      0.4,
+      0.8
+    ],
+    "positive_noise_realizations_per_seed": 12,
+    "potential_basis_sizes": [
+      3,
+      6,
+      11,
+      19,
+      35,
+      67,
+      131,
+      259,
+      387,
+      514,
+      643,
+      771,
+      899,
+      1027,
+      1283,
+      1539,
+      1795,
+      2050
+    ],
+    "regularization_strengths": [
+      0.0,
+      1e-12,
+      1e-10,
+      1e-08,
+      1e-06,
+      0.0001,
+      0.01,
+      1.0,
+      100.0
+    ],
+    "regularization_powers": [
+      1.0,
+      2.0
+    ],
+    "combined_practical_rule": "max(one_standard_error_basis, practical_plateau_basis)",
+    "plateau_relative_threshold": 0.02,
+    "plateau_consecutive_steps": 2
+  },
+  "heteroscedastic_saved_design": {
+    "profile": "q_raw(r)=1+(q_max-1)(r/R)^power, training-RMS normalized",
+    "q_max": 4.0,
+    "power": 1.0,
+    "flattened_exponent": 0.5,
+    "global_scale_factors": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "note": "Controlled monotone distance profile; not a survey-specific empirical error law."
+  },
+  "noise_plateau_min_parameters": {
+    "value": 514,
+    "evidence": "Source default, saved-capacity-compatible; not explicit in saved design metadata."
+  },
+  "software_records": [
+    {
+      "source": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_summary.json",
+      "metadata_key": "software",
+      "value": {
+        "python": "3.11.15",
+        "numpy": "2.4.6",
+        "scipy": "1.17.1",
+        "pandas": "3.0.3",
+        "matplotlib": "3.10.9"
+      }
+    },
+    {
+      "source": "mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_summary.json",
+      "metadata_key": "software",
+      "value": {
+        "python": "3.11.15",
+        "numpy": "2.4.6",
+        "scipy": "1.17.1"
+      }
+    },
+    {
+      "source": "mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_summary.json",
+      "metadata_key": "environment",
+      "value": {
+        "python": "3.11.15",
+        "numpy": "2.4.6",
+        "scipy": "1.17.1",
+        "matplotlib_font": "DejaVu Sans"
+      }
+    },
+    {
+      "source": "mock1_potential_flow_full_robustness_v5/mock1_potential_flow_full_robustness_summary.json",
+      "metadata_key": "environment",
+      "value": {
+        "python": "3.11.15",
+        "numpy": "2.4.6",
+        "scipy": "1.17.1"
+      }
+    },
+    {
+      "source": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_summary.json",
+      "metadata_key": "software",
+      "value": {
+        "python": "3.11.15",
+        "numpy": "2.4.6",
+        "scipy": "1.17.1",
+        "pandas": "3.0.3",
+        "matplotlib": "3.10.9"
+      }
+    }
+  ],
+  "source_file_hash_match_in_run_metadata": false,
+  "note": "Cache signatures and run tokens are not treated as SHA-256 fingerprints of source scripts."
+}

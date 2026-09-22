@@ -1,0 +1,34 @@
+{
+  "version": "0.1.0",
+  "identifiers_bound": true,
+  "version_doi": "10.5281/zenodo.22898864",
+  "repository_url": "https://github.com/TsutomuTakeuchiTTT/diffusion-geometry-bulk-flow",
+  "publication_date": "2026-09-23",
+  "science_sources_and_saved_results_unchanged": true,
+  "input_files_verified_unchanged": 196,
+  "changed_metadata_files": [
+    "CITATION.cff",
+    "README.md",
+    "docs/zenodo_registration_fields.txt",
+    "metadata/citation_metadata.json",
+    "metadata/papers.json",
+    "metadata/registration_state.json",
+    "metadata/zenodo_registration.json"
+  ],
+  "remote_actions_performed": false,
+  "remote_publication_verified": false,
+  "input_manifest_sha256": "ce3c58dd356309d29857790ac5a0c2794c89d16ad51e0f70e35433015a7ac2e4",
+  "metadata_check": {
+    "version": "0.1.0",
+    "confirmed_authors": 4,
+    "author_order_and_orcids_match": true,
+    "metadata_consistent": true,
+    "identifiers_bound": true,
+    "missing_real_account_fields": [],
+    "remote_publication_checked": false,
+    "note": "Local metadata checks never establish DOI ownership or publication."
+  },
+  "publication_date_status": "planned_2026-09-23_confirm_before_first_public_release",
+  "publication_date_note": "The date is a planned first release date, not a verified remote publication. If publication occurs on another date, rebind the original registration-ready package before tagging and archiving.",
+  "identifier_evidence": "Maintainer-provided screenshots, not a live authenticated account query."
+}

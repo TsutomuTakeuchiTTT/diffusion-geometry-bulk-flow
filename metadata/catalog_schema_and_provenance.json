@@ -1,0 +1,300 @@
+{
+  "snapshot": "preparation-20260922-stage3",
+  "catalogs": [
+    {
+      "name": "Mock-1",
+      "n": 10000,
+      "file": "mock1_complete_sphere/mock1.npz",
+      "sha256": "f1223f4c34f42364b789ac316512f27af18312d48c6a388fc30293fbb2469128",
+      "array_schema": {
+        "pos": {
+          "shape": [
+            10000,
+            3
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "vel": {
+          "shape": [
+            10000,
+            3
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "ids": {
+          "shape": [
+            10000
+          ],
+          "dtype": "uint32",
+          "finite": true
+        },
+        "dist": {
+          "shape": [
+            10000
+          ],
+          "dtype": "float64",
+          "finite": true
+        }
+      },
+      "unique_ids": 10000,
+      "radius_min": 5.507330258411745,
+      "radius_max": 169.34549711877796,
+      "distance_max_abs_difference": 0.0
+    },
+    {
+      "name": "Mock-2",
+      "n": 9922,
+      "file": "mock2_schechter_selection/mock2.npz",
+      "sha256": "2909d6f8a3a73b360366776512ebe8c65f4ecc95942f5b25ca237c283ded6968",
+      "array_schema": {
+        "pos": {
+          "shape": [
+            9922,
+            3
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "vel": {
+          "shape": [
+            9922,
+            3
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "ids": {
+          "shape": [
+            9922
+          ],
+          "dtype": "uint32",
+          "finite": true
+        },
+        "dist": {
+          "shape": [
+            9922
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "m_app": {
+          "shape": [
+            9922
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "M_abs": {
+          "shape": [
+            9922
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "m_lim": {
+          "shape": [],
+          "dtype": "float64",
+          "finite": true
+        }
+      },
+      "unique_ids": 9922,
+      "radius_min": 1.2428766279899137,
+      "radius_max": 118.33692777889183,
+      "distance_max_abs_difference": 0.0
+    },
+    {
+      "name": "Mock-3",
+      "n": 10013,
+      "file": "mock3_inhomogeneous_survey/mock3.npz",
+      "sha256": "7940e1d4023afd2d43496030cd6c1b600d3131605bad31c71e206e89188310fe",
+      "array_schema": {
+        "pos": {
+          "shape": [
+            10013,
+            3
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "vel": {
+          "shape": [
+            10013,
+            3
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "ids": {
+          "shape": [
+            10013
+          ],
+          "dtype": "uint32",
+          "finite": true
+        },
+        "dist": {
+          "shape": [
+            10013
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "octant": {
+          "shape": [
+            10013
+          ],
+          "dtype": "int8",
+          "finite": true
+        },
+        "m_app": {
+          "shape": [
+            10013
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "M_abs": {
+          "shape": [
+            10013
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "m_lim": {
+          "shape": [
+            10013
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "mlim_per_octant": {
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "delta_m": {
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "finite": true
+        }
+      },
+      "unique_ids": 10013,
+      "radius_min": 1.2428766279899137,
+      "radius_max": 159.03089154762296,
+      "distance_max_abs_difference": 0.0
+    }
+  ],
+  "redistribution_approved": false,
+  "raw_arrays_bundled": false,
+  "units": {
+    "pos": "h^-1 Mpc in original Cartesian box frame",
+    "dist": "h^-1 Mpc from (250,250,250)",
+    "vel": "original simulation velocity unit; no new unit conversion applied",
+    "ids": "persistent simulation particle identifier",
+    "M_abs": "absolute magnitude",
+    "m_app": "apparent magnitude",
+    "m_lim": "Mock-2 scalar, Mock-3 per-object array",
+    "octant": "x-bit=1, y-bit=2, z-bit=4 for nonnegative centered coordinates"
+  },
+  "reference_query_partition": {
+    "available": 9932,
+    "reference": 4966,
+    "query_raw": 4966,
+    "seed": 20261201,
+    "fraction": 0.5,
+    "reference_index_sha256": "859aacbff6f49b35e7d6e7ccaf2fcc462fb456e28968ba131a71bec4f36c11ec",
+    "query_index_sha256": "9d7e40933b7786b45820475696bce5a56aadd30d9a3f53e036d5778e6abac738",
+    "source_settings": [
+      {
+        "source": "mock2_radial_potential_selection_single_cell_v1.py",
+        "sha256": "34e402c12d491a04bff9a6c19c98c0aa7e417b9d8ea480ad8f67a7e221d29142",
+        "values": {
+          "COMPLETE_REFERENCE_FRACTION": 0.5,
+          "COMPLETE_SPLIT_SEED": 20261201,
+          "TRAIN_FRACTION": 0.7,
+          "VALIDATION_FRACTION": 0.15
+        }
+      },
+      {
+        "source": "mock3_radial_potential_octant_selection_single_cell_v2.py",
+        "sha256": "1138a1aa19931a54b64ce3c374dd91942ccc753c39bb54ca5fe7ed6c6f073d83",
+        "values": {
+          "COMPLETE_REFERENCE_FRACTION": 0.5,
+          "COMPLETE_SPLIT_SEED": 20261201,
+          "TRAIN_FRACTION": 0.7,
+          "VALIDATION_FRACTION": 0.15
+        }
+      }
+    ],
+    "historical_partition_binary_compared": false
+  },
+  "initial_survey_label_partitions": [
+    {
+      "mock": 2,
+      "seed": 20261202,
+      "counts": {
+        "train": 6945,
+        "validation": 1488,
+        "test": 1489
+      },
+      "index_hashes": [
+        "a978f6a1e1feea12344aba17a5df69172d37b731c1817212fdebf9ef680215db",
+        "af0197660d9465675f8fe75d2e1e7d149c783444a8e28feadadd4a2bd83a04c4",
+        "f792e311cb8cc4a2505f34780911119fd36819edb760818eef871c59648b5da5"
+      ]
+    },
+    {
+      "mock": 3,
+      "seed": 20261203,
+      "counts": {
+        "train": 7009,
+        "validation": 1501,
+        "test": 1503
+      },
+      "index_hashes": [
+        "19fc481259c60c98913a0775397e2e358d9fa7c0e0ad2853cd35e112f27b276a",
+        "c7a5983319dd13c70114b8cff8c25dda32928da6dab01f509d2be4d4a9dcd68b",
+        "e6b70576e10b97a83fb83230469cbcae006d76aba740ac52cdf4babf0d051710"
+      ]
+    }
+  ],
+  "support_rebuilt": [
+    {
+      "mock": 2,
+      "primary_count": 266,
+      "primary_index_hash": "9f6101dc2b570d7883f20a8b28473a9f23a4afdae9df536ccdbeab5009838ffe"
+    },
+    {
+      "mock": 3,
+      "primary_count": 283,
+      "common_count": 32,
+      "primary_octant_counts": [
+        8,
+        7,
+        12,
+        24,
+        18,
+        37,
+        73,
+        104
+      ],
+      "common_octant_counts": [
+        8,
+        6,
+        5,
+        3,
+        0,
+        2,
+        2,
+        6
+      ],
+      "primary_index_hash": "1a1b13eb4227532b84c5072caa037890b3200b47c0c5a8983e734e707ef8c77f"
+    }
+  ],
+  "source_settings_caution": "Use the explicit upstream radial settings fraction=0.50 and seed=20261201, not the generic common helper default fraction=0.70. Matching reconstructed counts/hashes do not assert historical binary-partition equality."
+}

@@ -1,0 +1,247 @@
+{
+  "version": "0.1.0",
+  "sources": [
+    {
+      "path": "research_sources/common/mock23_current_samples_common_single_cell_v2.py",
+      "original_sha256": "74a22a9c7c72bb6a73071a39109e7bf9eb1d8a6fcd2668b7f14852af1dad8fc7",
+      "release_sha256": "74a22a9c7c72bb6a73071a39109e7bf9eb1d8a6fcd2668b7f14852af1dad8fc7",
+      "default_path_literal_edits": 0,
+      "edited_lines": [],
+      "function_definitions_unchanged": 34,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_i/mock1_bulk_seed_scale_robustness_single_cell_v6.py",
+      "original_sha256": "c9873f8dca97e7fdcbc20d138e67de918e9dcf6e5ad941ceede4a72754ca5326",
+      "release_sha256": "1821b1d3df94bb0763d63b80c718eb493984daf31809e03a1687647ac0b5ed6e",
+      "default_path_literal_edits": 2,
+      "edited_lines": [
+        38,
+        43
+      ],
+      "function_definitions_unchanged": 23,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_i/paperI_figure1_diffusion_framework.py",
+      "original_sha256": "6d44628d6c989d9f6dbd5247ddf9f1f9ba5149e33850a85d3a9577994b2f9d2e",
+      "release_sha256": "6d44628d6c989d9f6dbd5247ddf9f1f9ba5149e33850a85d3a9577994b2f9d2e",
+      "default_path_literal_edits": 0,
+      "edited_lines": [],
+      "function_definitions_unchanged": 11,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_i/paperI_figure2_diffusion_modes_m2048_final.py",
+      "original_sha256": "c9d101457678ab75b58bd43080812c738a82db331edc67f1a0014e26f0e2ea0d",
+      "release_sha256": "6e3909cf66845f02f013f4dbdb672bbfe98295f0a2c0ca7a9fc8f29ac6637f53",
+      "default_path_literal_edits": 1,
+      "edited_lines": [
+        21
+      ],
+      "function_definitions_unchanged": 16,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_i/paperI_figure3_gradient_calibration_final_v4.py",
+      "original_sha256": "ad4cd2c3cf9ac6e19c0c94df3c7ce2c6ec28ec7f9cd84e8267e641801fcf2a6c",
+      "release_sha256": "fc9841486f0b7190676353c67e690b66e7a4aec9155d1f3437a84225f771dc9d",
+      "default_path_literal_edits": 1,
+      "edited_lines": [
+        20
+      ],
+      "function_definitions_unchanged": 10,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_i/paperI_figure4_mock1_scale_dependence_converged.py",
+      "original_sha256": "a8ccecae7d5acb515e5c01f844823a85d0057e18bb7f3e167293d075fddf996c",
+      "release_sha256": "defd3b180cf6bb4d20c6d27cf61a9fd9b1ab0e8756b76e61817b74fff202d00d",
+      "default_path_literal_edits": 1,
+      "edited_lines": [
+        29
+      ],
+      "function_definitions_unchanged": 13,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_i/paperI_mock123_spatial_distribution_figure_final.py",
+      "original_sha256": "2aa180273fcae784bbbe2d50a4b53cc0d268786276dc18a8ad17ea6c413fed9e",
+      "release_sha256": "cd1c3e23fc264adfdd094cc555a1c1e3d61888ebe8f9656973aa0e4e503e0859",
+      "default_path_literal_edits": 1,
+      "edited_lines": [
+        53
+      ],
+      "function_definitions_unchanged": 13,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_i/paperI_mock1_mode_number_convergence_to_2048.py",
+      "original_sha256": "73edb177c6beb4c55855f5eb2121858b25ccffd7da257abe3a8c3c51a2cd6a23",
+      "release_sha256": "5d645474320dd8ac3040c917645c227d728ea9bfeecca5eeeab9770227b240c0",
+      "default_path_literal_edits": 1,
+      "edited_lines": [
+        84
+      ],
+      "function_definitions_unchanged": 48,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_i/paperI_mock2_final_geometry_local_sensitivity.py",
+      "original_sha256": "89af8bad07da787fbc44a642ae05126bd5def83732d259bd481deba6c5c860ba",
+      "release_sha256": "140400986ff9d45c7188c1a33e058cf77f71408648d4089607ac0d2a65ec907d",
+      "default_path_literal_edits": 1,
+      "edited_lines": [
+        96
+      ],
+      "function_definitions_unchanged": 23,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_i/paperI_mock2_final_sensitivity_figure_redraw.py",
+      "original_sha256": "00e1999dd386929caa2aa7978fc309692589d52020ff76c17026284f931da3d5",
+      "release_sha256": "4e571c522eb44ea6a677d0c5b6e9566c9060736aa4d6f549cf3dbe4c5e7a49c4",
+      "default_path_literal_edits": 1,
+      "edited_lines": [
+        29
+      ],
+      "function_definitions_unchanged": 14,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_i/paperI_mock2_mode_convergence_to_4096.py",
+      "original_sha256": "d8623f1d05175cca40bdfc664a98a9212e4ede6f607284bdcbeb9ad2114a3cec",
+      "release_sha256": "98c85b5b2f8706574eb74e0e9becdb30b9fe4aa442dd1488a04f3a400557940e",
+      "default_path_literal_edits": 1,
+      "edited_lines": [
+        91
+      ],
+      "function_definitions_unchanged": 13,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_i/paperI_mock3_highmode_loss_family_validation.py",
+      "original_sha256": "459266947649905bf9159d5adb960ecd54410dd6f9cc5a1250306bff927e8390",
+      "release_sha256": "68d45852fcd49223b62bab9c050939a4146d2dcc66d6299394df3f2f7c37f9bb",
+      "default_path_literal_edits": 1,
+      "edited_lines": [
+        96
+      ],
+      "function_definitions_unchanged": 16,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_i/paperI_mock3_primary_mode_convergence_to_4096.py",
+      "original_sha256": "a492fa4dc3f0ca68203986e1815775cff821fdb223e201c68d4daef005373634",
+      "release_sha256": "5ee4750599d8bd232f4cfcd528c5a08e30da0383450455ceb8cad30ae587167f",
+      "default_path_literal_edits": 1,
+      "edited_lines": [
+        73
+      ],
+      "function_definitions_unchanged": 15,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_ii/mock1_potential_flow_full_robustness_single_cell_v5.py",
+      "original_sha256": "d5b9fee44ff114d44b7b36ef90d042c85df444a288e7c8a6d5453abdaa5552f9",
+      "release_sha256": "1afd080b7a05aaa068374a7e1baa5f972a1ae5fbc1b1043a5f000abb9c179612",
+      "default_path_literal_edits": 1,
+      "edited_lines": [
+        47
+      ],
+      "function_definitions_unchanged": 41,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_ii/mock1_potential_flow_heteroscedastic_noise_stage2_v1.py",
+      "original_sha256": "ffd2866e0601a9e5e41be1ad2fce6d07763b702d191428e3b2e21781134bd2ef",
+      "release_sha256": "8590146fb470aa69d5d1e33c28df8e19c7bd413037f08c94b5eb29a96b2d50a5",
+      "default_path_literal_edits": 1,
+      "edited_lines": [
+        57
+      ],
+      "function_definitions_unchanged": 78,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_ii/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1.py",
+      "original_sha256": "c0f199ab2f75b06fc1538f42c4dfc9ef26024ae7b3f035a468f704af69aaeddf",
+      "release_sha256": "90eae92f2717f8462e31ed98700325709501a3997149f2c7c19a8075e5117cfc",
+      "default_path_literal_edits": 1,
+      "edited_lines": [
+        87
+      ],
+      "function_definitions_unchanged": 61,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_ii/mock2_radial_potential_highmode_capacity_h3_resume_safe_v2.py",
+      "original_sha256": "82ce1e764c8238f261c8543dc522bc1630e6b646ace1b2547b64b98bca7cbae8",
+      "release_sha256": "5af5cc6ae77f79a4056fd0adbc84d7eab259bffc170ae2c3252b680b24f777c1",
+      "default_path_literal_edits": 1,
+      "edited_lines": [
+        82
+      ],
+      "function_definitions_unchanged": 65,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py",
+      "original_sha256": "68e595697fe03e125f6dee8b402794706aa0fae093d946626d15d7830a1a6ba6",
+      "release_sha256": "411872d66c49f29dae0a9fac21ba0d72e3ad853f57c6c58a3440ffce7d847615",
+      "default_path_literal_edits": 1,
+      "edited_lines": [
+        66
+      ],
+      "function_definitions_unchanged": 74,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py",
+      "original_sha256": "ac19371349422fdc9d115091274bf40bd04f4749fb32f972c0abd9dc1ae9921d",
+      "release_sha256": "09c8ede50c844e8a3c356a021ee817c7f4e4f120e7756d32ea85f91eb48dc9f4",
+      "default_path_literal_edits": 1,
+      "edited_lines": [
+        67
+      ],
+      "function_definitions_unchanged": 94,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_ii/paperII_radial_overview_figures.py",
+      "original_sha256": "65fd9043ab239df566a95f5f2445dce77bc8b6b572b01ac031bbbad0454168fc",
+      "release_sha256": "2f7bc3de11b75a224697a354e8545b5dd7e1fc7fdcc7152c222edbc86b4cd5a3",
+      "default_path_literal_edits": 1,
+      "edited_lines": [
+        63
+      ],
+      "function_definitions_unchanged": 16,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_ii/upstream/mock2_radial_potential_selection_single_cell_v1.py",
+      "original_sha256": "34e402c12d491a04bff9a6c19c98c0aa7e417b9d8ea480ad8f67a7e221d29142",
+      "release_sha256": "ded7786dd4a664d33a11599841c07ee78f5b718a663dd15dc3e94d11b03bcc3f",
+      "default_path_literal_edits": 1,
+      "edited_lines": [
+        997
+      ],
+      "function_definitions_unchanged": 65,
+      "all_other_ast_unchanged": true
+    },
+    {
+      "path": "research_sources/paper_ii/upstream/mock3_radial_potential_octant_selection_single_cell_v2.py",
+      "original_sha256": "1138a1aa19931a54b64ce3c374dd91942ccc753c39bb54ca5fe7ed6c6f073d83",
+      "release_sha256": "bfe440d7a33a1240b43f5d83f3fbebf0ec8584d7a67751ac36110634c9e1b2be",
+      "default_path_literal_edits": 1,
+      "edited_lines": [
+        2080
+      ],
+      "function_definitions_unchanged": 73,
+      "all_other_ast_unchanged": true
+    }
+  ],
+  "excluded": "One superseded Mock-3 plotting-bug source in the preparation provenance directory is not distributed.",
+  "method": "Only personal default path literals are replaced by relative mock_data paths; all function source segments and the remaining executable AST are checked.",
+  "source_set_inherited_unchanged_from": "0.1.0rc1"
+}

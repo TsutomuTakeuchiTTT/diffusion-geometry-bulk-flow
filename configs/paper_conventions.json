@@ -1,0 +1,50 @@
+{
+  "scope": "Confirmed source/saved-result conventions, not an automatically executing full production configuration.",
+  "graph": {
+    "neighbors": 48,
+    "bandwidth_neighbor": 16,
+    "bandwidth_multiplier": 1.0,
+    "symmetrization": "maximum(K,K.T)",
+    "diagonal": 1.0,
+    "primary_alpha_dm": 0.0,
+    "primary_geometry_weights": "unity"
+  },
+  "control_partition_radial_mocks_2_3": {
+    "exclude_ids": "union of BOTH surveys",
+    "reference_fraction": 0.5,
+    "seed": 20261201,
+    "warning": "Do not use the generic common helper default 0.70."
+  },
+  "reference_smoothing": {
+    "mock1_fine": [
+      16,
+      6,
+      1.0
+    ],
+    "mock1_fiducial": [
+      32,
+      12,
+      1.0
+    ],
+    "mock1_coarse": [
+      64,
+      24,
+      1.0
+    ],
+    "mocks_2_3": {
+      "neighbors": 128,
+      "bandwidth": 22.0
+    }
+  },
+  "mock1_noise_plateau": {
+    "minimum_parameter_count": 514,
+    "relative_threshold": 0.02,
+    "consecutive_increments": 2,
+    "raw_minimum_and_one_se": "full grid including 3"
+  },
+  "generator_normalization": {
+    "paper_highmode": "fixed first 511 nonconstant reference modes, as specified by each production script",
+    "demo": "median of 32 retained nonconstant modes; not a paper run"
+  },
+  "data_units": "Positions use h^-1 Mpc; velocities retain original simulation velocity units. No conversion is introduced."
+}

@@ -1,0 +1,6 @@
+% Use only AFTER the corresponding Zenodo record is public.
+% Add the shared entry in software.bib to the manuscript bibliography.
+% Merge this paragraph into the existing availability section; do not duplicate it.
+\section*{Data Availability}
+
+The research code, configuration records, and selected machine-readable numerical outputs accompanying this paper are archived in Zenodo as version @RELEASE_VERSION@ \citep{takeuchi2026diffusionbulkflowsoftware}. The same software release also supports Paper~II. It includes a self-contained synthetic demonstration and documented checks of saved results. The underlying simulation catalogs, simulation snapshots, and large intermediate caches are not included in this release. The archived production sources require the external inputs and preceding outputs described in the repository documentation.

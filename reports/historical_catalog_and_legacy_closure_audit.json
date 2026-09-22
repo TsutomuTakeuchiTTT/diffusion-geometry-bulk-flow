@@ -1,0 +1,900 @@
+{
+  "scope": "Current catalog and recorded legacy closure audit; no full historical velocity rerun",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3"
+  },
+  "catalogs": [
+    {
+      "name": "Mock-1",
+      "n": 10000,
+      "file": "mock1_complete_sphere/mock1.npz",
+      "sha256": "f1223f4c34f42364b789ac316512f27af18312d48c6a388fc30293fbb2469128",
+      "array_schema": {
+        "pos": {
+          "shape": [
+            10000,
+            3
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "vel": {
+          "shape": [
+            10000,
+            3
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "ids": {
+          "shape": [
+            10000
+          ],
+          "dtype": "uint32",
+          "finite": true
+        },
+        "dist": {
+          "shape": [
+            10000
+          ],
+          "dtype": "float64",
+          "finite": true
+        }
+      },
+      "unique_ids": 10000,
+      "radius_min": 5.507330258411745,
+      "radius_max": 169.34549711877796,
+      "distance_max_abs_difference": 0.0
+    },
+    {
+      "name": "Mock-2",
+      "n": 9922,
+      "file": "mock2_schechter_selection/mock2.npz",
+      "sha256": "2909d6f8a3a73b360366776512ebe8c65f4ecc95942f5b25ca237c283ded6968",
+      "array_schema": {
+        "pos": {
+          "shape": [
+            9922,
+            3
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "vel": {
+          "shape": [
+            9922,
+            3
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "ids": {
+          "shape": [
+            9922
+          ],
+          "dtype": "uint32",
+          "finite": true
+        },
+        "dist": {
+          "shape": [
+            9922
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "m_app": {
+          "shape": [
+            9922
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "M_abs": {
+          "shape": [
+            9922
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "m_lim": {
+          "shape": [],
+          "dtype": "float64",
+          "finite": true
+        }
+      },
+      "unique_ids": 9922,
+      "radius_min": 1.2428766279899137,
+      "radius_max": 118.33692777889183,
+      "distance_max_abs_difference": 0.0
+    },
+    {
+      "name": "Mock-3",
+      "n": 10013,
+      "file": "mock3_inhomogeneous_survey/mock3.npz",
+      "sha256": "7940e1d4023afd2d43496030cd6c1b600d3131605bad31c71e206e89188310fe",
+      "array_schema": {
+        "pos": {
+          "shape": [
+            10013,
+            3
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "vel": {
+          "shape": [
+            10013,
+            3
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "ids": {
+          "shape": [
+            10013
+          ],
+          "dtype": "uint32",
+          "finite": true
+        },
+        "dist": {
+          "shape": [
+            10013
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "octant": {
+          "shape": [
+            10013
+          ],
+          "dtype": "int8",
+          "finite": true
+        },
+        "m_app": {
+          "shape": [
+            10013
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "M_abs": {
+          "shape": [
+            10013
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "m_lim": {
+          "shape": [
+            10013
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "mlim_per_octant": {
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "delta_m": {
+          "shape": [
+            8
+          ],
+          "dtype": "float64",
+          "finite": true
+        }
+      },
+      "unique_ids": 10013,
+      "radius_min": 1.2428766279899137,
+      "radius_max": 159.03089154762296,
+      "distance_max_abs_difference": 0.0
+    }
+  ],
+  "pairwise_id_overlap": [
+    {
+      "catalogs": [
+        1,
+        2
+      ],
+      "shared_ids": 38,
+      "max_position_difference": 0.0,
+      "max_velocity_difference": 0.0
+    },
+    {
+      "catalogs": [
+        1,
+        3
+      ],
+      "shared_ids": 33,
+      "max_position_difference": 0.0,
+      "max_velocity_difference": 0.0
+    },
+    {
+      "catalogs": [
+        2,
+        3
+      ],
+      "shared_ids": 932,
+      "max_position_difference": 0.0,
+      "max_velocity_difference": 0.0
+    }
+  ],
+  "removed_complete_ids": 68,
+  "reference_query_partition": {
+    "available": 9932,
+    "reference": 4966,
+    "query_raw": 4966,
+    "seed": 20261201,
+    "fraction": 0.5,
+    "reference_index_sha256": "859aacbff6f49b35e7d6e7ccaf2fcc462fb456e28968ba131a71bec4f36c11ec",
+    "query_index_sha256": "9d7e40933b7786b45820475696bce5a56aadd30d9a3f53e036d5778e6abac738",
+    "source_settings": [
+      {
+        "source": "mock2_radial_potential_selection_single_cell_v1.py",
+        "sha256": "34e402c12d491a04bff9a6c19c98c0aa7e417b9d8ea480ad8f67a7e221d29142",
+        "values": {
+          "COMPLETE_REFERENCE_FRACTION": 0.5,
+          "COMPLETE_SPLIT_SEED": 20261201,
+          "TRAIN_FRACTION": 0.7,
+          "VALIDATION_FRACTION": 0.15
+        }
+      },
+      {
+        "source": "mock3_radial_potential_octant_selection_single_cell_v2.py",
+        "sha256": "1138a1aa19931a54b64ce3c374dd91942ccc753c39bb54ca5fe7ed6c6f073d83",
+        "values": {
+          "COMPLETE_REFERENCE_FRACTION": 0.5,
+          "COMPLETE_SPLIT_SEED": 20261201,
+          "TRAIN_FRACTION": 0.7,
+          "VALIDATION_FRACTION": 0.15
+        }
+      }
+    ],
+    "historical_partition_binary_compared": false
+  },
+  "mock1_partitions": [
+    {
+      "reference_seed": 20260805,
+      "label_seed": 20260804,
+      "counts": [
+        5000,
+        3500,
+        750,
+        750
+      ],
+      "index_hashes": [
+        "e867f723b20b2a2b6ee16a582d233e567fd8a8ce6a97d8aaeaced7ac1f634f4c",
+        "3daede3a6c9ec0cdf31db279f527bede246fbf28bb40b012a6e3b2797822916d",
+        "c6960eca3058456aa784617cc4e795571c3236dc9ca04de78782b45949cf8fe6",
+        "714ebd5c9758cf875e80e5fc3c9760a4fc648ba85b20196833ea073c72141712"
+      ]
+    },
+    {
+      "reference_seed": 20260815,
+      "label_seed": 20260814,
+      "counts": [
+        5000,
+        3500,
+        750,
+        750
+      ],
+      "index_hashes": [
+        "f5247571c30a10b8df5730a89a8c9f07fb2644c1f60797df7497c5d3f8decaa4",
+        "5be89d7cedc9d6ed8c112bc55c68ff0e73902246b50f9a37da432ca51b42667c",
+        "13d48e426850c5dd01e7e9623ce39f71d8a8d46caa63b71b3ab0a5e2d115bace",
+        "a70ec4544e28938014e280c5f7c9c72b02a671ef2d76c8932fc36b99336b0eda"
+      ]
+    },
+    {
+      "reference_seed": 20260825,
+      "label_seed": 20260824,
+      "counts": [
+        5000,
+        3500,
+        750,
+        750
+      ],
+      "index_hashes": [
+        "63736d4a2e3fa52112a4856c227f684c38b30cb983ad13bd4041f8f62c6d35ff",
+        "4bb55ca3c890f2abce7214013cbc1c5131c2254e102585bbd675533787914c84",
+        "440219a261da0c450973400e51f2ee2142c17aa33046d07759b1e226cff33ac6",
+        "dffc04b28bd846c974d35ac63478ad821d38b97e61ec6b7996b7053c581ff9b8"
+      ]
+    },
+    {
+      "reference_seed": 20260905,
+      "label_seed": 20260904,
+      "counts": [
+        5000,
+        3500,
+        750,
+        750
+      ],
+      "index_hashes": [
+        "731a8e9f53f91d4040da5614af08ae082028b0352fe4b22c7d00836d2715c65d",
+        "e20776de2a37e0a7aba17762f8a51c50962c0dfb66cfdfdba2a4885041cb7d0e",
+        "ab2909441891ed60a7b564cc6ffaa1080d28de0019fe774e879dce29ed6553a8",
+        "0e8d031d14393feaae183b93f528547d4f02796f6422708de75d23b38f27494d"
+      ]
+    },
+    {
+      "reference_seed": 20260915,
+      "label_seed": 20260914,
+      "counts": [
+        5000,
+        3500,
+        750,
+        750
+      ],
+      "index_hashes": [
+        "4034772440af5d03738ef8f74fdc737e7a0c6011b3766e649c5465a027fec3c7",
+        "4026ea14a65a277e453b90ba610f088774ca4b181c93316bb372df6d0fd4eb39",
+        "9221999ffb4549df2917263884bf61bef49b957470347557b3bfcad99d65a02f",
+        "bd5391ab699f80ca15499e7314c7947f20ba2be60842f78ab222886b40f5183c"
+      ]
+    }
+  ],
+  "initial_survey_label_partitions": [
+    {
+      "mock": 2,
+      "seed": 20261202,
+      "counts": {
+        "train": 6945,
+        "validation": 1488,
+        "test": 1489
+      },
+      "index_hashes": [
+        "a978f6a1e1feea12344aba17a5df69172d37b731c1817212fdebf9ef680215db",
+        "af0197660d9465675f8fe75d2e1e7d149c783444a8e28feadadd4a2bd83a04c4",
+        "f792e311cb8cc4a2505f34780911119fd36819edb760818eef871c59648b5da5"
+      ]
+    },
+    {
+      "mock": 3,
+      "seed": 20261203,
+      "counts": {
+        "train": 7009,
+        "validation": 1501,
+        "test": 1503
+      },
+      "index_hashes": [
+        "19fc481259c60c98913a0775397e2e358d9fa7c0e0ad2853cd35e112f27b276a",
+        "c7a5983319dd13c70114b8cff8c25dda32928da6dab01f509d2be4d4a9dcd68b",
+        "e6b70576e10b97a83fb83230469cbcae006d76aba740ac52cdf4babf0d051710"
+      ]
+    }
+  ],
+  "mock3_stratified_split_function_evidence": {
+    "source_filename": "mock3_radial_potential_octant_selection_single_cell_v2.py",
+    "source_sha256": "1138a1aa19931a54b64ce3c374dd91942ccc753c39bb54ca5fe7ed6c6f073d83",
+    "loading_mode": "selected_original_functions_only; production top-level driver NOT executed",
+    "literal_constants": {},
+    "functions": [
+      {
+        "name": "_make_octant_stratified_split",
+        "start_line": 2211,
+        "end_line": 2230,
+        "body_sha256": "dc75f832256503fb57cfec05b9be3cd9ef494f357fae3361a6c458aeeb3704a8"
+      }
+    ]
+  },
+  "full_graph_rebuild": [
+    {
+      "mock": 1,
+      "graph_nodes": 10000,
+      "kernel_nnz": 561454,
+      "rho_median": 19.081018476540194,
+      "rho_q95": 25.671805605918124
+    },
+    {
+      "mock": 2,
+      "graph_nodes": 9922,
+      "kernel_nnz": 626408,
+      "rho_median": 5.826513122696251,
+      "rho_q95": 19.10197028002623
+    },
+    {
+      "mock": 3,
+      "graph_nodes": 10013,
+      "kernel_nnz": 628315,
+      "rho_median": 6.045556126020724,
+      "rho_q95": 18.81498825987034
+    }
+  ],
+  "joint_schechter_refit": {
+    "M_star": -22.10113291743776,
+    "alpha": -1.0767349939462647,
+    "M_bright": -24.0,
+    "M_faint": -14.0,
+    "negative_log_likelihood": 10905.196339115435
+  },
+  "query_support": [
+    {
+      "mock": 2,
+      "primary_count": 266,
+      "primary_index_hash": "9f6101dc2b570d7883f20a8b28473a9f23a4afdae9df536ccdbeab5009838ffe"
+    },
+    {
+      "mock": 3,
+      "primary_count": 283,
+      "common_count": 32,
+      "primary_octant_counts": [
+        8,
+        7,
+        12,
+        24,
+        18,
+        37,
+        73,
+        104
+      ],
+      "common_octant_counts": [
+        8,
+        6,
+        5,
+        3,
+        0,
+        2,
+        2,
+        6
+      ],
+      "primary_index_hash": "1a1b13eb4227532b84c5072caa037890b3200b47c0c5a8983e734e707ef8c77f"
+    }
+  ],
+  "legacy_closure_records": [
+    {
+      "file": "mock1_potential_flow_constrained_v4/mock1_potential_flow_constrained_in_span_closure.csv",
+      "rows": 10,
+      "parameter_counts": [
+        3,
+        35,
+        131,
+        259,
+        514
+      ],
+      "maximum_parameter_count": 514,
+      "maximum_514_3d_nrmse": 4.9142627851676114e-15,
+      "maximum_514_coefficient_error": 7.049930552919911e-15,
+      "max_all_3d_nrmse": 4.9142627851676114e-15,
+      "all_stored_status_pass": true
+    },
+    {
+      "file": "mock2_radial_potential_selection_v1/mock2_radial_potential_selection_out_of_sample_closure.csv",
+      "rows": 3,
+      "parameter_counts": [
+        3,
+        131,
+        514
+      ],
+      "maximum_parameter_count": 514,
+      "maximum_514_3d_nrmse": 9.683110714511271e-15,
+      "maximum_514_coefficient_error": 2.3875397123768843e-14,
+      "max_all_3d_nrmse": 9.683110714511271e-15,
+      "all_stored_status_pass": true
+    },
+    {
+      "file": "mock3_radial_potential_octant_selection_v1/mock3_radial_potential_octant_selection_out_of_sample_closure.csv",
+      "rows": 6,
+      "parameter_counts": [
+        3,
+        131,
+        514
+      ],
+      "maximum_parameter_count": 514,
+      "maximum_514_3d_nrmse": 7.885839429506103e-15,
+      "maximum_514_coefficient_error": 1.905334250594913e-14,
+      "max_all_3d_nrmse": 7.885839429506103e-15,
+      "all_stored_status_pass": true
+    }
+  ],
+  "function_evidence": {
+    "source_filename": "mock1_potential_flow_full_robustness_single_cell_v5.py",
+    "source_sha256": "d5b9fee44ff114d44b7b36ef90d042c85df444a288e7c8a6d5453abdaa5552f9",
+    "loading_mode": "selected_original_functions_only; production top-level driver NOT executed",
+    "literal_constants": {},
+    "functions": [
+      {
+        "name": "make_reference_model_split",
+        "start_line": 348,
+        "end_line": 354,
+        "body_sha256": "96e56817ec87905a3626a3bde4623ffb11543ef9dced94f87e3bcb4ea9532f11"
+      },
+      {
+        "name": "make_label_split",
+        "start_line": 357,
+        "end_line": 366,
+        "body_sha256": "f8d1d13cc55242e6124884c4d8d73af4cc0af4317d89f0fcf1898dd8985d96d0"
+      },
+      {
+        "name": "query_neighbors",
+        "start_line": 398,
+        "end_line": 416,
+        "body_sha256": "da064e8d9af3466eb585496720cfde7692091dbef46231101e37f4a6a97e6326"
+      },
+      {
+        "name": "bulk_field_from_neighbors",
+        "start_line": 419,
+        "end_line": 459,
+        "body_sha256": "b10f49e7f3183faeb9a9cd1e20c55a91a9cd280f159c4cbb45ada39f01abb622"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "mock1_all_numeric_arrays_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock1_vector_shapes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock1_unique_particle_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock1_distinct_positions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock1_distance_consistency",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "mock1_inside_sphere_and_positive_radius",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock1_paper_count",
+      "passed": true,
+      "detail": 10000
+    },
+    {
+      "name": "mock2_all_numeric_arrays_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock2_vector_shapes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock2_unique_particle_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock2_distinct_positions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock2_distance_consistency",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "mock2_inside_sphere_and_positive_radius",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock2_paper_count",
+      "passed": true,
+      "detail": 9922
+    },
+    {
+      "name": "mock2_h_from_magnitudes",
+      "passed": true,
+      "detail": {
+        "h": 0.6774,
+        "scatter": 7.251315433445687e-16
+      }
+    },
+    {
+      "name": "mock2_magnitude_bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock2_flux_limit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock3_all_numeric_arrays_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock3_vector_shapes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock3_unique_particle_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock3_distinct_positions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock3_distance_consistency",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "mock3_inside_sphere_and_positive_radius",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock3_paper_count",
+      "passed": true,
+      "detail": 10013
+    },
+    {
+      "name": "mock3_h_from_magnitudes",
+      "passed": true,
+      "detail": {
+        "h": 0.6774,
+        "scatter": 7.447734688490596e-16
+      }
+    },
+    {
+      "name": "mock3_magnitude_bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock3_flux_limit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "overlapping_ids_mock1_mock2_same_positions_velocities",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "overlapping_ids_mock1_mock3_same_positions_velocities",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "overlapping_ids_mock2_mock3_same_positions_velocities",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "upstream_partition_configs_agree",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "overlap_removed_paper_pool_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_query_disjoint_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_survey_disjoint_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "query_survey_disjoint_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock1_split_20260805_20260804_disjoint_and_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock1_split_20260815_20260814_disjoint_and_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock1_split_20260825_20260824_disjoint_and_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock1_split_20260905_20260904_disjoint_and_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock1_split_20260915_20260914_disjoint_and_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock2_labels_disjoint_and_exhaustive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock2_label_counts_tableI",
+      "passed": true,
+      "detail": [
+        6945,
+        1488,
+        1489
+      ]
+    },
+    {
+      "name": "mock3_labels_disjoint_and_exhaustive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock3_fitted_count_matches_legacy_closure",
+      "passed": true,
+      "detail": [
+        7009,
+        1501,
+        1503
+      ]
+    },
+    {
+      "name": "mock3_all_octants_in_all_label_subsets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock3_octant_counts_match_tableII",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock3_limits_round_to_tableII",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "joint_lf_matches_paper_3dp",
+      "passed": true,
+      "detail": {
+        "M_star": -22.10113291743776,
+        "alpha": -1.0767349939462647
+      }
+    },
+    {
+      "name": "mock1_full_kernel_symmetric",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock1_full_kernel_diag_one",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock1_kernel_nnz_matches_saved_summary",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock2_full_kernel_symmetric",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock2_full_kernel_diag_one",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock2_primary_query_count",
+      "passed": true,
+      "detail": 266
+    },
+    {
+      "name": "mock3_full_kernel_symmetric",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock3_full_kernel_diag_one",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock3_primary_and_common_query_counts",
+      "passed": true,
+      "detail": {
+        "region": 283,
+        "common": 32
+      }
+    },
+    {
+      "name": "mock1_potential_flow_constrained_v4_closure_status_all_pass",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock1_potential_flow_constrained_v4_tableIII_requested_capacities_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock1_potential_flow_constrained_v4_tableIII_maximum_design_full_rank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock1_potential_flow_constrained_v4_tableIII_3d_threshold",
+      "passed": true,
+      "detail": 4.9142627851676114e-15
+    },
+    {
+      "name": "mock2_radial_potential_selection_v1_closure_status_all_pass",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock2_radial_potential_selection_v1_tableIII_requested_capacities_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock2_radial_potential_selection_v1_tableIII_maximum_design_full_rank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock2_radial_potential_selection_v1_tableIII_3d_threshold",
+      "passed": true,
+      "detail": 9.683110714511271e-15
+    },
+    {
+      "name": "mock3_radial_potential_octant_selection_v1_closure_status_all_pass",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock3_radial_potential_octant_selection_v1_tableIII_requested_capacities_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock3_radial_potential_octant_selection_v1_tableIII_maximum_design_full_rank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mock3_radial_potential_octant_selection_v1_tableIII_3d_threshold",
+      "passed": true,
+      "detail": 7.885839429506103e-15
+    },
+    {
+      "name": "mock3_coefficient_rounds_1p9e14",
+      "passed": true,
+      "detail": 1.905334250594913e-14
+    }
+  ],
+  "all_checks_passed": true
+}

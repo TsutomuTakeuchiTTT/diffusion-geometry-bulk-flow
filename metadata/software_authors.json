@@ -1,0 +1,43 @@
+{
+  "author_order_confirmed": true,
+  "confirmation_source": "Maintainer confirmation in release-preparation discussion, 2026-09-22",
+  "authors": [
+    {
+      "family_name": "Takeuchi",
+      "given_names": "Tsutomu T.",
+      "display_name": "Tsutomu T. Takeuchi",
+      "orcid": "0000-0001-8416-7673",
+      "affiliations": [
+        "Division of Particle and Astrophysical Science, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8602, Japan",
+        "The Research Center for Statistical Machine Learning, The Institute of Statistical Mathematics, 10-3 Midori-cho, Tachikawa, Tokyo 190-8562, Japan"
+      ]
+    },
+    {
+      "family_name": "Asok",
+      "given_names": "Gayathri",
+      "display_name": "Gayathri Asok",
+      "orcid": "0009-0001-5284-6759",
+      "affiliations": [
+        "Division of Particle and Astrophysical Science, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8602, Japan"
+      ]
+    },
+    {
+      "family_name": "Ma",
+      "given_names": "Hai-Xia",
+      "display_name": "Hai-Xia Ma",
+      "orcid": "0000-0002-5237-9433",
+      "affiliations": [
+        "Division of Particle and Astrophysical Science, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8602, Japan"
+      ]
+    },
+    {
+      "family_name": "Ogane",
+      "given_names": "Yu",
+      "display_name": "Yu Ogane",
+      "orcid": "0009-0001-9463-0673",
+      "affiliations": [
+        "Division of Particle and Astrophysical Science, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8602, Japan"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,562 @@
+{
+  "scope": "Recomputed from saved aggregate curves with original plateau functions. Not a new fit.",
+  "groups": 27,
+  "all_match": true,
+  "details": [
+    {
+      "experiment": "mock2_radial_potential_highmode_seed_robustness",
+      "group": {
+        "loss_name": "optimized_gamma0p75_cap20"
+      },
+      "plateau_search_floor": 3,
+      "recomputed": {
+        "validation_minimum_basis": 4098,
+        "one_standard_error_basis": 2818,
+        "practical_plateau_basis": 2818,
+        "combined_practical_basis": 2818
+      },
+      "saved": {
+        "validation_minimum_basis": 4098,
+        "one_standard_error_basis": 2818,
+        "practical_plateau_basis": 2818,
+        "combined_practical_basis": 2818
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock2_radial_potential_highmode_seed_robustness",
+      "group": {
+        "loss_name": "previous_mock2_gamma1p00_cap50"
+      },
+      "plateau_search_floor": 3,
+      "recomputed": {
+        "validation_minimum_basis": 4098,
+        "one_standard_error_basis": 2818,
+        "practical_plateau_basis": 2818,
+        "combined_practical_basis": 2818
+      },
+      "saved": {
+        "validation_minimum_basis": 4098,
+        "one_standard_error_basis": 2818,
+        "practical_plateau_basis": 2818,
+        "combined_practical_basis": 2818
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock2_radial_potential_highmode_seed_robustness",
+      "group": {
+        "loss_name": "unweighted"
+      },
+      "plateau_search_floor": 3,
+      "recomputed": {
+        "validation_minimum_basis": 4098,
+        "one_standard_error_basis": 3074,
+        "practical_plateau_basis": 3074,
+        "combined_practical_basis": 3074
+      },
+      "saved": {
+        "validation_minimum_basis": 4098,
+        "one_standard_error_basis": 3074,
+        "practical_plateau_basis": 3074,
+        "combined_practical_basis": 3074
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock3_radial_potential_highmode_seed_robustness",
+      "group": {
+        "loss_name": "global_g0p75_cap20"
+      },
+      "plateau_search_floor": 3,
+      "recomputed": {
+        "validation_minimum_basis": 4354,
+        "one_standard_error_basis": 3842,
+        "practical_plateau_basis": 2818,
+        "combined_practical_basis": 3842
+      },
+      "saved": {
+        "validation_minimum_basis": 4354,
+        "one_standard_error_basis": 3842,
+        "practical_plateau_basis": 2818,
+        "combined_practical_basis": 3842
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock3_radial_potential_highmode_seed_robustness",
+      "group": {
+        "loss_name": "octant_g1p00_cap20"
+      },
+      "plateau_search_floor": 3,
+      "recomputed": {
+        "validation_minimum_basis": 4354,
+        "one_standard_error_basis": 3842,
+        "practical_plateau_basis": 2818,
+        "combined_practical_basis": 3842
+      },
+      "saved": {
+        "validation_minimum_basis": 4354,
+        "one_standard_error_basis": 3842,
+        "practical_plateau_basis": 2818,
+        "combined_practical_basis": 3842
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock3_radial_potential_highmode_seed_robustness",
+      "group": {
+        "loss_name": "unweighted"
+      },
+      "plateau_search_floor": 3,
+      "recomputed": {
+        "validation_minimum_basis": 4354,
+        "one_standard_error_basis": 3842,
+        "practical_plateau_basis": 2818,
+        "combined_practical_basis": 3842
+      },
+      "saved": {
+        "validation_minimum_basis": 4354,
+        "one_standard_error_basis": 3842,
+        "practical_plateau_basis": 2818,
+        "combined_practical_basis": 3842
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness",
+      "group": {
+        "noise_fraction": 0.0
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1539
+      },
+      "saved": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1539
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness",
+      "group": {
+        "noise_fraction": 0.05
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1539
+      },
+      "saved": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1539
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness",
+      "group": {
+        "noise_fraction": 0.1
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1539
+      },
+      "saved": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1539
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness",
+      "group": {
+        "noise_fraction": 0.2
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1283,
+        "combined_practical_basis": 1539
+      },
+      "saved": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1283,
+        "combined_practical_basis": 1539
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness",
+      "group": {
+        "noise_fraction": 0.4
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 1539,
+        "one_standard_error_basis": 1027,
+        "practical_plateau_basis": 514,
+        "combined_practical_basis": 1027
+      },
+      "saved": {
+        "validation_minimum_basis": 1539,
+        "one_standard_error_basis": 1027,
+        "practical_plateau_basis": 514,
+        "combined_practical_basis": 1027
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness",
+      "group": {
+        "noise_fraction": 0.8
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 514,
+        "one_standard_error_basis": 387,
+        "practical_plateau_basis": 514,
+        "combined_practical_basis": 514
+      },
+      "saved": {
+        "validation_minimum_basis": 514,
+        "one_standard_error_basis": 387,
+        "practical_plateau_basis": 514,
+        "combined_practical_basis": 514
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_heteroscedastic_noise_stage2",
+      "group": {
+        "working_model": "gls_correct",
+        "noise_fraction": 0.05
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1283,
+        "combined_practical_basis": 1539
+      },
+      "saved": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1283,
+        "combined_practical_basis": 1539
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_heteroscedastic_noise_stage2",
+      "group": {
+        "working_model": "gls_correct",
+        "noise_fraction": 0.1
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1795,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1795
+      },
+      "saved": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1795,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1795
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_heteroscedastic_noise_stage2",
+      "group": {
+        "working_model": "gls_correct",
+        "noise_fraction": 0.2
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1795,
+        "practical_plateau_basis": 1283,
+        "combined_practical_basis": 1795
+      },
+      "saved": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1795,
+        "practical_plateau_basis": 1283,
+        "combined_practical_basis": 1795
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_heteroscedastic_noise_stage2",
+      "group": {
+        "working_model": "gls_correct",
+        "noise_fraction": 0.4
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 1795,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 643,
+        "combined_practical_basis": 1539
+      },
+      "saved": {
+        "validation_minimum_basis": 1795,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 643,
+        "combined_practical_basis": 1539
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_heteroscedastic_noise_stage2",
+      "group": {
+        "working_model": "gls_correct",
+        "noise_fraction": 0.8
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 643,
+        "one_standard_error_basis": 387,
+        "practical_plateau_basis": 514,
+        "combined_practical_basis": 514
+      },
+      "saved": {
+        "validation_minimum_basis": 643,
+        "one_standard_error_basis": 387,
+        "practical_plateau_basis": 514,
+        "combined_practical_basis": 514
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_heteroscedastic_noise_stage2",
+      "group": {
+        "working_model": "gls_flattened",
+        "noise_fraction": 0.05
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1539
+      },
+      "saved": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1539
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_heteroscedastic_noise_stage2",
+      "group": {
+        "working_model": "gls_flattened",
+        "noise_fraction": 0.1
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1795,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1795
+      },
+      "saved": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1795,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1795
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_heteroscedastic_noise_stage2",
+      "group": {
+        "working_model": "gls_flattened",
+        "noise_fraction": 0.2
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1795,
+        "practical_plateau_basis": 1283,
+        "combined_practical_basis": 1795
+      },
+      "saved": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1795,
+        "practical_plateau_basis": 1283,
+        "combined_practical_basis": 1795
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_heteroscedastic_noise_stage2",
+      "group": {
+        "working_model": "gls_flattened",
+        "noise_fraction": 0.4
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 1795,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 643,
+        "combined_practical_basis": 1539
+      },
+      "saved": {
+        "validation_minimum_basis": 1795,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 643,
+        "combined_practical_basis": 1539
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_heteroscedastic_noise_stage2",
+      "group": {
+        "working_model": "gls_flattened",
+        "noise_fraction": 0.8
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 643,
+        "one_standard_error_basis": 387,
+        "practical_plateau_basis": 514,
+        "combined_practical_basis": 514
+      },
+      "saved": {
+        "validation_minimum_basis": 643,
+        "one_standard_error_basis": 387,
+        "practical_plateau_basis": 514,
+        "combined_practical_basis": 514
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_heteroscedastic_noise_stage2",
+      "group": {
+        "working_model": "ols",
+        "noise_fraction": 0.05
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1539
+      },
+      "saved": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1539
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_heteroscedastic_noise_stage2",
+      "group": {
+        "working_model": "ols",
+        "noise_fraction": 0.1
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1795,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1795
+      },
+      "saved": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1795,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1795
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_heteroscedastic_noise_stage2",
+      "group": {
+        "working_model": "ols",
+        "noise_fraction": 0.2
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1795,
+        "practical_plateau_basis": 1283,
+        "combined_practical_basis": 1795
+      },
+      "saved": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1795,
+        "practical_plateau_basis": 1283,
+        "combined_practical_basis": 1795
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_heteroscedastic_noise_stage2",
+      "group": {
+        "working_model": "ols",
+        "noise_fraction": 0.4
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 1539,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 643,
+        "combined_practical_basis": 1539
+      },
+      "saved": {
+        "validation_minimum_basis": 1539,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 643,
+        "combined_practical_basis": 1539
+      },
+      "match": true
+    },
+    {
+      "experiment": "mock1_potential_flow_heteroscedastic_noise_stage2",
+      "group": {
+        "working_model": "ols",
+        "noise_fraction": 0.8
+      },
+      "plateau_search_floor": 514,
+      "recomputed": {
+        "validation_minimum_basis": 514,
+        "one_standard_error_basis": 387,
+        "practical_plateau_basis": 514,
+        "combined_practical_basis": 514
+      },
+      "saved": {
+        "validation_minimum_basis": 514,
+        "one_standard_error_basis": 387,
+        "practical_plateau_basis": 514,
+        "combined_practical_basis": 514
+      },
+      "match": true
+    }
+  ]
+}

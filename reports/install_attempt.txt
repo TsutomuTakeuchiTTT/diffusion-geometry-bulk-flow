@@ -1,0 +1,3 @@
+A new venv with system-site-packages disabled was created. Binary-only pip installation was attempted for the pinned requirements.
+The package index could not be reached due to DNS resolution failure. No dependencies were successfully installed into that venv, and no claim of a clean-install execution is made.
+The tested commands ran in the existing environment recorded by release_validation.json.

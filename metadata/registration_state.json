@@ -1,0 +1,21 @@
+{
+  "software_version": "0.1.0",
+  "github_tag": "v0.1.0",
+  "prepared_on": "2026-09-22",
+  "authors_confirmed": true,
+  "code_license": "BSD-3-Clause",
+  "saved_results_license": "CC-BY-4.0",
+  "version_doi": "10.5281/zenodo.22898864",
+  "repository_url": "https://github.com/TsutomuTakeuchiTTT/diffusion-geometry-bulk-flow",
+  "publication_date": "2026-09-23",
+  "identifier_binding": "maintainer_supplied_reserved_version_doi",
+  "external_publication_verified": false,
+  "github_upload_performed_by_builder": false,
+  "zenodo_deposit_performed_by_builder": false,
+  "route": "manual_zenodo_reserved_doi",
+  "automatic_github_archiving_for_this_version": false,
+  "publication_date_status": "planned_2026-09-23_confirm_before_first_public_release",
+  "doi_evidence": "Reserved DOI displayed in the maintainer-provided Zenodo draft screenshot.",
+  "repository_evidence": "Repository created; URL displayed in the maintainer-provided GitHub Quick setup screenshot.",
+  "publication_date_note": "The date is a planned first release date, not a verified remote publication. If publication occurs on another date, rebind the original registration-ready package before tagging and archiving."
+}

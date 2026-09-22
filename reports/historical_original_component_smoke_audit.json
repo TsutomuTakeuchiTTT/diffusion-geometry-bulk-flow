@@ -1,0 +1,855 @@
+{
+  "scope": "Original-function component smoke; exact in-span fields and a small synthetic-noise grid on subsampled actual catalog positions. NOT full-paper performance reproduction.",
+  "production_main_workflows_executed": false,
+  "original_cache_used": false,
+  "original_sources_modified": false,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3"
+  },
+  "sources": [
+    {
+      "source_filename": "mock23_current_samples_common_single_cell_v2.py",
+      "sha256": "74a22a9c7c72bb6a73071a39109e7bf9eb1d8a6fcd2668b7f14852af1dad8fc7",
+      "loading_mode": "full shared definition module, no top-level driver"
+    },
+    {
+      "source_filename": "mock1_potential_flow_full_robustness_single_cell_v5.py",
+      "source_sha256": "d5b9fee44ff114d44b7b36ef90d042c85df444a288e7c8a6d5453abdaa5552f9",
+      "loading_mode": "selected_original_functions_only; production top-level driver NOT executed",
+      "literal_constants": {
+        "METRIC_EIGENVALUE_RELATIVE_FLOOR": 1e-10,
+        "METRIC_EIGENVALUE_ABSOLUTE_FLOOR": 1e-14
+      },
+      "functions": [
+        {
+          "name": "make_label_split",
+          "start_line": 357,
+          "end_line": 366,
+          "body_sha256": "f8d1d13cc55242e6124884c4d8d73af4cc0af4317d89f0fcf1898dd8985d96d0"
+        },
+        {
+          "name": "compute_centered_coordinate_metric",
+          "start_line": 626,
+          "end_line": 637,
+          "body_sha256": "989425aa22d9be695133f910f858e1a2f262ee6ef710ba67d1cb3d7d60807692"
+        },
+        {
+          "name": "invert_local_metric",
+          "start_line": 640,
+          "end_line": 658,
+          "body_sha256": "1566fbdd110e18cec44463cb081c73291a83e1c3193f54fb4f2d5e5bb51da097"
+        },
+        {
+          "name": "gradients_from_markov_covariance",
+          "start_line": 661,
+          "end_line": 695,
+          "body_sha256": "6b607f8e753fef40ce6e2ff2582b98329600a93d4cb4f84be4215c0667603834"
+        },
+        {
+          "name": "potential_radial_design",
+          "start_line": 943,
+          "end_line": 949,
+          "body_sha256": "cfc1fa5ea0c9c0c729b03b23277b02465704f4ae8f20edfce991ac6a911e3065"
+        },
+        {
+          "name": "potential_velocity",
+          "start_line": 934,
+          "end_line": 940,
+          "body_sha256": "0a7a9d6240d614fe7b234fcb877c2ba7aac21de72da627fc998bc002dac8c77f"
+        },
+        {
+          "name": "design_spectrum",
+          "start_line": 960,
+          "end_line": 992,
+          "body_sha256": "75500c95a0fd6552583b7d19a10555effb150e055632b5b8587557bc7095cfd0"
+        }
+      ]
+    },
+    {
+      "source_filename": "mock2_radial_potential_highmode_capacity_h3_resume_safe_v2.py",
+      "source_sha256": "82ce1e764c8238f261c8543dc522bc1630e6b646ace1b2547b64b98bca7cbae8",
+      "loading_mode": "selected_original_functions_only; production top-level driver NOT executed",
+      "literal_constants": {
+        "METRIC_EIGENVALUE_RELATIVE_FLOOR": 1e-10,
+        "METRIC_EIGENVALUE_ABSOLUTE_FLOOR": 1e-14,
+        "N_AFFINE_MODES": 3,
+        "NUMERICAL_RIDGE": 1e-12
+      },
+      "functions": [
+        {
+          "name": "_build_base_kernel",
+          "start_line": 1278,
+          "end_line": 1313,
+          "body_sha256": "14d93146b4ce59a795bb9a0927dd5828b5367b35fa0bc6b70c6fc4383cc12a9b"
+        },
+        {
+          "name": "_observed_markov_from_base_kernel",
+          "start_line": 1316,
+          "end_line": 1321,
+          "body_sha256": "d03f65d301b726926603f801944f243c3a629bc66d54d1714c0b7f17745ef633"
+        },
+        {
+          "name": "_centered_coordinate_metric_sparse",
+          "start_line": 1324,
+          "end_line": 1335,
+          "body_sha256": "2598a0cb93c59577b2c4945e5f02274942238ac18883de9463ce15c5f374b953"
+        },
+        {
+          "name": "_invert_local_metric",
+          "start_line": 1338,
+          "end_line": 1356,
+          "body_sha256": "114986fa4afb162ce07ab2148b60fb85a364bd3616bbf0d1cf27b49ce47898a5"
+        },
+        {
+          "name": "_observed_function_gradient_block",
+          "start_line": 1359,
+          "end_line": 1382,
+          "body_sha256": "4df59b2faef9300c490dc513b0d585bb96cb4438d155989ab0b7c0978575e17e"
+        },
+        {
+          "name": "_query_transition",
+          "start_line": 1385,
+          "end_line": 1417,
+          "body_sha256": "dd0fee2b48556f32908e5e3139c35c175c89fb72b4d0474696b05080a05abe2c"
+        },
+        {
+          "name": "_query_metric",
+          "start_line": 1420,
+          "end_line": 1440,
+          "body_sha256": "691e39b32ae10d0455293a6d825ab05fd63b71f57ed40723b1e97b02fc4d7c49"
+        },
+        {
+          "name": "_query_function_gradient_block",
+          "start_line": 1443,
+          "end_line": 1484,
+          "body_sha256": "af6aab7a017a16469b0dd611a3afa309ac26be3331f00f7b90deb517d9405a15"
+        },
+        {
+          "name": "_weighted_crossproducts",
+          "start_line": 2286,
+          "end_line": 2298,
+          "body_sha256": "230eed18fd8a245f9b662ab9f7fed9e3f249f3f743de9bdadcfe57bf8c41e1bf"
+        },
+        {
+          "name": "_cholesky_with_jitter",
+          "start_line": 2301,
+          "end_line": 2313,
+          "body_sha256": "9f35ef7aa9a17d1bbb2878a5414857d535cfed176b93318c955966d5e66ee08c"
+        },
+        {
+          "name": "_solve_leading_cholesky",
+          "start_line": 2316,
+          "end_line": 2329,
+          "body_sha256": "2cf8c5679968d0881e0d2dc1069b043c6bdd9dbf6ff544a951e8aa276d588c62"
+        },
+        {
+          "name": "_regularization_diagonal",
+          "start_line": 2275,
+          "end_line": 2283,
+          "body_sha256": "8b38d1f3b3a909919de3abeffd474fd1c35dee4480170a9c8f5d06f03f6bda3e"
+        },
+        {
+          "name": "_candidate_grid_coefficients",
+          "start_line": 2332,
+          "end_line": 2365,
+          "body_sha256": "629855c15e863e6b55e34cfb77914003b0beaf4e8c43d39a10ba932a5c611010"
+        },
+        {
+          "name": "_single_velocity_prediction",
+          "start_line": 2381,
+          "end_line": 2395,
+          "body_sha256": "d1081ad15ca4b9e79e5fd598ca6db3c96562fefae47802a6fc867f5b45a61277"
+        },
+        {
+          "name": "_many_velocity_predictions",
+          "start_line": 2368,
+          "end_line": 2378,
+          "body_sha256": "99de84d35ad04ff78ac5ab871ca6ba7f3134a2b06aaad499755ecb5789e5d0a0"
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "mock": 1,
+      "input_catalog_sha256": "f1223f4c34f42364b789ac316512f27af18312d48c6a388fc30293fbb2469128",
+      "graph_count": 512,
+      "query_count": 64,
+      "graph_index_sha256": "5f0332d8921cc1db6e4dc0991a0739bc1c765ff599c08224aa93d5d372750d13",
+      "query_index_sha256": "18e9f915d0d907659d266e54bbcc653003adc61ac212568205a3b0962cad568f",
+      "markov_modes": 33,
+      "potential_parameters": 35,
+      "kernel_neighbors": 48,
+      "bandwidth_neighbor": 16,
+      "generator_normalization": "median of 32 nonconstant smoke modes, original common helper; NOT paper high-mode 511-mode scale",
+      "design_condition": 583.0687647358727,
+      "observed_metric_max_condition": 5.208558206053212,
+      "query_metric_max_condition": 4.610940585607194,
+      "radial_closure_errors": [
+        {
+          "weighting": "unweighted",
+          "coefficients": 3.915836592805338e-13,
+          "heldout_radial": 6.7619991308783146e-15,
+          "heldout_3d": 8.608838955594392e-15,
+          "query_3d": 9.942998341411226e-15
+        },
+        {
+          "weighting": "positive_weighted",
+          "coefficients": 1.590609912174148e-13,
+          "heldout_radial": 3.1084897549479973e-15,
+          "heldout_3d": 4.616621356438181e-15,
+          "query_3d": 5.2743429072448874e-15
+        }
+      ],
+      "cartesian_closure_errors": {
+        "coefficients": 9.144891654007646e-16,
+        "heldout_3d": 1.0587566106977902e-15,
+        "query_3d": 8.656566320988041e-16
+      },
+      "noisy_grid_candidates": 18,
+      "selected_noisy_radial_configuration": {
+        "parameter_count": 35,
+        "lambda": 0.0001,
+        "power": 2.0,
+        "radial_validation_nrmse": 0.10942658045286818
+      }
+    },
+    {
+      "mock": 2,
+      "input_catalog_sha256": "2909d6f8a3a73b360366776512ebe8c65f4ecc95942f5b25ca237c283ded6968",
+      "graph_count": 512,
+      "query_count": 64,
+      "graph_index_sha256": "1571447caa41d510002d3caa1ce7223db69b278d0ed57a3b5f6bbab6072fa6bf",
+      "query_index_sha256": "6444394fbdbf4f26f4a2cbbd44263f2e86d064a324c56b9c864ce3eea4e9f64b",
+      "markov_modes": 33,
+      "potential_parameters": 35,
+      "kernel_neighbors": 48,
+      "bandwidth_neighbor": 16,
+      "generator_normalization": "median of 32 nonconstant smoke modes, original common helper; NOT paper high-mode 511-mode scale",
+      "design_condition": 287.98147738662516,
+      "observed_metric_max_condition": 4.441115587563885,
+      "query_metric_max_condition": 9.194180409495683,
+      "radial_closure_errors": [
+        {
+          "weighting": "unweighted",
+          "coefficients": 4.743138137839697e-13,
+          "heldout_radial": 5.86836675702706e-15,
+          "heldout_3d": 9.058056141562105e-15,
+          "query_3d": 1.2258927426334468e-14
+        },
+        {
+          "weighting": "positive_weighted",
+          "coefficients": 2.0628298976156396e-13,
+          "heldout_radial": 2.804502110494076e-15,
+          "heldout_3d": 3.741924499582634e-15,
+          "query_3d": 5.5263594125526816e-15
+        }
+      ],
+      "cartesian_closure_errors": {
+        "coefficients": 8.992757046303627e-16,
+        "heldout_3d": 9.448437136291928e-16,
+        "query_3d": 8.554298365001668e-16
+      },
+      "noisy_grid_candidates": 18,
+      "selected_noisy_radial_configuration": {
+        "parameter_count": 35,
+        "lambda": 0.0,
+        "power": 1.0,
+        "radial_validation_nrmse": 0.11596524958462186
+      }
+    },
+    {
+      "mock": 3,
+      "input_catalog_sha256": "7940e1d4023afd2d43496030cd6c1b600d3131605bad31c71e206e89188310fe",
+      "graph_count": 512,
+      "query_count": 64,
+      "graph_index_sha256": "78a162b228e956305dc6d1dce3be569a221975df4838e26aa3bef92d14e96827",
+      "query_index_sha256": "67bcfd78712667bd878c215d0551d45320cb078e671a7798583233e9725c0719",
+      "markov_modes": 33,
+      "potential_parameters": 35,
+      "kernel_neighbors": 48,
+      "bandwidth_neighbor": 16,
+      "generator_normalization": "median of 32 nonconstant smoke modes, original common helper; NOT paper high-mode 511-mode scale",
+      "design_condition": 295.81045791625684,
+      "observed_metric_max_condition": 5.500684555508272,
+      "query_metric_max_condition": 5.799678055680417,
+      "radial_closure_errors": [
+        {
+          "weighting": "unweighted",
+          "coefficients": 9.047477735679094e-14,
+          "heldout_radial": 3.5405052612355633e-15,
+          "heldout_3d": 5.7731399471960355e-15,
+          "query_3d": 6.56588724135978e-15
+        },
+        {
+          "weighting": "positive_weighted",
+          "coefficients": 3.068147303994294e-14,
+          "heldout_radial": 1.074845278625603e-15,
+          "heldout_3d": 2.409868045728063e-15,
+          "query_3d": 2.732356148702256e-15
+        }
+      ],
+      "cartesian_closure_errors": {
+        "coefficients": 1.1946102632790702e-15,
+        "heldout_3d": 1.3284031694269857e-15,
+        "query_3d": 1.0987730028459393e-15
+      },
+      "noisy_grid_candidates": 18,
+      "selected_noisy_radial_configuration": {
+        "parameter_count": 35,
+        "lambda": 0.0,
+        "power": 1.0,
+        "radial_validation_nrmse": 0.105643857240877
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "mock1_small_graph_query_ids_disjoint",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock1_kernel_paths_agree",
+      "value": 0.0,
+      "upper_bound": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "mock1_markov_row_sum",
+      "value": 6.661338147750939e-16,
+      "upper_bound": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "mock1_stationarity",
+      "value": 2.9926391122851324e-16,
+      "upper_bound": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "mock1_eigen_residual",
+      "value": 1.245361715952321e-15,
+      "upper_bound": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "mock1_weighted_orthogonality",
+      "value": 1.7763568394002505e-15,
+      "upper_bound": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "mock1_constant_mode",
+      "value": 1.7319479184152442e-14,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock1_all_metric_directions_retained",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock1_query_transition_row_sum",
+      "value": 2.220446049250313e-16,
+      "upper_bound": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "mock1_query_metric_directions_retained",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock1_observed_affine_gradients",
+      "value": 6.750155989720952e-14,
+      "upper_bound": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "mock1_query_affine_gradients",
+      "value": 7.416289804496046e-14,
+      "upper_bound": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "mock1_two_original_gradient_paths_agree",
+      "value": 0.0,
+      "upper_bound": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "mock1_radial_design_full_rank",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock1_unweighted_closure_no_jitter",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock1_unweighted_closure_coefficients",
+      "value": 3.915836592805338e-13,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock1_unweighted_closure_heldout_radial",
+      "value": 6.7619991308783146e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock1_unweighted_closure_heldout_3d",
+      "value": 8.608838955594392e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock1_unweighted_closure_query_3d",
+      "value": 9.942998341411226e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock1_positive_weighted_closure_no_jitter",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock1_positive_weighted_closure_coefficients",
+      "value": 1.590609912174148e-13,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock1_positive_weighted_closure_heldout_radial",
+      "value": 3.1084897549479973e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock1_positive_weighted_closure_heldout_3d",
+      "value": 4.616621356438181e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock1_positive_weighted_closure_query_3d",
+      "value": 5.2743429072448874e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock1_nystrom_uses_same_query_transition",
+      "value": 0.0,
+      "upper_bound": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "mock1_cartesian_closure_coefficients",
+      "value": 9.144891654007646e-16,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock1_cartesian_closure_heldout_3d",
+      "value": 1.0587566106977902e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock1_cartesian_closure_query_3d",
+      "value": 8.656566320988041e-16,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock1_noisy_radial_selection_refit_query_finite",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock1_two_original_velocity_assemblies_agree",
+      "value": 4.440892098500626e-16,
+      "upper_bound": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "mock2_small_graph_query_ids_disjoint",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock2_kernel_paths_agree",
+      "value": 0.0,
+      "upper_bound": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "mock2_markov_row_sum",
+      "value": 4.440892098500626e-16,
+      "upper_bound": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "mock2_stationarity",
+      "value": 3.2420100940946325e-16,
+      "upper_bound": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "mock2_eigen_residual",
+      "value": 7.670304124188149e-15,
+      "upper_bound": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "mock2_weighted_orthogonality",
+      "value": 8.881784197001252e-16,
+      "upper_bound": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "mock2_constant_mode",
+      "value": 3.4861002973229915e-14,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock2_all_metric_directions_retained",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock2_query_transition_row_sum",
+      "value": 2.220446049250313e-16,
+      "upper_bound": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "mock2_query_metric_directions_retained",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock2_observed_affine_gradients",
+      "value": 7.593925488436071e-14,
+      "upper_bound": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "mock2_query_affine_gradients",
+      "value": 1.9095836023552692e-13,
+      "upper_bound": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "mock2_two_original_gradient_paths_agree",
+      "value": 0.0,
+      "upper_bound": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "mock2_radial_design_full_rank",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock2_unweighted_closure_no_jitter",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock2_unweighted_closure_coefficients",
+      "value": 4.743138137839697e-13,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock2_unweighted_closure_heldout_radial",
+      "value": 5.86836675702706e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock2_unweighted_closure_heldout_3d",
+      "value": 9.058056141562105e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock2_unweighted_closure_query_3d",
+      "value": 1.2258927426334468e-14,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock2_positive_weighted_closure_no_jitter",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock2_positive_weighted_closure_coefficients",
+      "value": 2.0628298976156396e-13,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock2_positive_weighted_closure_heldout_radial",
+      "value": 2.804502110494076e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock2_positive_weighted_closure_heldout_3d",
+      "value": 3.741924499582634e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock2_positive_weighted_closure_query_3d",
+      "value": 5.5263594125526816e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock2_nystrom_uses_same_query_transition",
+      "value": 0.0,
+      "upper_bound": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "mock2_cartesian_closure_coefficients",
+      "value": 8.992757046303627e-16,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock2_cartesian_closure_heldout_3d",
+      "value": 9.448437136291928e-16,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock2_cartesian_closure_query_3d",
+      "value": 8.554298365001668e-16,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock2_noisy_radial_selection_refit_query_finite",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock2_two_original_velocity_assemblies_agree",
+      "value": 1.3322676295501878e-15,
+      "upper_bound": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "mock3_small_graph_query_ids_disjoint",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock3_kernel_paths_agree",
+      "value": 0.0,
+      "upper_bound": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "mock3_markov_row_sum",
+      "value": 4.440892098500626e-16,
+      "upper_bound": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "mock3_stationarity",
+      "value": 3.7113357548523285e-16,
+      "upper_bound": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "mock3_eigen_residual",
+      "value": 1.3434462490315556e-15,
+      "upper_bound": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "mock3_weighted_orthogonality",
+      "value": 7.754213937616328e-16,
+      "upper_bound": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "mock3_constant_mode",
+      "value": 2.2426505097428162e-14,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock3_all_metric_directions_retained",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock3_query_transition_row_sum",
+      "value": 2.220446049250313e-16,
+      "upper_bound": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "mock3_query_metric_directions_retained",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock3_observed_affine_gradients",
+      "value": 6.394884621840902e-14,
+      "upper_bound": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "mock3_query_affine_gradients",
+      "value": 7.949196856316121e-14,
+      "upper_bound": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "mock3_two_original_gradient_paths_agree",
+      "value": 0.0,
+      "upper_bound": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "mock3_radial_design_full_rank",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock3_unweighted_closure_no_jitter",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock3_unweighted_closure_coefficients",
+      "value": 9.047477735679094e-14,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock3_unweighted_closure_heldout_radial",
+      "value": 3.5405052612355633e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock3_unweighted_closure_heldout_3d",
+      "value": 5.7731399471960355e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock3_unweighted_closure_query_3d",
+      "value": 6.56588724135978e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock3_positive_weighted_closure_no_jitter",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock3_positive_weighted_closure_coefficients",
+      "value": 3.068147303994294e-14,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock3_positive_weighted_closure_heldout_radial",
+      "value": 1.074845278625603e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock3_positive_weighted_closure_heldout_3d",
+      "value": 2.409868045728063e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock3_positive_weighted_closure_query_3d",
+      "value": 2.732356148702256e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock3_nystrom_uses_same_query_transition",
+      "value": 0.0,
+      "upper_bound": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "mock3_cartesian_closure_coefficients",
+      "value": 1.1946102632790702e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock3_cartesian_closure_heldout_3d",
+      "value": 1.3284031694269857e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock3_cartesian_closure_query_3d",
+      "value": 1.0987730028459393e-15,
+      "upper_bound": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mock3_noisy_radial_selection_refit_query_finite",
+      "value": true,
+      "upper_bound": null,
+      "passed": true
+    },
+    {
+      "name": "mock3_two_original_velocity_assemblies_agree",
+      "value": 4.440892098500626e-16,
+      "upper_bound": 1e-10,
+      "passed": true
+    }
+  ],
+  "check_count": 90,
+  "all_checks_passed": true,
+  "elapsed_seconds": 0.7795133659999465,
+  "limitation": "No new clean environment install, no high-mode/cache/sweep/physical-accuracy/coverage/bootstrap validation and no figure regeneration."
+}

@@ -1,0 +1,1994 @@
+{
+  "schema_version": 1,
+  "source": "LaTeX float order, labels and captions from frozen manuscript snapshots recorded in papers.json",
+  "n_figures": 31,
+  "n_tables": 16,
+  "items": [
+    {
+      "paper": "I",
+      "kind": "figure",
+      "number": 1,
+      "id": "I-figure-01",
+      "label": "fig:diffusion_geometry_framework",
+      "caption_tex": "Overview of diffusion-geometric reconstruction of cosmological vector fields. The upper branch shows global field representation and regularization, while the lower branch shows the local differential structure and metric calibration. Nystr\\\"om extension and the three distinct levels of weighting are also indicated.",
+      "graphics_names": [
+        "paperI_fig1_diffusion_framework_en_largefont_v3"
+      ],
+      "source_line": 202,
+      "candidate_scripts": [
+        "research_sources/paper_i/paperI_figure1_diffusion_framework.py"
+      ],
+      "binding_status": "historical_variant_only",
+      "evidence": [
+        {
+          "script": "research_sources/paper_i/paperI_figure1_diffusion_framework.py",
+          "line": 15,
+          "text": "OUTPUT_STEM = \"paperI_fig1_diffusion_framework_ja\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "not_in_mock_data_inventory",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Recovered script emits Japanese _ja schematic, not the final _en_largefont_v3. Final English v3 source still needed."
+      ],
+      "saved_output_records": [],
+      "inventory_image_entries": [],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Historical Japanese source only; final English v3 is not claimed"
+    },
+    {
+      "paper": "I",
+      "kind": "figure",
+      "number": 2,
+      "id": "I-figure-02",
+      "label": "fig:mock1_diffusion_modes_spectrum",
+      "caption_tex": "Diffusion eigenfunctions and the normalized generator spectrum constructed from the complete Mock-1 sample. (a)--(c) The first, eighth, and thirty-second nonconstant modes, displayed on the slab $|z|\\leq12.5\\,h^{-1}\\,\\mathrm{Mpc}$ around the center of the sphere. Each point represents a galaxy position. For each mode, the displayed values are normalized by the 99th percentile of $|\\phi_a|$ within the slab and clipped to $[-1,1]$. Because the sign of an eigenfunction is arbitrary, it is fixed so that $\\phi_a>0$ at the point with the largest absolute value. (d) Normalized generator weights $\\widetilde{\\eta}_a$ for the 2047 nonconstant modes contained in the 2048-mode geometry. We define $\\widetilde{\\eta}_a=\\eta_a/\\operatorname{median}_{1\\leq b\\leq511}\\eta_b$. The circles mark $a=1,8,32$, corresponding to panels (a)--(c).",
+      "graphics_names": [
+        "paperI_fig2_diffusion_modes_m2048_final_composite"
+      ],
+      "source_line": 597,
+      "candidate_scripts": [
+        "research_sources/paper_i/paperI_figure2_diffusion_modes_m2048_final.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_i/paperI_figure2_diffusion_modes_m2048_final.py",
+          "line": 46,
+          "text": "OUTPUT_PREFIX = \"paperI_fig2_diffusion_modes_m2048_final\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "output_name_and_metadata_available",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [
+        {
+          "source": "paperI_figures/figure2_diffusion_modes/paperI_fig2_diffusion_modes_m2048_final_summary.json",
+          "json_pointer": "/composite_panel/pdf",
+          "output_basename": "paperI_fig2_diffusion_modes_m2048_final_composite.pdf"
+        },
+        {
+          "source": "paperI_figures/figure2_diffusion_modes/paperI_fig2_diffusion_modes_m2048_final_summary.json",
+          "json_pointer": "/composite_panel/png",
+          "output_basename": "paperI_fig2_diffusion_modes_m2048_final_composite.png"
+        }
+      ],
+      "inventory_image_entries": [
+        "paperI_figures/figure2_diffusion_modes/paperI_fig2_diffusion_modes_m2048_final_composite.pdf",
+        "paperI_figures/figure2_diffusion_modes/paperI_fig2_diffusion_modes_m2048_final_composite.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "I",
+      "kind": "figure",
+      "number": 3,
+      "id": "I-figure-03",
+      "label": "fig:mock_catalog_spatial_distribution_3d",
+      "caption_tex": "Three-dimensional spatial distributions of the controlled mock catalogs in observer-centered Cartesian coordinates. Panels (a)--(c) show Mock-1, Mock-2, and Mock-3 using the same orthographic view, axis limits, and radial color scale.",
+      "graphics_names": [
+        "paperI_mock123_spatial_distribution_3d.png"
+      ],
+      "source_line": 2074,
+      "candidate_scripts": [
+        "research_sources/paper_i/paperI_mock123_spatial_distribution_figure_final.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_i/paperI_mock123_spatial_distribution_figure_final.py",
+          "line": 477,
+          "text": "OUTPUT_DIR / \"paperI_mock123_spatial_distribution_3d\","
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "output_name_and_metadata_available",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [
+        {
+          "source": "paperI_figures/mock_catalog_spatial_distributions/paperI_mock123_spatial_distribution_summary.json",
+          "json_pointer": "/outputs/three_dimensional/pdf",
+          "output_basename": "paperI_mock123_spatial_distribution_3d.pdf"
+        },
+        {
+          "source": "paperI_figures/mock_catalog_spatial_distributions/paperI_mock123_spatial_distribution_summary.json",
+          "json_pointer": "/outputs/three_dimensional/png",
+          "output_basename": "paperI_mock123_spatial_distribution_3d.png"
+        }
+      ],
+      "inventory_image_entries": [
+        "paperI_figures/mock_catalog_spatial_distributions/paperI_mock123_spatial_distribution_3d.pdf",
+        "paperI_figures/mock_catalog_spatial_distributions/paperI_mock123_spatial_distribution_3d.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "I",
+      "kind": "figure",
+      "number": 4,
+      "id": "I-figure-04",
+      "label": "fig:mock_catalog_spatial_distribution_orthogonal",
+      "caption_tex": "Orthogonal projections of the three controlled mock catalogs. The columns correspond to Mock-1, Mock-2, and Mock-3, and the rows show the $xy$, $xz$, and $yz$ projections. Dotted circles indicate the common spherical boundary, while the dashed zero-coordinate lines in the Mock-3 panels mark the projected octant boundaries.",
+      "graphics_names": [
+        "paperI_mock123_spatial_distribution_orthogonal.png"
+      ],
+      "source_line": 2081,
+      "candidate_scripts": [
+        "research_sources/paper_i/paperI_mock123_spatial_distribution_figure_final.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_i/paperI_mock123_spatial_distribution_figure_final.py",
+          "line": 603,
+          "text": "OUTPUT_DIR / \"paperI_mock123_spatial_distribution_orthogonal\","
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "output_name_and_metadata_available",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [
+        {
+          "source": "paperI_figures/mock_catalog_spatial_distributions/paperI_mock123_spatial_distribution_summary.json",
+          "json_pointer": "/outputs/orthogonal/pdf",
+          "output_basename": "paperI_mock123_spatial_distribution_orthogonal.pdf"
+        },
+        {
+          "source": "paperI_figures/mock_catalog_spatial_distributions/paperI_mock123_spatial_distribution_summary.json",
+          "json_pointer": "/outputs/orthogonal/png",
+          "output_basename": "paperI_mock123_spatial_distribution_orthogonal.png"
+        }
+      ],
+      "inventory_image_entries": [
+        "paperI_figures/mock_catalog_spatial_distributions/paperI_mock123_spatial_distribution_orthogonal.pdf",
+        "paperI_figures/mock_catalog_spatial_distributions/paperI_mock123_spatial_distribution_orthogonal.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "I",
+      "kind": "figure",
+      "number": 5,
+      "id": "I-figure-05",
+      "label": "fig:gradient_calibration_conditioning",
+      "caption_tex": "Numerical diagnostics of the metric-calibrated gradient on the complete Mock-1 sample. (a) Comparison of the RMS vector errors of the raw coordinate covector and metric-calibrated gradient for the coordinate functions $x$, $y$, and $z$. The vertical axis is logarithmic. (b) Distribution of the condition number $\\kappa_i$ of the local Gram matrix over all $10000$ points. The solid, dashed, and dotted lines indicate the median, 90th percentile, and 99th percentile, respectively. The inset in the upper right gives the maximum condition number and the fraction of points at which the eigenvalue cutoff was applied.",
+      "graphics_names": [
+        "paperI_fig3_gradient_calibration_final_v4_composite"
+      ],
+      "source_line": 3628,
+      "candidate_scripts": [
+        "research_sources/paper_i/paperI_figure3_gradient_calibration_final_v4.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_i/paperI_figure3_gradient_calibration_final_v4.py",
+          "line": 62,
+          "text": "OUTPUT_PREFIX = \"paperI_fig3_gradient_calibration_final_v4\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "output_name_and_metadata_available",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [
+        {
+          "source": "paperI_figures/figure3_gradient_calibration/paperI_fig3_gradient_calibration_final_v4_summary.json",
+          "json_pointer": "/outputs/composite_pdf",
+          "output_basename": "paperI_fig3_gradient_calibration_final_v4_composite.pdf"
+        },
+        {
+          "source": "paperI_figures/figure3_gradient_calibration/paperI_fig3_gradient_calibration_final_v4_summary.json",
+          "json_pointer": "/outputs/composite_png",
+          "output_basename": "paperI_fig3_gradient_calibration_final_v4_composite.png"
+        }
+      ],
+      "inventory_image_entries": [
+        "paperI_figures/figure3_gradient_calibration/paperI_fig3_gradient_calibration_final_v4_composite.pdf",
+        "paperI_figures/figure3_gradient_calibration/paperI_fig3_gradient_calibration_final_v4_composite.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "I",
+      "kind": "table",
+      "number": 1,
+      "id": "I-table-01",
+      "label": "tab:mock1_full_vector_results",
+      "caption_tex": "Dependence on reference smoothing scale at the validation-selected practical truncation in Mock-1. $\\mathrm{NRMSE}_{3\\mathrm D,\\mathrm{diff}}$ and $\\mathrm{NRMSE}_{3\\mathrm D,\\mathrm{local}}$ are the test NRMSE values of the diffusion-spectral estimator and adaptive local-kernel baseline, respectively. The NRMSE uncertainties are $1$ standard deviation among the five replicates, while $\\theta_{\\mathrm{med}}$ and $g_{\\mathrm v}$ are five-replicate means for the diffusion-spectral estimator.",
+      "graphics_names": [],
+      "source_line": 3691,
+      "candidate_scripts": [
+        "research_sources/paper_i/paperI_mock1_mode_number_convergence_to_2048.py",
+        "research_sources/paper_i/mock1_bulk_seed_scale_robustness_single_cell_v6.py"
+      ],
+      "binding_status": "candidate_analysis_family_not_table_export_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_i/paperI_mock1_mode_number_convergence_to_2048.py",
+          "line": 145,
+          "text": "OUTPUT_PREFIX = \"mock1_mode_number_convergence\""
+        },
+        {
+          "script": "research_sources/paper_i/mock1_bulk_seed_scale_robustness_single_cell_v6.py",
+          "line": 117,
+          "text": "OUTPUT_PREFIX = \"mock1_bulk_seed_scale_robustness\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "printed_values_match",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Exact cell-to-output-column extraction not yet verified; no table-transcribed numbers are presented as raw computation outputs."
+      ],
+      "numeric_checks": 24,
+      "matching_checks": 24,
+      "saved_result_sources": [
+        "paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_summary.csv"
+      ],
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "I",
+      "kind": "figure",
+      "number": 6,
+      "id": "I-figure-06",
+      "label": "fig:mock1_scale_dependence",
+      "caption_tex": "Reconstruction performance at the validation-selected practical truncation in Mock-1. (a) Test $\\mathrm{NRMSE}_{3\\mathrm D}$ of the diffusion-spectral estimator and adaptive local-kernel baseline. (b) Median velocity-direction error of the same two methods. (c) Calibration slopes of the Cartesian components $v_x$, $v_y$, and $v_z$ for the diffusion-spectral estimator. The dashed line indicates unity. Points and error bars in panels (a)--(c) show the mean and $1$ standard deviation over five replicates. (d) Paired test difference $\\mathrm{NRMSE}_{3\\mathrm D,\\mathrm{diff}}-\\mathrm{NRMSE}_{3\\mathrm D,\\mathrm{local}}$ in each replicate. Small points show individual replicates, while diamonds and error bars show the mean and $1$ standard deviation. The reference smoothing scale and adopted $n_{\\mathrm b}$ are indicated on the horizontal axis.",
+      "graphics_names": [
+        "paperI_fig4_mock1_scale_dependence_converged_nrmse",
+        "paperI_fig4_mock1_scale_dependence_converged_direction",
+        "paperI_fig4_mock1_scale_dependence_converged_calibration",
+        "paperI_fig4_mock1_scale_dependence_converged_paired_difference"
+      ],
+      "source_line": 3708,
+      "candidate_scripts": [
+        "research_sources/paper_i/paperI_figure4_mock1_scale_dependence_converged.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_i/paperI_figure4_mock1_scale_dependence_converged.py",
+          "line": 75,
+          "text": "OUTPUT_PREFIX = ("
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "output_name_and_metadata_available",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [
+        {
+          "source": "paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_summary.json",
+          "json_pointer": "/outputs/nrmse_pdf",
+          "output_basename": "paperI_fig4_mock1_scale_dependence_converged_nrmse.pdf"
+        },
+        {
+          "source": "paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_summary.json",
+          "json_pointer": "/outputs/nrmse_png",
+          "output_basename": "paperI_fig4_mock1_scale_dependence_converged_nrmse.png"
+        },
+        {
+          "source": "paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_summary.json",
+          "json_pointer": "/outputs/direction_pdf",
+          "output_basename": "paperI_fig4_mock1_scale_dependence_converged_direction.pdf"
+        },
+        {
+          "source": "paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_summary.json",
+          "json_pointer": "/outputs/direction_png",
+          "output_basename": "paperI_fig4_mock1_scale_dependence_converged_direction.png"
+        },
+        {
+          "source": "paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_summary.json",
+          "json_pointer": "/outputs/calibration_pdf",
+          "output_basename": "paperI_fig4_mock1_scale_dependence_converged_calibration.pdf"
+        },
+        {
+          "source": "paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_summary.json",
+          "json_pointer": "/outputs/calibration_png",
+          "output_basename": "paperI_fig4_mock1_scale_dependence_converged_calibration.png"
+        },
+        {
+          "source": "paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_summary.json",
+          "json_pointer": "/outputs/paired_difference_pdf",
+          "output_basename": "paperI_fig4_mock1_scale_dependence_converged_paired_difference.pdf"
+        },
+        {
+          "source": "paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_summary.json",
+          "json_pointer": "/outputs/paired_difference_png",
+          "output_basename": "paperI_fig4_mock1_scale_dependence_converged_paired_difference.png"
+        }
+      ],
+      "inventory_image_entries": [
+        "paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_nrmse.pdf",
+        "paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_nrmse.png",
+        "paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_direction.pdf",
+        "paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_direction.png",
+        "paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_calibration.pdf",
+        "paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_calibration.png",
+        "paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_paired_difference.pdf",
+        "paperI_figures/figure4_mock1_scale_dependence_converged/paperI_fig4_mock1_scale_dependence_converged_paired_difference.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Saved-data plot driver executed; numerical summary checked"
+    },
+    {
+      "paper": "I",
+      "kind": "figure",
+      "number": 7,
+      "id": "I-figure-07",
+      "label": "fig:mock1_mode_number_convergence",
+      "caption_tex": "Dependence on retained mode number in Mock-1. For each of the fine, fiducial, and coarse reference fields, points and error bars show the mean and $1$ standard deviation over the five reference-model splits. (a) $\\mathrm{NRMSE}_{3\\mathrm D}$ on the held-out test set. (b) Median velocity-direction error. (c) Through-origin vector gain $g_{\\mathrm v}$. The dashed line indicates unity. (d) Paired test $\\mathrm{NRMSE}_{3\\mathrm D}$ difference relative to $n_{\\mathrm b}=1024$. Negative values indicate lower test error than the 1024-mode estimator. Connecting lines are guides to the eye.",
+      "graphics_names": [
+        "mock1_mode_number_convergence_composite_to_2048"
+      ],
+      "source_line": 3801,
+      "candidate_scripts": [
+        "research_sources/paper_i/paperI_mock1_mode_number_convergence_to_2048.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_i/paperI_mock1_mode_number_convergence_to_2048.py",
+          "line": 145,
+          "text": "OUTPUT_PREFIX = \"mock1_mode_number_convergence\""
+        },
+        {
+          "script": "research_sources/paper_i/paperI_mock1_mode_number_convergence_to_2048.py",
+          "line": 2083,
+          "text": "\"{mock1_mode_number_convergence_composite_to_2048}\\n\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "output_name_and_metadata_available",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [
+        {
+          "source": "mock1_mode_number_convergence_v2/mock1_mode_number_convergence_summary_to_2048.json",
+          "json_pointer": "/outputs/composite_pdf",
+          "output_basename": "mock1_mode_number_convergence_composite_to_2048.pdf"
+        },
+        {
+          "source": "mock1_mode_number_convergence_v2/mock1_mode_number_convergence_summary_to_2048.json",
+          "json_pointer": "/outputs/composite_png",
+          "output_basename": "mock1_mode_number_convergence_composite_to_2048.png"
+        }
+      ],
+      "inventory_image_entries": [
+        "mock1_mode_number_convergence_v2/mock1_mode_number_convergence_composite_to_2048.pdf",
+        "mock1_mode_number_convergence_v2/mock1_mode_number_convergence_composite_to_2048.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "I",
+      "kind": "figure",
+      "number": 8,
+      "id": "I-figure-08",
+      "label": "fig:mock2_mode_number_convergence",
+      "caption_tex": "Convergence with retained mode number in Mock-2. All panels use operator-side unweighted geometry, and the regularization strength is selected from the parent-weighted validation risk for each $n_{\\mathrm b}$ and loss model. (a) Parent-weighted validation $\\mathrm{NRMSE}_{3\\mathrm D}$. (b) Parent-weighted observed-test $\\mathrm{NRMSE}_{3\\mathrm D}$. (c) Primary complete-query $\\mathrm{NRMSE}_{3\\mathrm D}$. Points and error bars in panels (a)--(c) show the mean and $1$ standard deviation over ten label splits, and connecting lines are guides to the eye. (d) Paired difference between the selection-weighted and unweighted losses at the validation-selected practical truncation. Points show the ten-split mean, and error bars show the $95\\%$ seed-bootstrap interval.",
+      "graphics_names": [
+        "mock2_loss_weight_mode_convergence_to_4096_composite"
+      ],
+      "source_line": 3845,
+      "candidate_scripts": [
+        "research_sources/paper_i/paperI_mock2_mode_convergence_to_4096.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_i/paperI_mock2_mode_convergence_to_4096.py",
+          "line": 190,
+          "text": "OUTPUT_PREFIX = \"mock2_loss_weight_mode_convergence_to_4096\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "output_name_and_metadata_available",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [
+        {
+          "source": "mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_summary_to_4096.json",
+          "json_pointer": "/outputs/composite_pdf",
+          "output_basename": "mock2_loss_weight_mode_convergence_to_4096_composite.pdf"
+        },
+        {
+          "source": "mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_summary_to_4096.json",
+          "json_pointer": "/outputs/composite_png",
+          "output_basename": "mock2_loss_weight_mode_convergence_to_4096_composite.png"
+        }
+      ],
+      "inventory_image_entries": [
+        "mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_composite.pdf",
+        "mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_composite.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "I",
+      "kind": "figure",
+      "number": 9,
+      "id": "I-figure-09",
+      "label": "fig:mock2_weighting_capacity_interaction",
+      "caption_tex": "Dependence of the loss-weighting effect on retained mode number in Mock-2. At each $n_{\\mathrm b}$, $\\lambda=10^{-2}$ is fixed in common, and the mean $\\mathrm{NRMSE}_{3\\mathrm D}$ difference, selection-weighted loss minus unweighted loss, is shown. The compared risks are the parent-weighted observed test, observed-unweighted test, and primary complete query. The dashed line marks zero difference, and positive values indicate higher risk for the selection-weighted loss. Connecting lines are guides to the eye.",
+      "graphics_names": [
+        "mock2_loss_weight_mode_convergence_to_4096_matched_effect_vs_basis"
+      ],
+      "source_line": 3867,
+      "candidate_scripts": [
+        "research_sources/paper_i/paperI_mock2_mode_convergence_to_4096.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_i/paperI_mock2_mode_convergence_to_4096.py",
+          "line": 190,
+          "text": "OUTPUT_PREFIX = \"mock2_loss_weight_mode_convergence_to_4096\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "output_name_and_metadata_available",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [
+        {
+          "source": "mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_summary_to_4096.json",
+          "json_pointer": "/outputs/matched_effect_pdf",
+          "output_basename": "mock2_loss_weight_mode_convergence_to_4096_matched_effect_vs_basis.pdf"
+        },
+        {
+          "source": "mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_summary_to_4096.json",
+          "json_pointer": "/outputs/matched_effect_png",
+          "output_basename": "mock2_loss_weight_mode_convergence_to_4096_matched_effect_vs_basis.png"
+        }
+      ],
+      "inventory_image_entries": [
+        "mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_matched_effect_vs_basis.pdf",
+        "mock2_loss_weight_mode_convergence_to_4096_v2/mock2_loss_weight_mode_convergence_to_4096_matched_effect_vs_basis.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "I",
+      "kind": "table",
+      "number": 2,
+      "id": "I-table-02",
+      "label": "tab:mock2_full_vector_results",
+      "caption_tex": "Final comparison for Mock-2. The diffusion-spectral estimators use operator-side unweighted geometry and $n_{\\mathrm b}=2560$, with the regularization strength selected from the parent-weighted validation risk in each split. The local-kernel baseline is optimized on the validation set over candidates that include selection weighting. Values show the mean and $1$ standard deviation over ten label splits.",
+      "graphics_names": [],
+      "source_line": 3941,
+      "candidate_scripts": [
+        "research_sources/paper_i/paperI_mock2_final_geometry_local_sensitivity.py",
+        "research_sources/paper_i/paperI_mock2_mode_convergence_to_4096.py"
+      ],
+      "binding_status": "candidate_analysis_family_not_table_export_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_i/paperI_mock2_final_geometry_local_sensitivity.py",
+          "line": 176,
+          "text": "OUTPUT_PREFIX = \"mock2_final_geometry_local_sensitivity\""
+        },
+        {
+          "script": "research_sources/paper_i/paperI_mock2_mode_convergence_to_4096.py",
+          "line": 190,
+          "text": "OUTPUT_PREFIX = \"mock2_loss_weight_mode_convergence_to_4096\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "two_last_digit_rounding_differences",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Exact cell-to-output-column extraction not yet verified; no table-transcribed numbers are presented as raw computation outputs."
+      ],
+      "numeric_checks": 18,
+      "matching_checks": 16,
+      "saved_result_sources": [
+        "mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_geometry_aggregate.csv",
+        "mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_local_aggregate.csv"
+      ],
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "I",
+      "kind": "figure",
+      "number": 10,
+      "id": "I-figure-10",
+      "label": "fig:mock2_geometry_sensitivity",
+      "caption_tex": "Restricted geometry sensitivity in Mock-2. All diffusion-spectral models use fixed $n_{\\mathrm b}=2560$, and the regularization strength is selected from the parent-weighted validation risk in each split. (a) Parent-weighted observed-test $\\mathrm{NRMSE}_{3\\mathrm D}$. (b) Observed-unweighted test $\\mathrm{NRMSE}_{3\\mathrm D}$. (c) Primary complete-query $\\mathrm{NRMSE}_{3\\mathrm D}$. Points and error bars in panels (a)--(c) show the ten-split mean and $1$ standard deviation. (d) Parent-risk differences defined by subtracting the corresponding primary configuration from each alternative configuration. Points show the ten-split mean, and error bars show the $95\\%$ seed-bootstrap interval. Positive values indicate higher risk for the alternative configuration named first.",
+      "graphics_names": [
+        "mock2_final_geometry_local_sensitivity_redraw_final_geometry_sensitivity_final_composite"
+      ],
+      "source_line": 3960,
+      "candidate_scripts": [
+        "research_sources/paper_i/paperI_mock2_final_sensitivity_figure_redraw.py",
+        "research_sources/paper_i/paperI_mock2_final_geometry_local_sensitivity.py"
+      ],
+      "binding_status": "rendering_filename_variant_unresolved",
+      "evidence": [
+        {
+          "script": "research_sources/paper_i/paperI_mock2_final_sensitivity_figure_redraw.py",
+          "line": 58,
+          "text": "OUTPUT_PREFIX = \"mock2_final_geometry_local_sensitivity_redraw\""
+        },
+        {
+          "script": "research_sources/paper_i/paperI_mock2_final_sensitivity_figure_redraw.py",
+          "line": 1056,
+          "text": "\"geometry_sensitivity_final_composite\","
+        },
+        {
+          "script": "research_sources/paper_i/paperI_mock2_final_geometry_local_sensitivity.py",
+          "line": 176,
+          "text": "OUTPUT_PREFIX = \"mock2_final_geometry_local_sensitivity\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "output_name_and_metadata_available",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Recovered redraw output lacks the extra _final immediately after _redraw present in the manuscript filename. Do not silently rename or assert final rendering equivalence. Numeric analysis candidate is separately listed."
+      ],
+      "saved_output_records": [
+        {
+          "source": "mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_redraw_final_summary.json",
+          "json_pointer": "/outputs/geometry_composite_pdf",
+          "output_basename": "mock2_final_geometry_local_sensitivity_redraw_final_geometry_sensitivity_final_composite.pdf"
+        },
+        {
+          "source": "mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_redraw_final_summary.json",
+          "json_pointer": "/outputs/geometry_composite_png",
+          "output_basename": "mock2_final_geometry_local_sensitivity_redraw_final_geometry_sensitivity_final_composite.png"
+        }
+      ],
+      "inventory_image_entries": [
+        "mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_redraw_final_geometry_sensitivity_final_composite.pdf",
+        "mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_redraw_final_geometry_sensitivity_final_composite.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "I",
+      "kind": "figure",
+      "number": 11,
+      "id": "I-figure-11",
+      "label": "fig:mock2_local_comparison",
+      "caption_tex": "Same-split comparison of the diffusion-spectral estimator and adaptive local-kernel baseline in Mock-2. (a) Parent-weighted observed-test $\\mathrm{NRMSE}_{3\\mathrm D}$. (b) Primary complete-query $\\mathrm{NRMSE}_{3\\mathrm D}$. Points and error bars in panels (a) and (b) show the ten-split mean and $1$ standard deviation. (c) Parent-risk contrasts. (d) Complete-query contrasts. All differences in panels (c) and (d) are defined as local minus diffusion. Points show the ten-split mean, and error bars show the $95\\%$ seed-bootstrap interval. Positive values therefore indicate lower risk for the diffusion-spectral estimator. The first three comparisons use the primary unweighted diffusion estimator as the reference, while the final comparison uses the primary selection-weighted diffusion estimator.",
+      "graphics_names": [
+        "mock2_final_geometry_local_sensitivity_redraw_final_local_comparison_final_composite"
+      ],
+      "source_line": 3971,
+      "candidate_scripts": [
+        "research_sources/paper_i/paperI_mock2_final_sensitivity_figure_redraw.py",
+        "research_sources/paper_i/paperI_mock2_final_geometry_local_sensitivity.py"
+      ],
+      "binding_status": "rendering_filename_variant_unresolved",
+      "evidence": [
+        {
+          "script": "research_sources/paper_i/paperI_mock2_final_sensitivity_figure_redraw.py",
+          "line": 58,
+          "text": "OUTPUT_PREFIX = \"mock2_final_geometry_local_sensitivity_redraw\""
+        },
+        {
+          "script": "research_sources/paper_i/paperI_mock2_final_sensitivity_figure_redraw.py",
+          "line": 1062,
+          "text": "\"local_comparison_final_composite\","
+        },
+        {
+          "script": "research_sources/paper_i/paperI_mock2_final_geometry_local_sensitivity.py",
+          "line": 176,
+          "text": "OUTPUT_PREFIX = \"mock2_final_geometry_local_sensitivity\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "output_name_and_metadata_available",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Recovered redraw output lacks the extra _final immediately after _redraw present in the manuscript filename. Do not silently rename or assert final rendering equivalence. Numeric analysis candidate is separately listed."
+      ],
+      "saved_output_records": [
+        {
+          "source": "mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_redraw_final_summary.json",
+          "json_pointer": "/outputs/local_composite_pdf",
+          "output_basename": "mock2_final_geometry_local_sensitivity_redraw_final_local_comparison_final_composite.pdf"
+        },
+        {
+          "source": "mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_redraw_final_summary.json",
+          "json_pointer": "/outputs/local_composite_png",
+          "output_basename": "mock2_final_geometry_local_sensitivity_redraw_final_local_comparison_final_composite.png"
+        }
+      ],
+      "inventory_image_entries": [
+        "mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_redraw_final_local_comparison_final_composite.pdf",
+        "mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_redraw_final_local_comparison_final_composite.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "I",
+      "kind": "figure",
+      "number": 12,
+      "id": "I-figure-12",
+      "label": "fig:mock3_mode_number_convergence",
+      "caption_tex": "Mode-number convergence of the primary unweighted estimator in Mock-3. Points and error bars in panels (a)--(c) show the mean and standard deviation across ten octant-stratified label splits. Panel (d) shows the error reduction between adjacent retained mode numbers, calculated from the split-averaged parent-weighted validation risk. (a) $\\mathrm{NRMSE}_{3\\mathrm D}$ on the parent-weighted validation and held-out observed samples. (b) $\\mathrm{NRMSE}_{3\\mathrm D}$ on the region-primary complete-query sample. (c) Dispersion of $\\mathrm{NRMSE}_{3\\mathrm D}$ among the eight octants for the observed and query samples. (d) Reduction in parent-weighted validation error between adjacent retained mode numbers. The dashed line indicates the $2\\%$ practical threshold, and the dotted line indicates zero. Connecting lines are guides to the eye for visualizing mode-number dependence.",
+      "graphics_names": [
+        "mock3_primary_mode_convergence_to_4096_composite"
+      ],
+      "source_line": 4041,
+      "candidate_scripts": [
+        "research_sources/paper_i/paperI_mock3_primary_mode_convergence_to_4096.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_i/paperI_mock3_primary_mode_convergence_to_4096.py",
+          "line": 96,
+          "text": "OUTPUT_PREFIX = \"mock3_primary_mode_convergence_to_4096\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "output_name_and_metadata_available",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [
+        {
+          "source": "mock3_primary_mode_convergence_to_4096_v1/mock3_primary_mode_convergence_to_4096_summary.json",
+          "json_pointer": "/outputs/composite_pdf",
+          "output_basename": "mock3_primary_mode_convergence_to_4096_composite.pdf"
+        },
+        {
+          "source": "mock3_primary_mode_convergence_to_4096_v1/mock3_primary_mode_convergence_to_4096_summary.json",
+          "json_pointer": "/outputs/composite_png",
+          "output_basename": "mock3_primary_mode_convergence_to_4096_composite.png"
+        }
+      ],
+      "inventory_image_entries": [
+        "mock3_primary_mode_convergence_to_4096_v1/mock3_primary_mode_convergence_to_4096_composite.pdf",
+        "mock3_primary_mode_convergence_to_4096_v1/mock3_primary_mode_convergence_to_4096_composite.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "I",
+      "kind": "figure",
+      "number": 13,
+      "id": "I-figure-13",
+      "label": "fig:mock3_weighting_capacity_interaction",
+      "caption_tex": "Spectral-capacity dependence of the loss-weighting effect in Mock-3. Each panel shows the paired differences global radial minus unweighted and octant-aware minus unweighted. (a), (b) Observed parent-weighted risk and region-primary complete-query risk. (c), (d) Octant dispersion on the observed and complete-query samples. The horizontal dashed line indicates zero, and the vertical dotted line indicates the practical basis $n_{\\mathrm b}=2560$.",
+      "graphics_names": [
+        "mock3_highmode_loss_family_validation_matched_weighting_effect_vs_basis"
+      ],
+      "source_line": 4145,
+      "candidate_scripts": [
+        "research_sources/paper_i/paperI_mock3_highmode_loss_family_validation.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_i/paperI_mock3_highmode_loss_family_validation.py",
+          "line": 181,
+          "text": "OUTPUT_PREFIX = ("
+        },
+        {
+          "script": "research_sources/paper_i/paperI_mock3_highmode_loss_family_validation.py",
+          "line": 4056,
+          "text": "\"matched_weighting_effect_vs_basis\","
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "output_name_and_metadata_available",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [
+        {
+          "source": "mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_summary.json",
+          "json_pointer": "/outputs/matched_effect_pdf",
+          "output_basename": "mock3_highmode_loss_family_validation_matched_weighting_effect_vs_basis.pdf"
+        },
+        {
+          "source": "mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_summary.json",
+          "json_pointer": "/outputs/matched_effect_png",
+          "output_basename": "mock3_highmode_loss_family_validation_matched_weighting_effect_vs_basis.png"
+        }
+      ],
+      "inventory_image_entries": [
+        "mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_matched_weighting_effect_vs_basis.pdf",
+        "mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_matched_weighting_effect_vs_basis.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "I",
+      "kind": "figure",
+      "number": 14,
+      "id": "I-figure-14",
+      "label": "fig:mock3_direction_dependent_selection",
+      "caption_tex": "High-mode loss-family validation in Mock-3. (a) Dependence on regularization strength at the practical basis $n_{\\mathrm b}=2560$. (b), (c) Observed parent-weighted and region-primary complete-query risks under the retuned protocol. (d) Paired loss contrasts under the matched-primary protocol.",
+      "graphics_names": [
+        "mock3_highmode_loss_family_validation_lambda_and_final_composite"
+      ],
+      "source_line": 4156,
+      "candidate_scripts": [
+        "research_sources/paper_i/paperI_mock3_highmode_loss_family_validation.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_i/paperI_mock3_highmode_loss_family_validation.py",
+          "line": 181,
+          "text": "OUTPUT_PREFIX = ("
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "output_name_and_metadata_available",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [
+        {
+          "source": "mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_summary.json",
+          "json_pointer": "/outputs/lambda_composite_pdf",
+          "output_basename": "mock3_highmode_loss_family_validation_lambda_and_final_composite.pdf"
+        },
+        {
+          "source": "mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_summary.json",
+          "json_pointer": "/outputs/lambda_composite_png",
+          "output_basename": "mock3_highmode_loss_family_validation_lambda_and_final_composite.png"
+        }
+      ],
+      "inventory_image_entries": [
+        "mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_lambda_and_final_composite.pdf",
+        "mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_lambda_and_final_composite.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "I",
+      "kind": "table",
+      "number": 3,
+      "id": "I-table-03",
+      "label": "tab:mock3_full_vector_results",
+      "caption_tex": "Mean performance over ten octant-stratified label splits under the fixed-practical protocol in Mock-3. All models use operator-side unweighted geometry with $\\alpha_{\\mathrm{DM}}=0$, $n_{\\mathrm b}=2560$, and $\\lambda=10^{-2}$.",
+      "graphics_names": [],
+      "source_line": 4163,
+      "candidate_scripts": [
+        "research_sources/paper_i/paperI_mock3_highmode_loss_family_validation.py"
+      ],
+      "binding_status": "candidate_analysis_family_not_table_export_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_i/paperI_mock3_highmode_loss_family_validation.py",
+          "line": 181,
+          "text": "OUTPUT_PREFIX = ("
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "printed_values_match",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Exact cell-to-output-column extraction not yet verified; no table-transcribed numbers are presented as raw computation outputs."
+      ],
+      "numeric_checks": 18,
+      "matching_checks": 18,
+      "saved_result_sources": [
+        "mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_protocol_summary.csv",
+        "mock3_highmode_loss_family_validation_v1/mock3_highmode_loss_family_validation_summary.json"
+      ],
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "I",
+      "kind": "figure",
+      "number": 15,
+      "id": "I-figure-15",
+      "label": "fig:mock1_regularization_sensitivity",
+      "caption_tex": "Sensitivity to regularization selection in Mock-1. For each reference scale, the test $\\mathrm{NRMSE}_{3\\mathrm D}$ obtained with the validation-selected value of $\\lambda$ is compared with that obtained by fixing $\\lambda=10^{-2}$. Each point represents the mean over five splits.",
+      "graphics_names": [
+        "mock1_mode_number_convergence_selected_vs_fixed_lambda_to_2048"
+      ],
+      "source_line": 4459,
+      "candidate_scripts": [
+        "research_sources/paper_i/paperI_mock1_mode_number_convergence_to_2048.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_i/paperI_mock1_mode_number_convergence_to_2048.py",
+          "line": 145,
+          "text": "OUTPUT_PREFIX = \"mock1_mode_number_convergence\""
+        },
+        {
+          "script": "research_sources/paper_i/paperI_mock1_mode_number_convergence_to_2048.py",
+          "line": 2044,
+          "text": "return save_figure(fig, \"selected_vs_fixed_lambda_to_2048\")"
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "output_name_and_metadata_available",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [
+        {
+          "source": "mock1_mode_number_convergence_v2/mock1_mode_number_convergence_summary_to_2048.json",
+          "json_pointer": "/outputs/sensitivity_pdf",
+          "output_basename": "mock1_mode_number_convergence_selected_vs_fixed_lambda_to_2048.pdf"
+        },
+        {
+          "source": "mock1_mode_number_convergence_v2/mock1_mode_number_convergence_summary_to_2048.json",
+          "json_pointer": "/outputs/sensitivity_png",
+          "output_basename": "mock1_mode_number_convergence_selected_vs_fixed_lambda_to_2048.png"
+        }
+      ],
+      "inventory_image_entries": [
+        "mock1_mode_number_convergence_v2/mock1_mode_number_convergence_selected_vs_fixed_lambda_to_2048.pdf",
+        "mock1_mode_number_convergence_v2/mock1_mode_number_convergence_selected_vs_fixed_lambda_to_2048.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "I",
+      "kind": "figure",
+      "number": 16,
+      "id": "I-figure-16",
+      "label": "fig:mock1_practical_plateau_diagnostic",
+      "caption_tex": "Practical-plateau diagnostic for Mock-1. The vertical axis shows the reduction in validation error relative to the preceding candidate mode number, as defined in Equation~\\eqref{eq:adjacent_validation_reduction}. The dashed line indicates the $2\\%$ practical threshold, and the dotted line indicates zero. Open diamonds mark the truncations jointly selected by Equations~\\eqref{eq:practical_plateau_rule} and \\eqref{eq:one_standard_error_mode_rule}. Negative values indicate an increase in validation error after adding modes. The smallest candidate, $n_{\\mathrm b}=256$, has no diagnostic value because it has no preceding candidate for comparison.",
+      "graphics_names": [
+        "mock1_mode_number_convergence_plateau_diagnostic_final"
+      ],
+      "source_line": 4496,
+      "candidate_scripts": [
+        "research_sources/paper_i/paperI_mock1_mode_number_convergence_to_2048.py"
+      ],
+      "binding_status": "rendering_filename_variant_unresolved",
+      "evidence": [
+        {
+          "script": "research_sources/paper_i/paperI_mock1_mode_number_convergence_to_2048.py",
+          "line": 145,
+          "text": "OUTPUT_PREFIX = \"mock1_mode_number_convergence\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "output_name_and_metadata_available",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Recovered mode script emits _plateau_diagnostic, not _plateau_diagnostic_final. Final plotting variant or provenance is needed."
+      ],
+      "saved_output_records": [
+        {
+          "source": "mock1_mode_number_convergence_v2/mock1_mode_number_convergence_plateau_diagnostic_final_summary.json",
+          "json_pointer": "/pdf",
+          "output_basename": "mock1_mode_number_convergence_plateau_diagnostic_final.pdf"
+        },
+        {
+          "source": "mock1_mode_number_convergence_v2/mock1_mode_number_convergence_plateau_diagnostic_final_summary.json",
+          "json_pointer": "/png",
+          "output_basename": "mock1_mode_number_convergence_plateau_diagnostic_final.png"
+        }
+      ],
+      "inventory_image_entries": [
+        "mock1_mode_number_convergence_v2/mock1_mode_number_convergence_plateau_diagnostic_final.pdf",
+        "mock1_mode_number_convergence_v2/mock1_mode_number_convergence_plateau_diagnostic_final.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "figure",
+      "number": 1,
+      "id": "II-figure-01",
+      "label": "fig:radial_observation_completion_schematic",
+      "caption_tex": "Pointwise non-identifiability under radial observations and global completion by a potential-flow constraint. Panel (a) decomposes a three-dimensional velocity into radial and tangential components, panel (b) shows the tangential null space that leaves the radial datum unchanged, and panel (c) shows the three-dimensional field $\\boldsymbol v=\\nabla\\Phi$ generated by a shared scalar potential.",
+      "graphics_names": [
+        "paperII_radial_observation_and_completion"
+      ],
+      "source_line": 2204,
+      "candidate_scripts": [
+        "research_sources/paper_ii/paperII_radial_overview_figures.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/paperII_radial_overview_figures.py",
+          "line": 721,
+          "text": "OUTPUT_DIR / \"paperII_radial_observation_and_completion\","
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "not_in_mock_data_inventory",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [],
+      "inventory_image_entries": [],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "figure",
+      "number": 2,
+      "id": "II-figure-02",
+      "label": "fig:radial_mock_selection_overview",
+      "caption_tex": "Radial support and selection geometry of the three controlled mocks. Panel (a) shows the empirical observer-centered radial distributions, panels (b) and (c) show the complete, single-limit, direction-averaged, and octant-dependent selection functions, and panel (d) shows the sightlines and radial reach of Mock-3. Horizontal lines mark $S=10^{-2}$ and $10^{-3}$; dashed lines in panel (d) mark octant boundaries.",
+      "graphics_names": [
+        "paperII_radial_mock_selection_overview"
+      ],
+      "source_line": 3270,
+      "candidate_scripts": [
+        "research_sources/paper_ii/paperII_radial_overview_figures.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/paperII_radial_overview_figures.py",
+          "line": 945,
+          "text": "OUTPUT_DIR / \"paperII_radial_mock_selection_overview\","
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "not_in_mock_data_inventory",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [],
+      "inventory_image_entries": [],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "table",
+      "number": 1,
+      "id": "II-table-01",
+      "label": "tab:radial_mock_data_lineage",
+      "caption_tex": "Graph, reference, label, and query samples for the three controlled radial mocks. Labels in Radial Mock-3 are split within each octant in proportions $70\\%$, $15\\%$, and $15\\%$.",
+      "graphics_names": [],
+      "source_line": 3553,
+      "candidate_scripts": [],
+      "binding_status": "design_catalog_record",
+      "evidence": [],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "partially_checked",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Counts/design table: verify against catalog and partition metadata, not a fitted-result CSV. Listed plotting source, if any, only reads relevant catalog data.",
+        "Exact cell-to-output-column extraction not yet verified; no table-transcribed numbers are presented as raw computation outputs."
+      ],
+      "partial_evidence": {
+        "status": "partial_saved_metadata_match",
+        "matched": {
+          "I_graph": 10000,
+          "II_graph": 9922,
+          "III_graph": 10013,
+          "II_primary_query": 266,
+          "III_primary_query": 283,
+          "II_raw_query": 4966,
+          "III_raw_query": 4966
+        },
+        "sources": [
+          "mock1_complete_sphere/mock1.txt",
+          "mock2_schechter_selection/mock2.txt",
+          "mock3_inhomogeneous_survey/mock3.txt",
+          "mock2_final_geometry_local_sensitivity_v1/mock2_final_geometry_local_sensitivity_summary.json",
+          "mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_summary.json"
+        ],
+        "not_verified": "Particle-ID disjointness and full partition arrays require original catalogs and/or saved index arrays. Percentages are design proportions, not exact realized counts."
+      },
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "table",
+      "number": 2,
+      "id": "II-table-02",
+      "label": "tab:radial_mock3_octant_design",
+      "caption_tex": "Observed count and limiting apparent magnitude in each octant of Radial Mock-3.",
+      "graphics_names": [],
+      "source_line": 4057,
+      "candidate_scripts": [
+        "research_sources/paper_ii/paperII_radial_overview_figures.py"
+      ],
+      "binding_status": "design_catalog_record",
+      "evidence": [],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "printed_values_match",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Counts/design table: verify against catalog and partition metadata, not a fitted-result CSV. Listed plotting source, if any, only reads relevant catalog data.",
+        "Exact cell-to-output-column extraction not yet verified; no table-transcribed numbers are presented as raw computation outputs."
+      ],
+      "numeric_checks": 16,
+      "matching_checks": 16,
+      "saved_result_sources": [
+        "mock3_inhomogeneous_survey/mock3.txt"
+      ],
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "table",
+      "number": 3,
+      "id": "II-table-03",
+      "label": "tab:radial_closure_summary",
+      "caption_tex": "In-span closure of the potential-gradient basis, including query-point gradient extension beyond the observed graph for Mocks 2 and 3.",
+      "graphics_names": [],
+      "source_line": 4812,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock1_potential_flow_full_robustness_single_cell_v5.py",
+        "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py",
+        "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py"
+      ],
+      "binding_status": "candidate_analysis_family_not_table_export_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock1_potential_flow_full_robustness_single_cell_v5.py",
+          "line": 69,
+          "text": "OUTPUT_PREFIX = \"mock1_potential_flow_full_robustness\""
+        },
+        {
+          "script": "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py",
+          "line": 156,
+          "text": "OUTPUT_PREFIX = \"mock2_radial_potential_highmode_capacity_h3\""
+        },
+        {
+          "script": "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py",
+          "line": 2696,
+          "text": "OUTPUT_PREFIX = \"mock2_radial_potential_highmode_seed_robustness\""
+        },
+        {
+          "script": "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py",
+          "line": 174,
+          "text": "OUTPUT_PREFIX = \"mock3_radial_potential_highmode_capacity_h2\""
+        },
+        {
+          "script": "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py",
+          "line": 3774,
+          "text": "OUTPUT_PREFIX = \"mock3_radial_potential_highmode_seed_robustness\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "partially_checked",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Table concerns legacy 3/131/514 closure; high-mode closure summaries must not be substituted. Recover exact low-mode outputs and provenance.",
+        "Exact cell-to-output-column extraction not yet verified; no table-transcribed numbers are presented as raw computation outputs."
+      ],
+      "partial_evidence": {
+        "status": "partial_saved_closure_match",
+        "mock1_max_basis": 514,
+        "mock1_max_saved_3d_nrmse": 5.174232536380223e-15,
+        "mock1_514_below_1e14": true,
+        "source": "mock1_potential_flow_full_robustness_v5/mock1_potential_flow_full_robustness_closure.csv",
+        "not_verified": "Low-capacity 3/131/514 closure tables for Mock-2/3, and the 3/131 tests in Mock-1, are not included in this review bundle. High-mode closure is a distinct experiment and was not substituted."
+      },
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "table",
+      "number": 4,
+      "id": "II-table-04",
+      "label": "tab:radial_mock1_model_comparison",
+      "caption_tex": "Mean performance of the unconstrained Cartesian and potential-flow models in the five Radial Mock-1 replicates. Uncertainties are standard deviations across replicates.",
+      "graphics_names": [],
+      "source_line": 4868,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock1_potential_flow_full_robustness_single_cell_v5.py"
+      ],
+      "binding_status": "candidate_analysis_family_not_table_export_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock1_potential_flow_full_robustness_single_cell_v5.py",
+          "line": 69,
+          "text": "OUTPUT_PREFIX = \"mock1_potential_flow_full_robustness\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "printed_values_match",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Exact cell-to-output-column extraction not yet verified; no table-transcribed numbers are presented as raw computation outputs."
+      ],
+      "numeric_checks": 48,
+      "matching_checks": 48,
+      "saved_result_sources": [
+        "mock1_potential_flow_full_robustness_v5/mock1_potential_flow_full_robustness_scale_model_summary.csv"
+      ],
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "figure",
+      "number": 3,
+      "id": "II-figure-03",
+      "label": "fig:radial_mock1_potential_constraint",
+      "caption_tex": "Three-dimensional NRMSE versus reference smoothing scale in Radial Mock-1. Small points show individual replicates; markers and error bars show means and standard deviations. The potential-flow model outperforms the unconstrained model in every case.",
+      "graphics_names": [
+        "mock1_potential_flow_full_robustness_summary_3d_nrmse_by_scale"
+      ],
+      "source_line": 4969,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock1_potential_flow_full_robustness_single_cell_v5.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock1_potential_flow_full_robustness_single_cell_v5.py",
+          "line": 69,
+          "text": "OUTPUT_PREFIX = \"mock1_potential_flow_full_robustness\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "inventory_name_only",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [],
+      "inventory_image_entries": [
+        "mock1_potential_flow_full_robustness_v5/mock1_potential_flow_full_robustness_summary_3d_nrmse_by_scale.pdf",
+        "mock1_potential_flow_full_robustness_v5/mock1_potential_flow_full_robustness_summary_3d_nrmse_by_scale.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "table",
+      "number": 5,
+      "id": "II-table-05",
+      "label": "tab:radial_mock2_highmode_capacity",
+      "caption_tex": "High-mode capacity selection in Radial Mock-2, aggregated over ten label splits. Uncertainties in validation NRMSE are standard errors across splits.",
+      "graphics_names": [],
+      "source_line": 5022,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py"
+      ],
+      "binding_status": "candidate_analysis_family_not_table_export_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py",
+          "line": 156,
+          "text": "OUTPUT_PREFIX = \"mock2_radial_potential_highmode_capacity_h3\""
+        },
+        {
+          "script": "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py",
+          "line": 2696,
+          "text": "OUTPUT_PREFIX = \"mock2_radial_potential_highmode_seed_robustness\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "printed_values_match",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Exact cell-to-output-column extraction not yet verified; no table-transcribed numbers are presented as raw computation outputs."
+      ],
+      "numeric_checks": 24,
+      "matching_checks": 24,
+      "saved_result_sources": [
+        "mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_capacity_selection.csv",
+        "mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_global_practical_policy.csv"
+      ],
+      "release_0_1_0rc1_execution": "Capacity decisions recalculated from saved curves"
+    },
+    {
+      "paper": "II",
+      "kind": "figure",
+      "number": 4,
+      "id": "II-figure-04",
+      "label": "fig:radial_mock2_highmode_capacity",
+      "caption_tex": "Capacity robustness in Radial Mock-2. Panels (a) and (b) show radial validation and hidden three-dimensional validation NRMSE; panel (c) shows weighted-minus-unweighted radial contrasts; panel (d) compares raw, one-standard-error, plateau, and combined practical capacities. Vertical dotted lines mark the former limit $n_{\\theta}=514$.",
+      "graphics_names": [
+        "mock2_radial_potential_highmode_seed_robustness_capacity_seed_robustness_composite"
+      ],
+      "source_line": 5121,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py",
+          "line": 156,
+          "text": "OUTPUT_PREFIX = \"mock2_radial_potential_highmode_capacity_h3\""
+        },
+        {
+          "script": "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py",
+          "line": 2696,
+          "text": "OUTPUT_PREFIX = \"mock2_radial_potential_highmode_seed_robustness\""
+        },
+        {
+          "script": "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py",
+          "line": 4720,
+          "text": "_save_figure(fig, \"capacity_seed_robustness_composite\")"
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "inventory_name_only",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [],
+      "inventory_image_entries": [
+        "mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_capacity_seed_robustness_composite.pdf",
+        "mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_capacity_seed_robustness_composite.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "table",
+      "number": 6,
+      "id": "II-table-06",
+      "label": "tab:radial_mock2_highmode_paired",
+      "caption_tex": "Paired weighted-minus-unweighted three-dimensional NRMSE contrasts in Radial Mock-2. Brackets give $95\\%$ seed-bootstrap intervals; positive values favor the unweighted loss.",
+      "graphics_names": [],
+      "source_line": 5153,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py"
+      ],
+      "binding_status": "candidate_analysis_family_not_table_export_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py",
+          "line": 156,
+          "text": "OUTPUT_PREFIX = \"mock2_radial_potential_highmode_capacity_h3\""
+        },
+        {
+          "script": "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py",
+          "line": 2696,
+          "text": "OUTPUT_PREFIX = \"mock2_radial_potential_highmode_seed_robustness\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "printed_values_match",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Exact cell-to-output-column extraction not yet verified; no table-transcribed numbers are presented as raw computation outputs."
+      ],
+      "numeric_checks": 36,
+      "matching_checks": 36,
+      "saved_result_sources": [
+        "mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_paired_summary.csv"
+      ],
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "figure",
+      "number": 5,
+      "id": "II-figure-05",
+      "label": "fig:radial_mock2_highmode_weighting",
+      "caption_tex": "Paired weighted-minus-unweighted three-dimensional NRMSE contrasts in Radial Mock-2 for retuned and matched practical protocols. Each point is one label split; positive values favor the unweighted loss.",
+      "graphics_names": [
+        "mock2_radial_potential_highmode_seed_robustness_paired_weighting_contrasts_by_seed"
+      ],
+      "source_line": 5276,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py",
+          "line": 156,
+          "text": "OUTPUT_PREFIX = \"mock2_radial_potential_highmode_capacity_h3\""
+        },
+        {
+          "script": "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py",
+          "line": 2696,
+          "text": "OUTPUT_PREFIX = \"mock2_radial_potential_highmode_seed_robustness\""
+        },
+        {
+          "script": "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py",
+          "line": 4831,
+          "text": "_save_figure(fig, \"paired_weighting_contrasts_by_seed\")"
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "inventory_name_only",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [],
+      "inventory_image_entries": [
+        "mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_paired_weighting_contrasts_by_seed.pdf",
+        "mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_paired_weighting_contrasts_by_seed.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "figure",
+      "number": 6,
+      "id": "II-figure-06",
+      "label": "fig:radial_mock2_selector_capacity",
+      "caption_tex": "Capacity selected by observable radial and hidden three-dimensional criteria in Radial Mock-2. Panel (a) compares raw and practical selections; panel (b) shows the raw radial-minus-hidden capacity difference for the unweighted family.",
+      "graphics_names": [
+        "mock2_radial_potential_highmode_seed_robustness_selector_capacity_mismatch"
+      ],
+      "source_line": 5287,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py",
+          "line": 156,
+          "text": "OUTPUT_PREFIX = \"mock2_radial_potential_highmode_capacity_h3\""
+        },
+        {
+          "script": "research_sources/paper_ii/mock2_radial_potential_highmode_seed_robustness_v1.py",
+          "line": 2696,
+          "text": "OUTPUT_PREFIX = \"mock2_radial_potential_highmode_seed_robustness\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "inventory_name_only",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [],
+      "inventory_image_entries": [
+        "mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_selector_capacity_mismatch.pdf",
+        "mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_selector_capacity_mismatch.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "table",
+      "number": 7,
+      "id": "II-table-07",
+      "label": "tab:radial_mock3_highmode_capacity",
+      "caption_tex": "High-mode capacity selection in Radial Mock-3, aggregated over ten octant-stratified label splits. Uncertainties are standard errors across splits.",
+      "graphics_names": [],
+      "source_line": 5347,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py"
+      ],
+      "binding_status": "candidate_analysis_family_not_table_export_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py",
+          "line": 174,
+          "text": "OUTPUT_PREFIX = \"mock3_radial_potential_highmode_capacity_h2\""
+        },
+        {
+          "script": "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py",
+          "line": 3774,
+          "text": "OUTPUT_PREFIX = \"mock3_radial_potential_highmode_seed_robustness\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "printed_values_match",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Exact cell-to-output-column extraction not yet verified; no table-transcribed numbers are presented as raw computation outputs."
+      ],
+      "numeric_checks": 24,
+      "matching_checks": 24,
+      "saved_result_sources": [
+        "mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_capacity_selection.csv",
+        "mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_global_practical_policy.csv"
+      ],
+      "release_0_1_0rc1_execution": "Capacity decisions recalculated from saved curves"
+    },
+    {
+      "paper": "II",
+      "kind": "figure",
+      "number": 7,
+      "id": "II-figure-07",
+      "label": "fig:radial_mock3_highmode_capacity",
+      "caption_tex": "Capacity robustness in Radial Mock-3. Panels (a) and (b) show radial and hidden three-dimensional validation NRMSE; panel (c) shows weighted-minus-unweighted radial contrasts; panel (d) compares raw and practical capacity rules. Vertical dotted lines mark the former limit $n_{\\theta}=514$.",
+      "graphics_names": [
+        "mock3_radial_potential_highmode_seed_robustness_capacity_seed_robustness_composite.png"
+      ],
+      "source_line": 5441,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py",
+          "line": 174,
+          "text": "OUTPUT_PREFIX = \"mock3_radial_potential_highmode_capacity_h2\""
+        },
+        {
+          "script": "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py",
+          "line": 3774,
+          "text": "OUTPUT_PREFIX = \"mock3_radial_potential_highmode_seed_robustness\""
+        },
+        {
+          "script": "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py",
+          "line": 6205,
+          "text": "_save_figure(fig, \"capacity_seed_robustness_composite\")"
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "inventory_name_only",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Previously supplied full-script panel-d fix is recovered. Prior assembled PNG retained old panels (a)-(c); it was not a full regenerated numerical run."
+      ],
+      "saved_output_records": [],
+      "inventory_image_entries": [
+        "mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_capacity_seed_robustness_composite.pdf",
+        "mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_capacity_seed_robustness_composite.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "figure",
+      "number": 8,
+      "id": "II-figure-08",
+      "label": "fig:radial_mock3_highmode_weighting",
+      "caption_tex": "Paired effects of selection weighting in Radial Mock-3. Panels show radial and three-dimensional NRMSE contrasts, octant-dispersion contrasts, and boundary-near three-dimensional contrasts for retuned or matched practical protocols. Positive NRMSE contrasts favor the unweighted loss.",
+      "graphics_names": [
+        "mock3_radial_potential_highmode_seed_robustness_paired_weighting_contrasts_by_seed.png"
+      ],
+      "source_line": 5507,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py",
+          "line": 174,
+          "text": "OUTPUT_PREFIX = \"mock3_radial_potential_highmode_capacity_h2\""
+        },
+        {
+          "script": "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py",
+          "line": 3774,
+          "text": "OUTPUT_PREFIX = \"mock3_radial_potential_highmode_seed_robustness\""
+        },
+        {
+          "script": "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py",
+          "line": 6312,
+          "text": "_save_figure(fig, \"paired_weighting_contrasts_by_seed\")"
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "inventory_name_only",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [],
+      "inventory_image_entries": [
+        "mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_paired_weighting_contrasts_by_seed.pdf",
+        "mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_paired_weighting_contrasts_by_seed.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "table",
+      "number": 8,
+      "id": "II-table-08",
+      "label": "tab:radial_mock3_octant_summary",
+      "caption_tex": "Ten-seed mean of octant-resolved three-dimensional NRMSE under the practical policy in Radial Mock-3. Mean and dispersion are computed across the eight octants; worst and best are their extrema.",
+      "graphics_names": [],
+      "source_line": 5518,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py"
+      ],
+      "binding_status": "candidate_analysis_family_not_table_export_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py",
+          "line": 174,
+          "text": "OUTPUT_PREFIX = \"mock3_radial_potential_highmode_capacity_h2\""
+        },
+        {
+          "script": "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py",
+          "line": 3774,
+          "text": "OUTPUT_PREFIX = \"mock3_radial_potential_highmode_seed_robustness\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "printed_values_match",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Exact cell-to-output-column extraction not yet verified; no table-transcribed numbers are presented as raw computation outputs."
+      ],
+      "numeric_checks": 24,
+      "matching_checks": 24,
+      "saved_result_sources": [
+        "mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_octant_robustness.csv"
+      ],
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "figure",
+      "number": 9,
+      "id": "II-figure-09",
+      "label": "fig:radial_mock3_selector_capacity",
+      "caption_tex": "Capacity selected by observable radial and hidden three-dimensional criteria in Radial Mock-3. Raw selectors disagree in every split, whereas the practical selectors choose $n_{\\theta}=3842$ in all ten.",
+      "graphics_names": [
+        "mock3_radial_potential_highmode_seed_robustness_selector_capacity_mismatch.png"
+      ],
+      "source_line": 5639,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py",
+          "line": 174,
+          "text": "OUTPUT_PREFIX = \"mock3_radial_potential_highmode_capacity_h2\""
+        },
+        {
+          "script": "research_sources/paper_ii/mock3_radial_potential_highmode_seed_robustness_v1_fixed_panel_d.py",
+          "line": 3774,
+          "text": "OUTPUT_PREFIX = \"mock3_radial_potential_highmode_seed_robustness\""
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "inventory_name_only",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [],
+      "inventory_image_entries": [
+        "mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_selector_capacity_mismatch.pdf",
+        "mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_selector_capacity_mismatch.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "table",
+      "number": 9,
+      "id": "II-table-09",
+      "label": "tab:homoscedastic_capacity_selection",
+      "caption_tex": "Nested capacity selection across five seed pairs. Validation-NRMSE uncertainties are standard errors among seed-pair means.",
+      "graphics_names": [],
+      "source_line": 5784,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1.py"
+      ],
+      "binding_status": "candidate_analysis_family_not_table_export_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1.py",
+          "line": 138,
+          "text": "OUTPUT_PREFIX = 'mock1_potential_flow_measurement_noise_stage1b_seed_robustness'"
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "printed_values_match",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Exact cell-to-output-column extraction not yet verified; no table-transcribed numbers are presented as raw computation outputs."
+      ],
+      "numeric_checks": 36,
+      "matching_checks": 36,
+      "saved_result_sources": [
+        "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_capacity_selection.csv"
+      ],
+      "release_0_1_0rc1_execution": "Capacity decisions recalculated from saved curves"
+    },
+    {
+      "paper": "II",
+      "kind": "figure",
+      "number": 10,
+      "id": "II-figure-10",
+      "label": "fig:homoscedastic_capacity_seed_robustness",
+      "caption_tex": "Nested capacity selection under homoscedastic noise. Panels show observable radial validation risk, hidden three-dimensional test risk, four capacity rules, and the boundary-selection rate with the final validation increment.",
+      "graphics_names": [
+        "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_capacity_seed_robustness_composite"
+      ],
+      "source_line": 5883,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1.py",
+          "line": 138,
+          "text": "OUTPUT_PREFIX = 'mock1_potential_flow_measurement_noise_stage1b_seed_robustness'"
+        },
+        {
+          "script": "research_sources/paper_ii/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1.py",
+          "line": 3405,
+          "text": "save_figure(fig, 'capacity_seed_robustness_composite')"
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "inventory_name_only",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [],
+      "inventory_image_entries": [
+        "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_capacity_seed_robustness_composite.pdf",
+        "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_capacity_seed_robustness_composite.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "figure",
+      "number": 11,
+      "id": "II-figure-11",
+      "label": "fig:homoscedastic_noise_response",
+      "caption_tex": "Noise response at the combined practical basis. Panels show latent radial, hidden tangential, and hidden three-dimensional test NRMSE, selected capacity, standardized noisy-radial residuals, and empirical conditional coverage.",
+      "graphics_names": [
+        "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_noise_response_practical_composite"
+      ],
+      "source_line": 5921,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1.py",
+          "line": 138,
+          "text": "OUTPUT_PREFIX = 'mock1_potential_flow_measurement_noise_stage1b_seed_robustness'"
+        },
+        {
+          "script": "research_sources/paper_ii/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1.py",
+          "line": 3480,
+          "text": "save_figure(fig, 'noise_response_practical_composite')"
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "inventory_name_only",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [],
+      "inventory_image_entries": [
+        "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_noise_response_practical_composite.pdf",
+        "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_noise_response_practical_composite.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "figure",
+      "number": 12,
+      "id": "II-figure-12",
+      "label": "fig:homoscedastic_selector_policy",
+      "caption_tex": "Comparison of capacity-selection policies. Panel (a) shows test risk for the combined practical, raw radial, and hidden three-dimensional selectors; panel (b) shows configuration agreement with the hidden selector.",
+      "graphics_names": [
+        "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_selector_policy_comparison"
+      ],
+      "source_line": 5934,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1.py",
+          "line": 138,
+          "text": "OUTPUT_PREFIX = 'mock1_potential_flow_measurement_noise_stage1b_seed_robustness'"
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "inventory_name_only",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [],
+      "inventory_image_entries": [
+        "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_selector_policy_comparison.pdf",
+        "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_selector_policy_comparison.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "table",
+      "number": 10,
+      "id": "II-table-10",
+      "label": "tab:heteroscedastic_capacity_selection",
+      "caption_tex": "Capacity selection under heteroscedastic noise. The middle columns give each working model's raw validation minimum; the final column gives the common practical basis from the one-standard-error and plateau criteria.",
+      "graphics_names": [],
+      "source_line": 6111,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock1_potential_flow_heteroscedastic_noise_stage2_v1.py"
+      ],
+      "binding_status": "candidate_analysis_family_not_table_export_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock1_potential_flow_heteroscedastic_noise_stage2_v1.py",
+          "line": 105,
+          "text": "OUTPUT_PREFIX = 'mock1_potential_flow_heteroscedastic_noise_stage2'"
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "printed_values_match",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Exact cell-to-output-column extraction not yet verified; no table-transcribed numbers are presented as raw computation outputs."
+      ],
+      "numeric_checks": 30,
+      "matching_checks": 30,
+      "saved_result_sources": [
+        "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_selection.csv"
+      ],
+      "release_0_1_0rc1_execution": "Capacity decisions recalculated from saved curves"
+    },
+    {
+      "paper": "II",
+      "kind": "figure",
+      "number": 13,
+      "id": "II-figure-13",
+      "label": "fig:heteroscedastic_capacity_precision",
+      "caption_tex": "Capacity and precision diagnostics under heteroscedastic noise. Panels show the practical parameter count, model-specific whitened validation score, regularized effective degrees of freedom, and precision-weight effective sample size. Whitened scores are not comparable across working models.",
+      "graphics_names": [
+        "mock1_potential_flow_heteroscedastic_noise_stage2_capacity_precision_composite"
+      ],
+      "source_line": 6173,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock1_potential_flow_heteroscedastic_noise_stage2_v1.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock1_potential_flow_heteroscedastic_noise_stage2_v1.py",
+          "line": 105,
+          "text": "OUTPUT_PREFIX = 'mock1_potential_flow_heteroscedastic_noise_stage2'"
+        },
+        {
+          "script": "research_sources/paper_ii/mock1_potential_flow_heteroscedastic_noise_stage2_v1.py",
+          "line": 3868,
+          "text": "save_figure(fig, 'capacity_precision_composite')"
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "inventory_name_only",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [],
+      "inventory_image_entries": [
+        "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_precision_composite.pdf",
+        "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_precision_composite.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "table",
+      "number": 11,
+      "id": "II-table-11",
+      "label": "tab:heteroscedastic_practical_field_risk",
+      "caption_tex": "Retuned practical field-recovery risk under heteroscedastic noise. Each cell gives equally weighted latent radial NRMSE above hidden three-dimensional NRMSE, averaged over five seed-pair means.",
+      "graphics_names": [],
+      "source_line": 6189,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock1_potential_flow_heteroscedastic_noise_stage2_v1.py"
+      ],
+      "binding_status": "candidate_analysis_family_not_table_export_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock1_potential_flow_heteroscedastic_noise_stage2_v1.py",
+          "line": 105,
+          "text": "OUTPUT_PREFIX = 'mock1_potential_flow_heteroscedastic_noise_stage2'"
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "printed_values_match",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Exact cell-to-output-column extraction not yet verified; no table-transcribed numbers are presented as raw computation outputs."
+      ],
+      "numeric_checks": 30,
+      "matching_checks": 30,
+      "saved_result_sources": [
+        "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_aggregate.csv"
+      ],
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "table",
+      "number": 12,
+      "id": "II-table-12",
+      "label": "tab:heteroscedastic_gls_ols_matched",
+      "caption_tex": "Matched OLS-minus-Correct-GLS NRMSE contrasts at the practical configuration selected by Correct GLS. Brackets are $95\\%$ hierarchical-bootstrap intervals with seed pairs as the top-level units; positive values favor Correct GLS.",
+      "graphics_names": [],
+      "source_line": 6339,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock1_potential_flow_heteroscedastic_noise_stage2_v1.py"
+      ],
+      "binding_status": "candidate_analysis_family_not_table_export_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock1_potential_flow_heteroscedastic_noise_stage2_v1.py",
+          "line": 105,
+          "text": "OUTPUT_PREFIX = 'mock1_potential_flow_heteroscedastic_noise_stage2'"
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "printed_values_match",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Exact cell-to-output-column extraction not yet verified; no table-transcribed numbers are presented as raw computation outputs."
+      ],
+      "numeric_checks": 30,
+      "matching_checks": 30,
+      "saved_result_sources": [
+        "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_paired_summary.csv"
+      ],
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "figure",
+      "number": 14,
+      "id": "II-figure-14",
+      "label": "fig:heteroscedastic_estimator_contrasts",
+      "caption_tex": "Matched estimator contrasts under heteroscedastic noise. Panels show latent radial and hidden three-dimensional NRMSE differences for OLS or flattened-profile GLS relative to Correct GLS. Error bars are $95\\%$ hierarchical-bootstrap intervals; positive values favor Correct GLS.",
+      "graphics_names": [
+        "mock1_potential_flow_heteroscedastic_noise_stage2_paired_estimator_contrasts"
+      ],
+      "source_line": 6429,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock1_potential_flow_heteroscedastic_noise_stage2_v1.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock1_potential_flow_heteroscedastic_noise_stage2_v1.py",
+          "line": 105,
+          "text": "OUTPUT_PREFIX = 'mock1_potential_flow_heteroscedastic_noise_stage2'"
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "inventory_name_only",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [],
+      "inventory_image_entries": [
+        "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_paired_estimator_contrasts.pdf",
+        "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_paired_estimator_contrasts.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "table",
+      "number": 13,
+      "id": "II-table-13",
+      "label": "tab:heteroscedastic_correct_gls_coverage",
+      "caption_tex": "Conditional calibration of the retuned Correct-GLS practical policy with unit global measurement-error scale. Coverage is conditional on the selected model and working covariance and is not total physical-field uncertainty.",
+      "graphics_names": [],
+      "source_line": 6459,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock1_potential_flow_heteroscedastic_noise_stage2_v1.py"
+      ],
+      "binding_status": "candidate_analysis_family_not_table_export_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock1_potential_flow_heteroscedastic_noise_stage2_v1.py",
+          "line": 105,
+          "text": "OUTPUT_PREFIX = 'mock1_potential_flow_heteroscedastic_noise_stage2'"
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "printed_values_match",
+      "full_recomputation": "not_run",
+      "notes": [
+        "Exact cell-to-output-column extraction not yet verified; no table-transcribed numbers are presented as raw computation outputs."
+      ],
+      "numeric_checks": 15,
+      "matching_checks": 15,
+      "saved_result_sources": [
+        "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_aggregate.csv"
+      ],
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    },
+    {
+      "paper": "II",
+      "kind": "figure",
+      "number": 15,
+      "id": "II-figure-15",
+      "label": "fig:heteroscedastic_residual_coverage",
+      "caption_tex": "Residual calibration and conditional coverage under heteroscedastic noise. Panels show standardized held-out radial residuals, model-based $68\\%$ and $95\\%$ observed-radial coverage, and the response of $95\\%$ coverage to the assumed global error scale.",
+      "graphics_names": [
+        "mock1_potential_flow_heteroscedastic_noise_stage2_residual_coverage_composite"
+      ],
+      "source_line": 6490,
+      "candidate_scripts": [
+        "research_sources/paper_ii/mock1_potential_flow_heteroscedastic_noise_stage2_v1.py"
+      ],
+      "binding_status": "candidate_output_family_not_execution_verified",
+      "evidence": [
+        {
+          "script": "research_sources/paper_ii/mock1_potential_flow_heteroscedastic_noise_stage2_v1.py",
+          "line": 105,
+          "text": "OUTPUT_PREFIX = 'mock1_potential_flow_heteroscedastic_noise_stage2'"
+        }
+      ],
+      "input_data_status": "not_yet_recovered_for_reproduction",
+      "saved_result_match": "inventory_name_only",
+      "full_recomputation": "not_run",
+      "notes": [],
+      "saved_output_records": [],
+      "inventory_image_entries": [
+        "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_residual_coverage_composite.pdf",
+        "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_residual_coverage_composite.png"
+      ],
+      "figure_regenerated_this_review": false,
+      "exact_plotting_source_execution_verified": false,
+      "release_0_1_0rc1_execution": "Source/saved-output provenance only; see JSON notes"
+    }
+  ],
+  "review_snapshot": "2026-09-22"
+}

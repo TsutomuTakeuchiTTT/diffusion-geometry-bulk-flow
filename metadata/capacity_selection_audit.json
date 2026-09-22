@@ -1,0 +1,472 @@
+{
+  "scope": "Recomputed from saved capacity means/SEs; no coefficient refitting or eigensolver run.",
+  "families": 27,
+  "all_match": true,
+  "details": [
+    {
+      "source": "mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_capacity_aggregate.csv",
+      "summary": "mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_capacity_selection.csv",
+      "group": "unweighted",
+      "recomputed": {
+        "validation_minimum_basis": 4098,
+        "one_standard_error_basis": 3074,
+        "practical_plateau_basis": 3074,
+        "combined_practical_basis": 3074
+      },
+      "match": true
+    },
+    {
+      "source": "mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_capacity_aggregate.csv",
+      "summary": "mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_capacity_selection.csv",
+      "group": "optimized_gamma0p75_cap20",
+      "recomputed": {
+        "validation_minimum_basis": 4098,
+        "one_standard_error_basis": 2818,
+        "practical_plateau_basis": 2818,
+        "combined_practical_basis": 2818
+      },
+      "match": true
+    },
+    {
+      "source": "mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_capacity_aggregate.csv",
+      "summary": "mock2_radial_potential_highmode_seed_robustness_v1/mock2_radial_potential_highmode_seed_robustness_capacity_selection.csv",
+      "group": "previous_mock2_gamma1p00_cap50",
+      "recomputed": {
+        "validation_minimum_basis": 4098,
+        "one_standard_error_basis": 2818,
+        "practical_plateau_basis": 2818,
+        "combined_practical_basis": 2818
+      },
+      "match": true
+    },
+    {
+      "source": "mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_capacity_aggregate.csv",
+      "summary": "mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_capacity_selection.csv",
+      "group": "unweighted",
+      "recomputed": {
+        "validation_minimum_basis": 4354,
+        "one_standard_error_basis": 3842,
+        "practical_plateau_basis": 2818,
+        "combined_practical_basis": 3842
+      },
+      "match": true
+    },
+    {
+      "source": "mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_capacity_aggregate.csv",
+      "summary": "mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_capacity_selection.csv",
+      "group": "global_g0p75_cap20",
+      "recomputed": {
+        "validation_minimum_basis": 4354,
+        "one_standard_error_basis": 3842,
+        "practical_plateau_basis": 2818,
+        "combined_practical_basis": 3842
+      },
+      "match": true
+    },
+    {
+      "source": "mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_capacity_aggregate.csv",
+      "summary": "mock3_radial_potential_highmode_seed_robustness_v1/mock3_radial_potential_highmode_seed_robustness_capacity_selection.csv",
+      "group": "octant_g1p00_cap20",
+      "recomputed": {
+        "validation_minimum_basis": 4354,
+        "one_standard_error_basis": 3842,
+        "practical_plateau_basis": 2818,
+        "combined_practical_basis": 3842
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_capacity_selection.csv",
+      "group": "0.0",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1539
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_capacity_selection.csv",
+      "group": "0.05",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1539
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_capacity_selection.csv",
+      "group": "0.1",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1539
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_capacity_selection.csv",
+      "group": "0.2",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1283,
+        "combined_practical_basis": 1539
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_capacity_selection.csv",
+      "group": "0.4",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 1539,
+        "one_standard_error_basis": 1027,
+        "practical_plateau_basis": 514,
+        "combined_practical_basis": 1027
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_capacity_selection.csv",
+      "group": "0.8",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 514,
+        "one_standard_error_basis": 387,
+        "practical_plateau_basis": 514,
+        "combined_practical_basis": 514
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_selection.csv",
+      "group": "0.05/gls_correct",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1283,
+        "combined_practical_basis": 1539
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_selection.csv",
+      "group": "0.1/gls_correct",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1795,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1795
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_selection.csv",
+      "group": "0.2/gls_correct",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1795,
+        "practical_plateau_basis": 1283,
+        "combined_practical_basis": 1795
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_selection.csv",
+      "group": "0.4/gls_correct",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 1795,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 643,
+        "combined_practical_basis": 1539
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_selection.csv",
+      "group": "0.8/gls_correct",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 643,
+        "one_standard_error_basis": 387,
+        "practical_plateau_basis": 514,
+        "combined_practical_basis": 514
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_selection.csv",
+      "group": "0.05/gls_flattened",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1539
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_selection.csv",
+      "group": "0.1/gls_flattened",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1795,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1795
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_selection.csv",
+      "group": "0.2/gls_flattened",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1795,
+        "practical_plateau_basis": 1283,
+        "combined_practical_basis": 1795
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_selection.csv",
+      "group": "0.4/gls_flattened",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 1795,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 643,
+        "combined_practical_basis": 1539
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_selection.csv",
+      "group": "0.8/gls_flattened",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 643,
+        "one_standard_error_basis": 387,
+        "practical_plateau_basis": 514,
+        "combined_practical_basis": 514
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_selection.csv",
+      "group": "0.05/ols",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1539
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_selection.csv",
+      "group": "0.1/ols",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1795,
+        "practical_plateau_basis": 1539,
+        "combined_practical_basis": 1795
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_selection.csv",
+      "group": "0.2/ols",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 2050,
+        "one_standard_error_basis": 1795,
+        "practical_plateau_basis": 1283,
+        "combined_practical_basis": 1795
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_selection.csv",
+      "group": "0.4/ols",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 1539,
+        "one_standard_error_basis": 1539,
+        "practical_plateau_basis": 643,
+        "combined_practical_basis": 1539
+      },
+      "match": true
+    },
+    {
+      "source": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_selection.csv",
+      "group": "0.8/ols",
+      "plateau_min_parameter_count": 514,
+      "one_se_min_parameter_count": 3,
+      "threshold": 0.02,
+      "steps": 2,
+      "recomputed": {
+        "validation_minimum_basis": 514,
+        "one_standard_error_basis": 387,
+        "practical_plateau_basis": 514,
+        "combined_practical_basis": 514
+      },
+      "match": true
+    }
+  ],
+  "source_only_parameter": {
+    "name": "PLATEAU_MIN_PARAMETER_COUNT",
+    "value": 514,
+    "applies_to": "Mock-1 homoscedastic Stage1b and heteroscedastic Stage2, plateau detection ONLY.",
+    "does_not_restrict": "Raw minimum or one-standard-error search, which start at 3 parameters.",
+    "evidence": "Both recovered source defaults are 514; this reproduces all saved capacities. This is not a recovered historical environment-variable record."
+  },
+  "unrestricted_plateau_sensitivity": [
+    {
+      "source": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_measurement_noise_stage1b_seed_robustness_v1/mock1_potential_flow_measurement_noise_stage1b_seed_robustness_capacity_selection.csv",
+      "group": "0.8",
+      "recomputed": {
+        "validation_minimum_basis": 514,
+        "one_standard_error_basis": 387,
+        "practical_plateau_basis": 3,
+        "combined_practical_basis": 387
+      },
+      "match": false
+    },
+    {
+      "source": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_selection.csv",
+      "group": "0.8/gls_correct",
+      "recomputed": {
+        "validation_minimum_basis": 643,
+        "one_standard_error_basis": 387,
+        "practical_plateau_basis": 259,
+        "combined_practical_basis": 387
+      },
+      "match": false
+    },
+    {
+      "source": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_selection.csv",
+      "group": "0.8/gls_flattened",
+      "recomputed": {
+        "validation_minimum_basis": 643,
+        "one_standard_error_basis": 387,
+        "practical_plateau_basis": 259,
+        "combined_practical_basis": 387
+      },
+      "match": false
+    },
+    {
+      "source": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_aggregate.csv",
+      "summary": "mock1_potential_flow_heteroscedastic_noise_stage2_v1/mock1_potential_flow_heteroscedastic_noise_stage2_capacity_selection.csv",
+      "group": "0.8/ols",
+      "recomputed": {
+        "validation_minimum_basis": 514,
+        "one_standard_error_basis": 387,
+        "practical_plateau_basis": 3,
+        "combined_practical_basis": 387
+      },
+      "match": false
+    }
+  ]
+}

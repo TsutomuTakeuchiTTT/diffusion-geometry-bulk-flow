@@ -1,0 +1,38 @@
+{
+  "papers": [
+    {
+      "paper": "I",
+      "title": "Diffusion Geometry for Galaxy Bulk-Flow Reconstruction I: Foundations and Full-Vector Validation",
+      "source_basename": "Diffusion_Geometry_Bulk_Flow_I_PRD_compressed_local_corrections.tex",
+      "sha256": "82575b859ac8c2b55c5e21069b4f68b62cbb25356e98621c36cf69969a42a847",
+      "bytes": 168263,
+      "snapshot_status": "Inventory basis only; manuscript not modified or included in repository. Paper II snapshot predates later agreed local wording corrections.",
+      "publication_status": "Publication identifiers not established in this preparation",
+      "authors_as_listed_in_manuscript": [
+        "Tsutomu T. Takeuchi",
+        "Gayathri Asok",
+        "Hai-Xia Ma",
+        "Yu Ogane"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Diffusion Geometry for Galaxy Bulk-Flow Reconstruction II: Three-Dimensional Potential-Flow Reconstruction from Radial Velocities",
+      "source_basename": "Diffusion_Geometry_Bulk_Flow_II_PRD_compressed_tableII_linewidth.tex",
+      "sha256": "8685823742572ddf51a46434a1398b822ae290896dbda9592b329ca5b5243509",
+      "bytes": 209927,
+      "snapshot_status": "Inventory basis only; manuscript not modified or included in repository. Paper II snapshot predates later agreed local wording corrections.",
+      "publication_status": "Publication identifiers not established in this preparation",
+      "authors_as_listed_in_manuscript": [
+        "Tsutomu T. Takeuchi",
+        "Gayathri Asok",
+        "Hai-Xia Ma",
+        "Yu Ogane"
+      ]
+    }
+  ],
+  "doi": "10.5281/zenodo.22898864",
+  "repository_url": "https://github.com/TsutomuTakeuchiTTT/diffusion-geometry-bulk-flow",
+  "version_tag": "v0.1.0",
+  "coauthor_consent": "Public release consent reported by maintainer; four-person software credit and order confirmed on 2026-09-22."
+}

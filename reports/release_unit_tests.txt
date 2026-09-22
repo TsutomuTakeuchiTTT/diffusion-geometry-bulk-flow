@@ -1,0 +1,26 @@
+test_function_line_and_hash_recorded (test_original_function_loader.OriginalFunctionLoaderTests.test_function_line_and_hash_recorded) ... ok
+test_future_annotations_do_not_require_unknown_types (test_original_function_loader.OriginalFunctionLoaderTests.test_future_annotations_do_not_require_unknown_types) ... ok
+test_input_source_not_changed (test_original_function_loader.OriginalFunctionLoaderTests.test_input_source_not_changed) ... ok
+test_missing_function_rejected (test_original_function_loader.OriginalFunctionLoaderTests.test_missing_function_rejected) ... ok
+test_nonliteral_configuration_not_executed (test_original_function_loader.OriginalFunctionLoaderTests.test_nonliteral_configuration_not_executed) ... ok
+test_original_body_and_literal_constant (test_original_function_loader.OriginalFunctionLoaderTests.test_original_body_and_literal_constant) ... ok
+test_unguarded_driver_not_executed (test_original_function_loader.OriginalFunctionLoaderTests.test_unguarded_driver_not_executed) ... ok
+test_capacity_all_27 (test_release_tools.ReleaseTests.test_capacity_all_27) ... ok
+test_citation_yaml (test_release_tools.ReleaseTests.test_citation_yaml) ... ok
+test_deterministic_geometry (test_release_tools.ReleaseTests.test_deterministic_geometry) ... ok
+test_duplicate_capacity_rejected (test_release_tools.ReleaseTests.test_duplicate_capacity_rejected) ... ok
+test_export_preserves_known_discrepancies (test_release_tools.ReleaseTests.test_export_preserves_known_discrepancies) ... ok
+test_missing_plateau (test_release_tools.ReleaseTests.test_missing_plateau) ... ok
+test_no_private_user_paths (test_release_tools.ReleaseTests.test_no_private_user_paths) ... ok
+test_no_raw_catalogs_or_fonts (test_release_tools.ReleaseTests.test_no_raw_catalogs_or_fonts) ... ok
+test_nonfinite_risk_rejected (test_release_tools.ReleaseTests.test_nonfinite_risk_rejected) ... ok
+test_one_se_not_restricted_by_plateau_floor (test_release_tools.ReleaseTests.test_one_se_not_restricted_by_plateau_floor) ... ok
+test_source_count_and_path_scope (test_release_tools.ReleaseTests.test_source_count_and_path_scope) ... ok
+test_synthetic_geometry (test_release_tools.ReleaseTests.test_synthetic_geometry) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.248s
+
+OK
+Capacity decisions: 27/27 match saved choices.
+Exported 373 archived cell checks; 2 documented rounding differences retained.
