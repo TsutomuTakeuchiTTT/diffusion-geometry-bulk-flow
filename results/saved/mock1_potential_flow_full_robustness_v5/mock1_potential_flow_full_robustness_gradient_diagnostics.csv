@@ -1,0 +1,7 @@
+diagnostic,coordinate,naive_rms_error,naive_max_error,calibrated_rms_error,calibrated_max_error,kernel_nnz,mean_graph_degree,bandwidth_relative_error,metric_relative_error_vs_cache,metric_condition_median,metric_condition_p90,metric_condition_p99,metric_condition_max,metric_clipped_point_fraction,affine_rms_error,affine_max_error,quadratic_gradient_nrmse,constant_mode_gradient_rms,affine_projection_vector_rms,affine_projection_relative_orthogonality
+coordinate_x,x,0.8490123641337609,0.9737573108796271,4.328405009140548e-16,1.7943972333720942e-15,,,,,,,,,,,,,,,
+coordinate_y,y,0.8504748802270149,0.9640717003204791,5.889794280359741e-16,2.4713382301220095e-15,,,,,,,,,,,,,,,
+coordinate_z,z,0.8501265521837914,0.9701614785119453,4.838004899870302e-16,2.045863876631877e-15,,,,,,,,,,,,,,,
+graph_and_metric,,,,,,561454.0,56.1454,0.0,0.0,,,,,,,,,,,
+metric_condition,,,,,,,,,,1.9122299742357496,3.0581205887043166,4.7250751560029265,7.995128675704103,0.0,,,,,,
+affine_and_quadratic,,,,,,,,,,,,,,,8.67551452490397e-14,1.7114487112279348e-12,0.043776264854563665,1.7695642295365367e-15,0.005657568432706232,3.7404151808409444e-16

@@ -1,0 +1,4 @@
+metric,n_rows,max_abs_difference,mean_difference
+parent_normalized_rmse,20,7.008282842946301e-16,5.4817261840867107e-17
+unweighted_normalized_rmse,20,4.0245584642661925e-16,-1.509209424099822e-17
+query_primary_normalized_rmse,20,7.979727989493313e-16,-4.0141501234103317e-16

@@ -1,0 +1,6 @@
+seed_pair_index,reference_seed,label_seed,checkpoint_reused,candidate_rows,capacity_rows,closure_status
+0,20260805,20260804,True,19764,1098,pass
+1,20260815,20260814,True,19764,1098,pass
+2,20260825,20260824,True,19764,1098,pass
+3,20260905,20260904,True,19764,1098,pass
+4,20260915,20260914,True,19764,1098,pass

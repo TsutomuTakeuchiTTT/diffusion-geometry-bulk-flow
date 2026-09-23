@@ -1,0 +1,7 @@
+role,source_gamma,source_cap,n_neighbors,bandwidth_neighbor,bandwidth_multiplier,count
+local_full_inverse,1.0,50.0,16,6,0.5,8
+local_full_inverse,1.0,50.0,8,3,0.5,2
+local_selection_optimized,0.5,50.0,16,6,0.5,9
+local_selection_optimized,0.5,50.0,32,12,0.5,1
+local_unweighted,0.0,1.0,16,6,0.5,8
+local_unweighted,0.0,1.0,8,3,0.5,2

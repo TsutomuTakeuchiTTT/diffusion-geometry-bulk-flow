@@ -1,0 +1,3 @@
+model,n_rows,parent_max_abs_difference,unweighted_max_abs_difference
+loss_weighted,10,4.588510127412349e-12,4.329314684525798e-12
+naive,10,2.864736226015907e-12,1.5133727604421665e-12

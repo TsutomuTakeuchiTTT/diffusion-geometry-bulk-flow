@@ -1,0 +1,12 @@
+{
+  "plateau_csv": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_plateau_diagnostics.csv",
+  "recommendation_csv": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_practical_selection.csv",
+  "threshold_percent": 2.0,
+  "practical_basis": {
+    "fine": 1536,
+    "fiducial": 1280,
+    "coarse": 1280
+  },
+  "pdf": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_plateau_diagnostic_final.pdf",
+  "png": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_plateau_diagnostic_final.png"
+}

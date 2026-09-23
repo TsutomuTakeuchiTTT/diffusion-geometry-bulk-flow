@@ -1,0 +1,7 @@
+noise_fraction,n_seed_pairs,validation_minimum_basis,validation_minimum_mean,validation_minimum_sem_between_seeds,one_standard_error_threshold,one_standard_error_basis,practical_plateau_basis,plateau_found,combined_practical_basis,strict_argmin_boundary,one_se_boundary,maximum_basis_selected_fraction_equal_seed_weight,last_adjacent_validation_improvement,strict_argmin_status,practical_convergence_status,practical_converged,needs_larger_eigensystem
+0.0,5,2050,0.129355928939273,0.0031841787586056056,0.1325401076978786,1539,1539,True,1539,True,False,0.6,0.004482030822761094,boundary_argmin,converged,True,False
+0.05,5,2050,0.1446283014164549,0.0030018469566278276,0.14763014837308275,1539,1539,True,1539,True,False,0.6166666666666666,0.0016929518604715179,boundary_argmin,converged,True,False
+0.1,5,2050,0.17346157462710518,0.0029588150027662244,0.17642038962987142,1539,1539,True,1539,True,False,0.7666666666666667,0.0034800962046509227,boundary_argmin,converged,True,False
+0.2,5,2050,0.2544519735776653,0.0028950830161663995,0.2573470565938317,1539,1283,True,1539,True,False,0.5833333333333333,0.0002640391157564359,boundary_argmin,converged,True,False
+0.4,5,1539,0.4292566052365382,0.003407863945271515,0.43266446918180973,1027,514,True,1027,False,False,0.06666666666666667,-0.0015798841905063368,interior_argmin,converged,True,False
+0.8,5,514,0.6846084739007166,0.0031358643906508475,0.6877443382913674,387,514,True,514,False,False,0.0,-0.0021211662168982666,interior_argmin,converged,True,False

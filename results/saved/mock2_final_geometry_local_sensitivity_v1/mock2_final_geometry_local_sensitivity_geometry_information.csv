@@ -1,0 +1,4 @@
+alpha,geometry_gamma,geometry_cap,geometry_ess,geometry_ess_fraction,geometry_weight_max,cache_loaded
+0.0,0.0,1.0,9922.0,1.0,1.0,True
+1.0,0.25,20.0,8308.538165163573,0.8373854228143088,3.1536351869461465,False
+0.0,1.0,50.0,6033.731809484177,0.6081164895670406,2.1782620455760164,False

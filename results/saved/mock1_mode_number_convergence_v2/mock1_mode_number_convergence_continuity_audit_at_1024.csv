@@ -1,0 +1,6 @@
+n_basis,metric,n_rows,max_abs_difference,mean_difference
+1024,validation_normalized_rmse,15,4.440892098500626e-16,5.597374415818497e-17
+1024,selected_normalized_rmse,15,4.996003610813204e-16,7.864079757761526e-17
+1024,selected_median_direction_error_deg,15,5.981881656680343e-13,2.208603670320978e-14
+1024,selected_vector_gain_through_origin,15,4.440892098500626e-16,-7.401486830834377e-18
+1024,selected_regularization,15,0.0,0.0

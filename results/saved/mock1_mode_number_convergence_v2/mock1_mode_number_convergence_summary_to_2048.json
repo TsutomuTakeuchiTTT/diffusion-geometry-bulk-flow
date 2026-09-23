@@ -1,0 +1,475 @@
+{
+  "experiment": "Mock-1 mode-number convergence to 2048",
+  "input_file": "<MOCK_DATA_ROOT>\\mock1_complete_sphere\\mock1.npz",
+  "extended_geometry_cache": "<MOCK_DATA_ROOT>\\mock1_diffusion_geometry_bulk_cache_m2048.npz",
+  "new_basis_sizes": [
+    1024,
+    1280,
+    1536,
+    1792,
+    2048
+  ],
+  "combined_basis_sizes": [
+    256,
+    384,
+    512,
+    640,
+    768,
+    896,
+    1024,
+    1280,
+    1536,
+    1792,
+    2048
+  ],
+  "reference_basis": 1024,
+  "regularization_strengths": [
+    0.0001,
+    0.01,
+    1.0
+  ],
+  "fixed_regularization": 0.01,
+  "scales": [
+    "fine",
+    "fiducial",
+    "coarse"
+  ],
+  "seed_pairs": [
+    {
+      "reference_seed": 20260805,
+      "label_seed": 20260804
+    },
+    {
+      "reference_seed": 20260815,
+      "label_seed": 20260814
+    },
+    {
+      "reference_seed": 20260825,
+      "label_seed": 20260824
+    },
+    {
+      "reference_seed": 20260905,
+      "label_seed": 20260904
+    },
+    {
+      "reference_seed": 20260915,
+      "label_seed": 20260914
+    }
+  ],
+  "generator_normalization_reference_modes": 512,
+  "geometry": {
+    "n_neighbors": 48,
+    "bandwidth_neighbor": 16,
+    "bandwidth_multiplier": 1.0,
+    "alpha": 0.0,
+    "generator_scale": 0.3645665244463656,
+    "orthogonality_rms": 8.89119295234575e-16,
+    "orthogonality_kind": "sampled",
+    "orthogonality_modes": 308,
+    "column_norm_max_abs_error": 1.7763568394002505e-15,
+    "kernel_nnz": 561454
+  },
+  "geometry_audit": [
+    {
+      "comparison": "m2048_vs_m1024",
+      "cache": "<MOCK_DATA_ROOT>\\mock1_diffusion_geometry_bulk_cache_m1024.npz",
+      "cache_found": true,
+      "stationary_max_abs_difference": 0.0,
+      "markov_eigenvalue_max_abs_difference": 9.769962616701378e-15,
+      "generator_eigenvalue_max_abs_difference": 2.7075564013046005e-14,
+      "first_64_mode_correlation_median": 1.0000000000000002,
+      "first_64_mode_correlation_minimum": 0.9999999999999996,
+      "first_64_subspace_minimum_singular_value": 0.9999999999999997,
+      "n_common_modes": 1024
+    },
+    {
+      "comparison": "m2048_vs_legacy_m512",
+      "cache": "<MOCK_DATA_ROOT>\\mock1_diffusion_geometry_bulk_cache.npz",
+      "cache_found": true,
+      "stationary_max_abs_difference": 0.0,
+      "markov_eigenvalue_max_abs_difference": 9.547918011776346e-15,
+      "generator_eigenvalue_max_abs_difference": 2.6548208076349056e-14,
+      "first_64_mode_correlation_median": 1.0000000000000002,
+      "first_64_mode_correlation_minimum": 0.9999999999999992,
+      "first_64_subspace_minimum_singular_value": 0.9999999999999997,
+      "n_common_modes": 512
+    }
+  ],
+  "continuity_audit": {
+    "available": true,
+    "join_basis": 1024,
+    "max_abs_difference_over_metrics": 5.981881656680343e-13,
+    "metrics": [
+      {
+        "n_basis": 1024,
+        "metric": "validation_normalized_rmse",
+        "n_rows": 15,
+        "max_abs_difference": 4.440892098500626e-16,
+        "mean_difference": 5.597374415818497e-17
+      },
+      {
+        "n_basis": 1024,
+        "metric": "selected_normalized_rmse",
+        "n_rows": 15,
+        "max_abs_difference": 4.996003610813204e-16,
+        "mean_difference": 7.864079757761526e-17
+      },
+      {
+        "n_basis": 1024,
+        "metric": "selected_median_direction_error_deg",
+        "n_rows": 15,
+        "max_abs_difference": 5.981881656680343e-13,
+        "mean_difference": 2.208603670320978e-14
+      },
+      {
+        "n_basis": 1024,
+        "metric": "selected_vector_gain_through_origin",
+        "n_rows": 15,
+        "max_abs_difference": 4.440892098500626e-16,
+        "mean_difference": -7.401486830834377e-18
+      },
+      {
+        "n_basis": 1024,
+        "metric": "selected_regularization",
+        "n_rows": 15,
+        "max_abs_difference": 0.0,
+        "mean_difference": 0.0
+      }
+    ]
+  },
+  "practical_selection": [
+    {
+      "scale": "fine",
+      "minimum_validation_basis": 1536,
+      "minimum_validation_mean": 0.15890445063710068,
+      "minimum_validation_sem": 0.0034651124172738247,
+      "one_standard_error_threshold": 0.1623695630543745,
+      "one_standard_error_basis": 1536,
+      "practical_plateau_basis": 1536,
+      "plateau_relative_threshold": 0.02,
+      "plateau_consecutive_steps": 2,
+      "last_validation_relative_improvement": -0.04384804807783869,
+      "last_test_relative_improvement": -0.024081406485913996
+    },
+    {
+      "scale": "fiducial",
+      "minimum_validation_basis": 1280,
+      "minimum_validation_mean": 0.07569079231394722,
+      "minimum_validation_sem": 0.0015693345520629651,
+      "one_standard_error_threshold": 0.07726012686601019,
+      "one_standard_error_basis": 1280,
+      "practical_plateau_basis": 1280,
+      "plateau_relative_threshold": 0.02,
+      "plateau_consecutive_steps": 2,
+      "last_validation_relative_improvement": -0.07858444847993079,
+      "last_test_relative_improvement": -0.042379233367352484
+    },
+    {
+      "scale": "coarse",
+      "minimum_validation_basis": 1280,
+      "minimum_validation_mean": 0.06111352751018976,
+      "minimum_validation_sem": 0.001253092866002077,
+      "one_standard_error_threshold": 0.06236662037619184,
+      "one_standard_error_basis": 1280,
+      "practical_plateau_basis": 1280,
+      "plateau_relative_threshold": 0.02,
+      "plateau_consecutive_steps": 2,
+      "last_validation_relative_improvement": -0.04972960902722593,
+      "last_test_relative_improvement": -0.029763247486858702
+    }
+  ],
+  "maximum_mode_summary": [
+    {
+      "scale": "coarse",
+      "n_basis": 2048,
+      "n_replicates": 5,
+      "mean_nrmse_difference": -0.002219383056170826,
+      "std_nrmse_difference": 0.0017212138655287956,
+      "improvement_count": 5,
+      "mean_direction_difference_deg": -0.2515657940411587,
+      "mean_vector_gain_difference": 0.00020572071285922532
+    },
+    {
+      "scale": "fiducial",
+      "n_basis": 2048,
+      "n_replicates": 5,
+      "mean_nrmse_difference": -0.002041390783228242,
+      "std_nrmse_difference": 0.000847418073475818,
+      "improvement_count": 5,
+      "mean_direction_difference_deg": -0.33272188288023685,
+      "mean_vector_gain_difference": 0.0006739509989052595
+    },
+    {
+      "scale": "fine",
+      "n_basis": 2048,
+      "n_replicates": 5,
+      "mean_nrmse_difference": -0.01699820468544384,
+      "std_nrmse_difference": 0.004105641769255077,
+      "improvement_count": 5,
+      "mean_direction_difference_deg": -1.3420520121123265,
+      "mean_vector_gain_difference": 0.0066648276869241355
+    }
+  ],
+  "lambda_frequency": [
+    {
+      "scale": "coarse",
+      "n_basis": 256,
+      "selected_regularization": 0.01,
+      "count": 4
+    },
+    {
+      "scale": "coarse",
+      "n_basis": 256,
+      "selected_regularization": 0.0001,
+      "count": 1
+    },
+    {
+      "scale": "coarse",
+      "n_basis": 384,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "coarse",
+      "n_basis": 512,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "coarse",
+      "n_basis": 640,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "coarse",
+      "n_basis": 768,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "coarse",
+      "n_basis": 896,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "coarse",
+      "n_basis": 1024,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "coarse",
+      "n_basis": 1280,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "coarse",
+      "n_basis": 1536,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "coarse",
+      "n_basis": 1792,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "coarse",
+      "n_basis": 2048,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fiducial",
+      "n_basis": 256,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fiducial",
+      "n_basis": 384,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fiducial",
+      "n_basis": 512,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fiducial",
+      "n_basis": 640,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fiducial",
+      "n_basis": 768,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fiducial",
+      "n_basis": 896,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fiducial",
+      "n_basis": 1024,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fiducial",
+      "n_basis": 1280,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fiducial",
+      "n_basis": 1536,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fiducial",
+      "n_basis": 1792,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fiducial",
+      "n_basis": 2048,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fine",
+      "n_basis": 256,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fine",
+      "n_basis": 384,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fine",
+      "n_basis": 512,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fine",
+      "n_basis": 640,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fine",
+      "n_basis": 768,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fine",
+      "n_basis": 896,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fine",
+      "n_basis": 1024,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fine",
+      "n_basis": 1280,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fine",
+      "n_basis": 1536,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fine",
+      "n_basis": 1792,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "scale": "fine",
+      "n_basis": 2048,
+      "selected_regularization": 0.01,
+      "count": 5
+    }
+  ],
+  "diffusion_vs_local_at_maximum_mode": [
+    {
+      "scale": "coarse",
+      "n_basis": 2048,
+      "n_replicates": 5,
+      "diffusion_nrmse_mean": 0.05852567717042913,
+      "local_nrmse_mean": 0.1210795035743258,
+      "mean_diffusion_minus_local": -0.06255382640389667,
+      "std_diffusion_minus_local": 0.00231214559735651,
+      "diffusion_win_count": 5
+    },
+    {
+      "scale": "fiducial",
+      "n_basis": 2048,
+      "n_replicates": 5,
+      "diffusion_nrmse_mean": 0.075325902145436,
+      "local_nrmse_mean": 0.15645026398900624,
+      "mean_diffusion_minus_local": -0.08112436184357023,
+      "std_diffusion_minus_local": 0.004399691050869219,
+      "diffusion_win_count": 5
+    },
+    {
+      "scale": "fine",
+      "n_basis": 2048,
+      "n_replicates": 5,
+      "diffusion_nrmse_mean": 0.1496934470023565,
+      "local_nrmse_mean": 0.2196988029266526,
+      "mean_diffusion_minus_local": -0.07000535592429605,
+      "std_diffusion_minus_local": 0.0073336364167385865,
+      "diffusion_win_count": 5
+    }
+  ],
+  "outputs": {
+    "new_runs_csv": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_new_high_mode_runs.csv",
+    "new_validation_csv": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_new_high_mode_validation.csv",
+    "runs_csv": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_runs_to_2048.csv",
+    "validation_csv": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_validation_to_2048.csv",
+    "aggregate_csv": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_aggregate_to_2048.csv",
+    "lambda_frequency_csv": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_lambda_frequency_to_2048.csv",
+    "paired_csv": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_paired_relative_to_1024.csv",
+    "paired_summary_csv": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_paired_summary_relative_to_1024.csv",
+    "geometry_audit_csv": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_geometry_audit_to_2048.csv",
+    "continuity_audit_csv": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_continuity_audit_at_1024.csv",
+    "plateau_csv": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_plateau_diagnostics.csv",
+    "recommendation_csv": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_practical_selection.csv",
+    "local_comparison_csv": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_diffusion_vs_local.csv",
+    "local_summary_csv": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_diffusion_vs_local_summary.csv",
+    "summary_json": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_summary_to_2048.json",
+    "composite_pdf": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_composite_to_2048.pdf",
+    "composite_png": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_composite_to_2048.png",
+    "sensitivity_pdf": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_selected_vs_fixed_lambda_to_2048.pdf",
+    "sensitivity_png": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_selected_vs_fixed_lambda_to_2048.png",
+    "plateau_pdf": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_plateau_diagnostic.pdf",
+    "plateau_png": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_plateau_diagnostic.png",
+    "latex_template": "<MOCK_DATA_ROOT>\\mock1_mode_number_convergence_v2\\mock1_mode_number_convergence_figure_template_to_2048.tex"
+  }
+}

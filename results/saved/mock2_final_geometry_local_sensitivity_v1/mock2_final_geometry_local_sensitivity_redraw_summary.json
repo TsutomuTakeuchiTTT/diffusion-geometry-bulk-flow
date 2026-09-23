@@ -1,0 +1,34 @@
+{
+  "inputs": {
+    "geometry_aggregate": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_geometry_aggregate.csv",
+    "geometry_paired_summary": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_geometry_paired_summary.csv",
+    "local_aggregate": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_local_aggregate.csv",
+    "local_paired_summary": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_local_paired_summary.csv",
+    "geometry_runs": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_geometry_runs.csv",
+    "local_runs": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_local_runs.csv"
+  },
+  "outputs": {
+    "geometry_composite_pdf": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_geometry_sensitivity_final_composite.pdf",
+    "geometry_composite_png": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_geometry_sensitivity_final_composite.png",
+    "local_composite_pdf": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_local_comparison_final_composite.pdf",
+    "local_composite_png": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_local_comparison_final_composite.png",
+    "local_split_pdf": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_local_split_diagnostic.pdf",
+    "local_split_png": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_local_split_diagnostic.png",
+    "geometry_parent_risk_pdf": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_geometry_parent_risk.pdf",
+    "geometry_parent_risk_png": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_geometry_parent_risk.png",
+    "geometry_observed_risk_pdf": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_geometry_observed_risk.pdf",
+    "geometry_observed_risk_png": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_geometry_observed_risk.png",
+    "geometry_query_risk_pdf": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_geometry_query_risk.pdf",
+    "geometry_query_risk_png": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_geometry_query_risk.png",
+    "geometry_parent_contrasts_pdf": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_geometry_parent_contrasts.pdf",
+    "geometry_parent_contrasts_png": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_geometry_parent_contrasts.png",
+    "local_parent_risk_pdf": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_local_parent_risk.pdf",
+    "local_parent_risk_png": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_local_parent_risk.png",
+    "local_query_risk_pdf": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_local_query_risk.pdf",
+    "local_query_risk_png": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_local_query_risk.png",
+    "local_parent_contrasts_pdf": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_local_parent_contrasts.pdf",
+    "local_parent_contrasts_png": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_local_parent_contrasts.png",
+    "local_query_contrasts_pdf": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_local_query_contrasts.pdf",
+    "local_query_contrasts_png": "<MOCK_DATA_ROOT>\\mock2_final_geometry_local_sensitivity_v1\\mock2_final_geometry_local_sensitivity_redraw_local_query_contrasts.png"
+  }
+}

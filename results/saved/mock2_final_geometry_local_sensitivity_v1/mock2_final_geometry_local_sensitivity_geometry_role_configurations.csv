@@ -1,0 +1,7 @@
+role,label,alpha,geometry_gamma,geometry_cap,loss_gamma,loss_cap,source
+primary_unweighted,Primary unweighted,0.0,0.0,1.0,0.0,1.0,primary operator and unweighted loss
+primary_loss_weighted,Primary loss weighted,0.0,0.0,1.0,1.0,50.0,primary operator and capped inverse-selection loss
+legacy_geometry_only,Legacy geometry only,1.0,0.25,20.0,0.0,1.0,best nontrivial geometry-only stage-3 candidate
+legacy_geometry_plus_loss,Legacy geometry + loss,1.0,0.25,20.0,1.0,50.0,best nontrivial geometry-only stage-3 candidate
+full_inverse_geometry_only,Full-inverse geometry only,0.0,1.0,50.0,0.0,1.0,pre-specified full inverse-selection geometry
+full_inverse_joint,Full-inverse geometry + loss,0.0,1.0,50.0,1.0,50.0,pre-specified full inverse-selection geometry and loss

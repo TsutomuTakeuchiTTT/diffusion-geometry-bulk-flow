@@ -1,0 +1,7 @@
+model,role,metric,n_rows,max_abs_difference,mean_difference
+naive,primary_unweighted,parent_normalized_rmse,10,9.020562075079397e-17,5.759281940243e-17
+naive,primary_unweighted,unweighted_normalized_rmse,10,9.367506770274758e-17,6.55725473919233e-17
+naive,primary_unweighted,query_primary_normalized_rmse,10,6.245004513516506e-17,3.191891195797325e-17
+loss_weighted,primary_loss_weighted,parent_normalized_rmse,10,7.632783294297951e-17,3.920475055707584e-17
+loss_weighted,primary_loss_weighted,unweighted_normalized_rmse,10,9.71445146547012e-17,5.759281940243e-17
+loss_weighted,primary_loss_weighted,query_primary_normalized_rmse,10,8.326672684688674e-17,4.85722573273506e-17

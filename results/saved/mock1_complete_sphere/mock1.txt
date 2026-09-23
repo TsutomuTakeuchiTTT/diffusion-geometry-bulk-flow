@@ -1,0 +1,9 @@
+# Mock-1: complete sphere, random uniform downsampling
+# snapshot        : data/raw/snapshots/snapshot_000.hdf5
+# box_size        : 500.00  h^{-1} Mpc
+# center          : (250.00, 250.00, 250.00)  h^{-1} Mpc
+# r_cut           : 169.3500  h^{-1} Mpc
+# r_cut_phys      : 250.00  Mpc
+# n_in_sphere     : 2812414
+# n_output        : 10000
+# downsample_seed : 0
