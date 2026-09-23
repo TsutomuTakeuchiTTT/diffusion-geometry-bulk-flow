@@ -30,4 +30,3 @@ jobs:
       - run: python tools/recompute_capacity.py --output outputs/capacity
       - run: python tools/export_table_review.py --output outputs/paper_table_review.csv
       - run: python tools/redraw_saved_mock1.py --output outputs/paperI_figure06
-      
