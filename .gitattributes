@@ -1,0 +1,3 @@
+# Code/docs use LF; archived result bytes keep their original line endings.
+* text=auto eol=lf
+results/saved/** -text
