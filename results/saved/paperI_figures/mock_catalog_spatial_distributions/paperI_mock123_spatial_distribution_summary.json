@@ -1,0 +1,87 @@
+{
+  "python": "3.11.15",
+  "root_dir": "<MOCK_DATA_ROOT>",
+  "output_dir": "<MOCK_DATA_ROOT>\\paperI_figures\\mock_catalog_spatial_distributions",
+  "sphere_center_hinv_mpc": [
+    250.0,
+    250.0,
+    250.0
+  ],
+  "sphere_radius_hinv_mpc": 169.35,
+  "view_elevation_deg": 20.0,
+  "view_azimuth_deg": -52.0,
+  "max_display_points": null,
+  "catalogs": [
+    {
+      "name": "Mock-1",
+      "title": "Complete sample",
+      "path": "<MOCK_DATA_ROOT>\\mock1_complete_sphere\\mock1.npz",
+      "n_objects": 10000,
+      "radius_min": 5.507330258411745,
+      "radius_max": 169.34549711877796,
+      "radius_quantiles": {
+        "q10": 75.03193928908551,
+        "q25": 102.95710061371183,
+        "q50": 132.47854995538327,
+        "q75": 153.21051754008266,
+        "q90": 163.40841602063057,
+        "q99": 168.71593331772968
+      },
+      "stored_distance_max_abs_difference": 0.0
+    },
+    {
+      "name": "Mock-2",
+      "title": "Single flux limit",
+      "path": "<MOCK_DATA_ROOT>\\mock2_schechter_selection\\mock2.npz",
+      "n_objects": 9922,
+      "radius_min": 1.2428766279899137,
+      "radius_max": 118.33692777889183,
+      "radius_quantiles": {
+        "q10": 11.925028794209425,
+        "q25": 20.13848561068479,
+        "q50": 35.59017298946941,
+        "q75": 52.23287130994223,
+        "q90": 68.45245915948207,
+        "q99": 96.47496920460138
+      },
+      "stored_distance_max_abs_difference": 0.0
+    },
+    {
+      "name": "Mock-3",
+      "title": "Octant-dependent limits",
+      "path": "<MOCK_DATA_ROOT>\\mock3_inhomogeneous_survey\\mock3.npz",
+      "n_objects": 10013,
+      "radius_min": 1.2428766279899137,
+      "radius_max": 159.03089154762296,
+      "radius_quantiles": {
+        "q10": 14.386511371769963,
+        "q25": 25.128646520042484,
+        "q50": 43.094283658984075,
+        "q75": 63.248594394869684,
+        "q90": 84.90369985419339,
+        "q99": 121.9224586897001
+      },
+      "stored_distance_max_abs_difference": 0.0,
+      "octant_counts": [
+        435,
+        506,
+        597,
+        783,
+        663,
+        1225,
+        2214,
+        3590
+      ]
+    }
+  ],
+  "outputs": {
+    "three_dimensional": {
+      "pdf": "<MOCK_DATA_ROOT>\\paperI_figures\\mock_catalog_spatial_distributions\\paperI_mock123_spatial_distribution_3d.pdf",
+      "png": "<MOCK_DATA_ROOT>\\paperI_figures\\mock_catalog_spatial_distributions\\paperI_mock123_spatial_distribution_3d.png"
+    },
+    "orthogonal": {
+      "pdf": "<MOCK_DATA_ROOT>\\paperI_figures\\mock_catalog_spatial_distributions\\paperI_mock123_spatial_distribution_orthogonal.pdf",
+      "png": "<MOCK_DATA_ROOT>\\paperI_figures\\mock_catalog_spatial_distributions\\paperI_mock123_spatial_distribution_orthogonal.png"
+    }
+  }
+}

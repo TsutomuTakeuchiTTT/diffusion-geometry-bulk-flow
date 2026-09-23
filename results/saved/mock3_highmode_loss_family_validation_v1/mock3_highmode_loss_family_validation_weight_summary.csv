@@ -1,0 +1,4 @@
+model,label,probability_mode,gamma,cap,raw_weight_max,normalized_weight_max,effective_sample_size,effective_sample_fraction
+unweighted_loss,Unweighted loss,none,0.0,1.0,1.0,1.0,10013.0,1.0
+global_radial_loss,Global radial loss,global,0.75,20.0,1000.0,1.6118444655458486,7628.841618475372,0.7618937000374885
+octant_aware_loss,Octant-aware loss,region,1.0,20.0,10000.0,1.3969532852289752,8349.780953978412,0.8338940331547401

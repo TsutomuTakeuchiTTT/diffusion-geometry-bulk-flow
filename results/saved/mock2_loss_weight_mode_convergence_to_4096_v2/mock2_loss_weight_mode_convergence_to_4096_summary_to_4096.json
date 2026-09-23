@@ -1,0 +1,909 @@
+{
+  "scope": "Mock-2 continuation of mode-number convergence to 4096 modes for unweighted and selection-weighted losses with fixed unweighted alpha=0 geometry",
+  "input": {
+    "mock1": "<MOCK_DATA_ROOT>\\mock1_complete_sphere\\mock1.npz",
+    "mock2": "<MOCK_DATA_ROOT>\\mock2_schechter_selection\\mock2.npz",
+    "optimization_predictions": "<MOCK_DATA_ROOT>\\mock2_selection_correction_optimization_v4\\mock2_selection_optimization_predictions.npz",
+    "previous_output": "<MOCK_DATA_ROOT>\\mock2_loss_weight_high_mode_revalidation_v1"
+  },
+  "geometry": {
+    "max_basis": 4096,
+    "graph_neighbors": 48,
+    "graph_bandwidth_neighbor": 16,
+    "alpha_dm": 0.0,
+    "generator_scale": 0.3318733470664714,
+    "cache": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\cache\\mock2_unweighted_alpha0_geometry_m4096.npz",
+    "loaded_from_cache": true,
+    "reference_geometry": "<MOCK_DATA_ROOT>\\mock2_loss_weight_high_mode_revalidation_v1\\cache\\mock2_unweighted_alpha0_geometry_m2048.npz"
+  },
+  "run_token": "4452f9152a82",
+  "continuation_basis": 2048,
+  "selection_weight": {
+    "gamma": 1.0,
+    "probability_min": 0.0001,
+    "probability_median": 0.06332708095860709,
+    "normalized_weight_max": 2.1782620455760164,
+    "effective_sample_size": 6033.731809484177,
+    "effective_sample_fraction": 0.6081164895670406
+  },
+  "evaluation_weight": {
+    "gamma": 1.0,
+    "probability_min": 0.0001,
+    "probability_median": 0.06332708095860709,
+    "normalized_weight_max": 2.1782620455760164,
+    "effective_sample_size": 6033.731809484177,
+    "effective_sample_fraction": 0.6081164895670406
+  },
+  "label_split_seeds": [
+    20261202,
+    20261212,
+    20261222,
+    20270102,
+    20270112,
+    20270122,
+    20270202,
+    20270212,
+    20270222,
+    20270302
+  ],
+  "basis_sizes": [
+    2048,
+    2560,
+    3072,
+    3584,
+    4096
+  ],
+  "regularization_strengths": [
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0
+  ],
+  "practical_selection": [
+    {
+      "model": "naive",
+      "minimum_validation_basis": 2560,
+      "minimum_validation_mean": 0.03660706446412587,
+      "minimum_validation_sem": 0.0015359996366796616,
+      "one_standard_error_threshold": 0.038143064100805535,
+      "one_standard_error_basis": 2560,
+      "practical_plateau_basis": 2560,
+      "plateau_found": true,
+      "plateau_relative_threshold": 0.02,
+      "plateau_consecutive_steps": 2
+    },
+    {
+      "model": "loss_weighted",
+      "minimum_validation_basis": 2560,
+      "minimum_validation_mean": 0.036939863308441886,
+      "minimum_validation_sem": 0.0014538399180801076,
+      "one_standard_error_threshold": 0.038393703226522,
+      "one_standard_error_basis": 2560,
+      "practical_plateau_basis": 2560,
+      "plateau_found": true,
+      "plateau_relative_threshold": 0.02,
+      "plateau_consecutive_steps": 2
+    }
+  ],
+  "paired_summary": [
+    {
+      "protocol": "retuned",
+      "metric": "parent",
+      "n_replicates": 10,
+      "mean_difference": 7.642592229281063e-05,
+      "std_difference": 0.0006311837381386294,
+      "ci_low": -0.0003203490848411298,
+      "ci_high": 0.0004153938199344599,
+      "wins": 3,
+      "ties": 0,
+      "losses": 7
+    },
+    {
+      "protocol": "retuned",
+      "metric": "observed_unweighted",
+      "n_replicates": 10,
+      "mean_difference": 0.0008214368519140796,
+      "std_difference": 0.0004344980053341007,
+      "ci_low": 0.0005652674765156199,
+      "ci_high": 0.0010695323780115639,
+      "wins": 1,
+      "ties": 0,
+      "losses": 9
+    },
+    {
+      "protocol": "retuned",
+      "metric": "query_primary",
+      "n_replicates": 10,
+      "mean_difference": 0.0002615204086054486,
+      "std_difference": 0.00031282870579947195,
+      "ci_low": 0.0001031211910838492,
+      "ci_high": 0.0004654518754280118,
+      "wins": 1,
+      "ties": 0,
+      "losses": 9
+    },
+    {
+      "protocol": "practical_model_specific",
+      "metric": "parent",
+      "n_replicates": 10,
+      "mean_difference": -5.82718594867495e-05,
+      "std_difference": 0.0004541184777742947,
+      "ci_low": -0.00036280458107206285,
+      "ci_high": 0.00015334774559091943,
+      "wins": 3,
+      "ties": 0,
+      "losses": 7
+    },
+    {
+      "protocol": "practical_model_specific",
+      "metric": "observed_unweighted",
+      "n_replicates": 10,
+      "mean_difference": 0.0007880707437890298,
+      "std_difference": 0.00024270061148765464,
+      "ci_low": 0.0006362706324209971,
+      "ci_high": 0.000921650111474154,
+      "wins": 0,
+      "ties": 0,
+      "losses": 10
+    },
+    {
+      "protocol": "practical_model_specific",
+      "metric": "query_primary",
+      "n_replicates": 10,
+      "mean_difference": 0.00021297646800447003,
+      "std_difference": 0.0002451015077949612,
+      "ci_low": 7.846703307491932e-05,
+      "ci_high": 0.00036464382562741187,
+      "wins": 1,
+      "ties": 0,
+      "losses": 9
+    },
+    {
+      "protocol": "matched_mock1_fiducial",
+      "metric": "parent",
+      "n_replicates": 10,
+      "mean_difference": -0.00033874590111302035,
+      "std_difference": 0.00032660701749502954,
+      "ci_low": -0.000532753657128905,
+      "ci_high": -0.0001515320109997499,
+      "wins": 9,
+      "ties": 0,
+      "losses": 1
+    },
+    {
+      "protocol": "matched_mock1_fiducial",
+      "metric": "observed_unweighted",
+      "n_replicates": 10,
+      "mean_difference": 0.0019159401612768307,
+      "std_difference": 0.00039522514248215127,
+      "ci_low": 0.0016992105673664154,
+      "ci_high": 0.00215903146384052,
+      "wins": 0,
+      "ties": 0,
+      "losses": 10
+    },
+    {
+      "protocol": "matched_mock1_fiducial",
+      "metric": "query_primary",
+      "n_replicates": 10,
+      "mean_difference": 0.0012911981482352404,
+      "std_difference": 0.00012888637451080828,
+      "ci_low": 0.0012169400482883491,
+      "ci_high": 0.0013677403922921203,
+      "wins": 0,
+      "ties": 0,
+      "losses": 10
+    }
+  ],
+  "matched_summary": [
+    {
+      "n_basis": 512,
+      "regularization_strength": 0.01,
+      "parent_mean_difference": -0.0007983866328637775,
+      "parent_std_difference": 0.0003737059188110763,
+      "parent_wins": 10,
+      "observed_unweighted_mean_difference": 0.0023218066322038084,
+      "observed_unweighted_std_difference": 0.0005861971511154248,
+      "observed_unweighted_wins": 0,
+      "query_primary_mean_difference": 0.0007800394911214481,
+      "query_primary_std_difference": 0.0001195597096872122,
+      "query_primary_wins": 0
+    },
+    {
+      "n_basis": 1024,
+      "regularization_strength": 0.01,
+      "parent_mean_difference": -0.00032334275590036943,
+      "parent_std_difference": 0.0004929631522705767,
+      "parent_wins": 6,
+      "observed_unweighted_mean_difference": 0.0019054340388202605,
+      "observed_unweighted_std_difference": 0.0004903440095781576,
+      "observed_unweighted_wins": 0,
+      "query_primary_mean_difference": 0.0014567366959654603,
+      "query_primary_std_difference": 0.0001667561789666789,
+      "query_primary_wins": 0
+    },
+    {
+      "n_basis": 1280,
+      "regularization_strength": 0.01,
+      "parent_mean_difference": -0.00033874590111302035,
+      "parent_std_difference": 0.00032660701749502954,
+      "parent_wins": 9,
+      "observed_unweighted_mean_difference": 0.0019159401612768307,
+      "observed_unweighted_std_difference": 0.00039522514248215127,
+      "observed_unweighted_wins": 0,
+      "query_primary_mean_difference": 0.0012911981482352404,
+      "query_primary_std_difference": 0.00012888637451080828,
+      "query_primary_wins": 0
+    },
+    {
+      "n_basis": 1536,
+      "regularization_strength": 0.01,
+      "parent_mean_difference": -0.00017424999293259025,
+      "parent_std_difference": 0.0002606588775513698,
+      "parent_wins": 6,
+      "observed_unweighted_mean_difference": 0.0018066270283821199,
+      "observed_unweighted_std_difference": 0.0002572851741437178,
+      "observed_unweighted_wins": 0,
+      "query_primary_mean_difference": 0.0014971869931590894,
+      "query_primary_std_difference": 0.0001435027885859957,
+      "query_primary_wins": 0
+    },
+    {
+      "n_basis": 1792,
+      "regularization_strength": 0.01,
+      "parent_mean_difference": 2.4424655730097278e-05,
+      "parent_std_difference": 0.00014276243772693437,
+      "parent_wins": 4,
+      "observed_unweighted_mean_difference": 0.0014935504873892207,
+      "observed_unweighted_std_difference": 0.00018082311162489004,
+      "observed_unweighted_wins": 0,
+      "query_primary_mean_difference": 0.0008221117579372105,
+      "query_primary_std_difference": 7.20722843655512e-05,
+      "query_primary_wins": 0
+    },
+    {
+      "n_basis": 2048,
+      "regularization_strength": 0.01,
+      "parent_mean_difference": 0.00014582590337579998,
+      "parent_std_difference": 0.0003119482214861314,
+      "parent_wins": 4,
+      "observed_unweighted_mean_difference": 0.0016459433398237396,
+      "observed_unweighted_std_difference": 0.0004047200044331714,
+      "observed_unweighted_wins": 0,
+      "query_primary_mean_difference": 0.0009933500079992003,
+      "query_primary_std_difference": 9.97108875559399e-05,
+      "query_primary_wins": 0
+    },
+    {
+      "n_basis": 2560,
+      "regularization_strength": 0.01,
+      "parent_mean_difference": 0.0003715269334450707,
+      "parent_std_difference": 0.00023673276732004967,
+      "parent_wins": 0,
+      "observed_unweighted_mean_difference": 0.0011976493155870598,
+      "observed_unweighted_std_difference": 0.00020393545411426814,
+      "observed_unweighted_wins": 0,
+      "query_primary_mean_difference": 0.0006505619240457595,
+      "query_primary_std_difference": 0.00015711321880099407,
+      "query_primary_wins": 0
+    },
+    {
+      "n_basis": 3072,
+      "regularization_strength": 0.01,
+      "parent_mean_difference": 0.0005368342772447708,
+      "parent_std_difference": 0.000312521802888397,
+      "parent_wins": 0,
+      "observed_unweighted_mean_difference": 0.0009378656393142202,
+      "observed_unweighted_std_difference": 0.0002332940219398098,
+      "observed_unweighted_wins": 0,
+      "query_primary_mean_difference": 0.0007512309276821498,
+      "query_primary_std_difference": 0.00010399869516970178,
+      "query_primary_wins": 0
+    },
+    {
+      "n_basis": 3584,
+      "regularization_strength": 0.01,
+      "parent_mean_difference": 0.0006212302642440305,
+      "parent_std_difference": 0.0005106907656496376,
+      "parent_wins": 1,
+      "observed_unweighted_mean_difference": 0.0009065395031153403,
+      "observed_unweighted_std_difference": 0.0003565161246676448,
+      "observed_unweighted_wins": 0,
+      "query_primary_mean_difference": 0.0011761543005250293,
+      "query_primary_std_difference": 0.00015547637084178213,
+      "query_primary_wins": 0
+    },
+    {
+      "n_basis": 4096,
+      "regularization_strength": 0.01,
+      "parent_mean_difference": 0.0007927983356236408,
+      "parent_std_difference": 0.0006410344359987104,
+      "parent_wins": 1,
+      "observed_unweighted_mean_difference": 0.00093056258943787,
+      "observed_unweighted_std_difference": 0.0004044893383545627,
+      "observed_unweighted_wins": 0,
+      "query_primary_mean_difference": 0.0011569754821127716,
+      "query_primary_std_difference": 0.00023010673271913555,
+      "query_primary_wins": 0
+    }
+  ],
+  "plateau_diagnostics": [
+    {
+      "model": "loss_weighted",
+      "previous_basis": 512,
+      "n_basis": 768,
+      "adjacent_validation_relative_reduction": 0.22192726905404178,
+      "adjacent_validation_reduction_percent": 22.19272690540418
+    },
+    {
+      "model": "loss_weighted",
+      "previous_basis": 768,
+      "n_basis": 1024,
+      "adjacent_validation_relative_reduction": 0.16251206556174713,
+      "adjacent_validation_reduction_percent": 16.25120655617471
+    },
+    {
+      "model": "loss_weighted",
+      "previous_basis": 1024,
+      "n_basis": 1280,
+      "adjacent_validation_relative_reduction": 0.14818065282054346,
+      "adjacent_validation_reduction_percent": 14.818065282054347
+    },
+    {
+      "model": "loss_weighted",
+      "previous_basis": 1280,
+      "n_basis": 1536,
+      "adjacent_validation_relative_reduction": 0.10825766287071427,
+      "adjacent_validation_reduction_percent": 10.825766287071426
+    },
+    {
+      "model": "loss_weighted",
+      "previous_basis": 1536,
+      "n_basis": 1792,
+      "adjacent_validation_relative_reduction": 0.08071177250569107,
+      "adjacent_validation_reduction_percent": 8.071177250569107
+    },
+    {
+      "model": "loss_weighted",
+      "previous_basis": 1792,
+      "n_basis": 2048,
+      "adjacent_validation_relative_reduction": 0.0463759211367495,
+      "adjacent_validation_reduction_percent": 4.63759211367495
+    },
+    {
+      "model": "loss_weighted",
+      "previous_basis": 2048,
+      "n_basis": 2560,
+      "adjacent_validation_relative_reduction": 0.044985766098483135,
+      "adjacent_validation_reduction_percent": 4.498576609848314
+    },
+    {
+      "model": "loss_weighted",
+      "previous_basis": 2560,
+      "n_basis": 3072,
+      "adjacent_validation_relative_reduction": -0.011394126739448137,
+      "adjacent_validation_reduction_percent": -1.1394126739448138
+    },
+    {
+      "model": "loss_weighted",
+      "previous_basis": 3072,
+      "n_basis": 3584,
+      "adjacent_validation_relative_reduction": -0.05477054539433144,
+      "adjacent_validation_reduction_percent": -5.477054539433144
+    },
+    {
+      "model": "loss_weighted",
+      "previous_basis": 3584,
+      "n_basis": 4096,
+      "adjacent_validation_relative_reduction": -0.06983023491190492,
+      "adjacent_validation_reduction_percent": -6.983023491190491
+    },
+    {
+      "model": "naive",
+      "previous_basis": 512,
+      "n_basis": 768,
+      "adjacent_validation_relative_reduction": 0.22407702395739162,
+      "adjacent_validation_reduction_percent": 22.407702395739165
+    },
+    {
+      "model": "naive",
+      "previous_basis": 768,
+      "n_basis": 1024,
+      "adjacent_validation_relative_reduction": 0.16209157822181275,
+      "adjacent_validation_reduction_percent": 16.209157822181275
+    },
+    {
+      "model": "naive",
+      "previous_basis": 1024,
+      "n_basis": 1280,
+      "adjacent_validation_relative_reduction": 0.14630952726252433,
+      "adjacent_validation_reduction_percent": 14.630952726252435
+    },
+    {
+      "model": "naive",
+      "previous_basis": 1280,
+      "n_basis": 1536,
+      "adjacent_validation_relative_reduction": 0.11186952929490733,
+      "adjacent_validation_reduction_percent": 11.186952929490733
+    },
+    {
+      "model": "naive",
+      "previous_basis": 1536,
+      "n_basis": 1792,
+      "adjacent_validation_relative_reduction": 0.08960803655469801,
+      "adjacent_validation_reduction_percent": 8.960803655469801
+    },
+    {
+      "model": "naive",
+      "previous_basis": 1792,
+      "n_basis": 2048,
+      "adjacent_validation_relative_reduction": 0.044600926199391086,
+      "adjacent_validation_reduction_percent": 4.460092619939108
+    },
+    {
+      "model": "naive",
+      "previous_basis": 2048,
+      "n_basis": 2560,
+      "adjacent_validation_relative_reduction": 0.050699532269463866,
+      "adjacent_validation_reduction_percent": 5.069953226946387
+    },
+    {
+      "model": "naive",
+      "previous_basis": 2560,
+      "n_basis": 3072,
+      "adjacent_validation_relative_reduction": -0.006752199558191568,
+      "adjacent_validation_reduction_percent": -0.6752199558191568
+    },
+    {
+      "model": "naive",
+      "previous_basis": 3072,
+      "n_basis": 3584,
+      "adjacent_validation_relative_reduction": -0.05459044893911069,
+      "adjacent_validation_reduction_percent": -5.459044893911069
+    },
+    {
+      "model": "naive",
+      "previous_basis": 3584,
+      "n_basis": 4096,
+      "adjacent_validation_relative_reduction": -0.06063134604610373,
+      "adjacent_validation_reduction_percent": -6.063134604610373
+    }
+  ],
+  "lambda_frequency": [
+    {
+      "model": "loss_weighted",
+      "n_basis": 512,
+      "selected_regularization": 0.03,
+      "count": 6
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 512,
+      "selected_regularization": 0.01,
+      "count": 2
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 512,
+      "selected_regularization": 0.0001,
+      "count": 1
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 512,
+      "selected_regularization": 0.1,
+      "count": 1
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 768,
+      "selected_regularization": 0.03,
+      "count": 6
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 768,
+      "selected_regularization": 0.1,
+      "count": 2
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 768,
+      "selected_regularization": 0.0001,
+      "count": 1
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 768,
+      "selected_regularization": 0.01,
+      "count": 1
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 1024,
+      "selected_regularization": 0.03,
+      "count": 8
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 1024,
+      "selected_regularization": 0.01,
+      "count": 1
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 1024,
+      "selected_regularization": 0.1,
+      "count": 1
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 1280,
+      "selected_regularization": 0.03,
+      "count": 6
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 1280,
+      "selected_regularization": 0.01,
+      "count": 3
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 1280,
+      "selected_regularization": 0.1,
+      "count": 1
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 1536,
+      "selected_regularization": 0.03,
+      "count": 7
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 1536,
+      "selected_regularization": 0.01,
+      "count": 2
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 1536,
+      "selected_regularization": 0.1,
+      "count": 1
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 1792,
+      "selected_regularization": 0.03,
+      "count": 8
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 1792,
+      "selected_regularization": 0.01,
+      "count": 2
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 2048,
+      "selected_regularization": 0.03,
+      "count": 7
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 2048,
+      "selected_regularization": 0.01,
+      "count": 3
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 2560,
+      "selected_regularization": 0.03,
+      "count": 8
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 2560,
+      "selected_regularization": 0.01,
+      "count": 2
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 3072,
+      "selected_regularization": 0.03,
+      "count": 7
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 3072,
+      "selected_regularization": 0.01,
+      "count": 2
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 3072,
+      "selected_regularization": 0.003,
+      "count": 1
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 3584,
+      "selected_regularization": 0.03,
+      "count": 6
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 3584,
+      "selected_regularization": 0.01,
+      "count": 4
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 4096,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "model": "loss_weighted",
+      "n_basis": 4096,
+      "selected_regularization": 0.03,
+      "count": 5
+    },
+    {
+      "model": "naive",
+      "n_basis": 512,
+      "selected_regularization": 0.0001,
+      "count": 5
+    },
+    {
+      "model": "naive",
+      "n_basis": 512,
+      "selected_regularization": 0.03,
+      "count": 3
+    },
+    {
+      "model": "naive",
+      "n_basis": 512,
+      "selected_regularization": 0.003,
+      "count": 1
+    },
+    {
+      "model": "naive",
+      "n_basis": 512,
+      "selected_regularization": 0.01,
+      "count": 1
+    },
+    {
+      "model": "naive",
+      "n_basis": 768,
+      "selected_regularization": 0.01,
+      "count": 3
+    },
+    {
+      "model": "naive",
+      "n_basis": 768,
+      "selected_regularization": 0.03,
+      "count": 3
+    },
+    {
+      "model": "naive",
+      "n_basis": 768,
+      "selected_regularization": 0.0001,
+      "count": 2
+    },
+    {
+      "model": "naive",
+      "n_basis": 768,
+      "selected_regularization": 0.003,
+      "count": 1
+    },
+    {
+      "model": "naive",
+      "n_basis": 768,
+      "selected_regularization": 0.1,
+      "count": 1
+    },
+    {
+      "model": "naive",
+      "n_basis": 1024,
+      "selected_regularization": 0.01,
+      "count": 5
+    },
+    {
+      "model": "naive",
+      "n_basis": 1024,
+      "selected_regularization": 0.03,
+      "count": 4
+    },
+    {
+      "model": "naive",
+      "n_basis": 1024,
+      "selected_regularization": 0.0001,
+      "count": 1
+    },
+    {
+      "model": "naive",
+      "n_basis": 1280,
+      "selected_regularization": 0.01,
+      "count": 4
+    },
+    {
+      "model": "naive",
+      "n_basis": 1280,
+      "selected_regularization": 0.003,
+      "count": 3
+    },
+    {
+      "model": "naive",
+      "n_basis": 1280,
+      "selected_regularization": 0.03,
+      "count": 2
+    },
+    {
+      "model": "naive",
+      "n_basis": 1280,
+      "selected_regularization": 0.0001,
+      "count": 1
+    },
+    {
+      "model": "naive",
+      "n_basis": 1536,
+      "selected_regularization": 0.01,
+      "count": 6
+    },
+    {
+      "model": "naive",
+      "n_basis": 1536,
+      "selected_regularization": 0.003,
+      "count": 3
+    },
+    {
+      "model": "naive",
+      "n_basis": 1536,
+      "selected_regularization": 0.03,
+      "count": 1
+    },
+    {
+      "model": "naive",
+      "n_basis": 1792,
+      "selected_regularization": 0.01,
+      "count": 7
+    },
+    {
+      "model": "naive",
+      "n_basis": 1792,
+      "selected_regularization": 0.03,
+      "count": 2
+    },
+    {
+      "model": "naive",
+      "n_basis": 1792,
+      "selected_regularization": 0.003,
+      "count": 1
+    },
+    {
+      "model": "naive",
+      "n_basis": 2048,
+      "selected_regularization": 0.01,
+      "count": 8
+    },
+    {
+      "model": "naive",
+      "n_basis": 2048,
+      "selected_regularization": 0.03,
+      "count": 2
+    },
+    {
+      "model": "naive",
+      "n_basis": 2560,
+      "selected_regularization": 0.01,
+      "count": 7
+    },
+    {
+      "model": "naive",
+      "n_basis": 2560,
+      "selected_regularization": 0.003,
+      "count": 2
+    },
+    {
+      "model": "naive",
+      "n_basis": 2560,
+      "selected_regularization": 0.03,
+      "count": 1
+    },
+    {
+      "model": "naive",
+      "n_basis": 3072,
+      "selected_regularization": 0.01,
+      "count": 6
+    },
+    {
+      "model": "naive",
+      "n_basis": 3072,
+      "selected_regularization": 0.003,
+      "count": 3
+    },
+    {
+      "model": "naive",
+      "n_basis": 3072,
+      "selected_regularization": 0.03,
+      "count": 1
+    },
+    {
+      "model": "naive",
+      "n_basis": 3584,
+      "selected_regularization": 0.01,
+      "count": 7
+    },
+    {
+      "model": "naive",
+      "n_basis": 3584,
+      "selected_regularization": 0.003,
+      "count": 3
+    },
+    {
+      "model": "naive",
+      "n_basis": 4096,
+      "selected_regularization": 0.01,
+      "count": 8
+    },
+    {
+      "model": "naive",
+      "n_basis": 4096,
+      "selected_regularization": 0.003,
+      "count": 2
+    }
+  ],
+  "overlap_2048_audit": [
+    {
+      "metric": "parent_normalized_rmse",
+      "n_rows": 20,
+      "max_abs_difference": 7.008282842946301e-16,
+      "mean_difference": 5.4817261840867107e-17
+    },
+    {
+      "metric": "unweighted_normalized_rmse",
+      "n_rows": 20,
+      "max_abs_difference": 4.0245584642661925e-16,
+      "mean_difference": -1.509209424099822e-17
+    },
+    {
+      "metric": "query_primary_normalized_rmse",
+      "n_rows": 20,
+      "max_abs_difference": 7.979727989493313e-16,
+      "mean_difference": -4.0141501234103317e-16
+    }
+  ],
+  "outputs": {
+    "new_validation_csv": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_new_validation.csv",
+    "new_basis_runs_csv": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_new_basis_runs.csv",
+    "new_matched_grid_csv": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_new_matched_grid.csv",
+    "validation_csv": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_validation_to_4096.csv",
+    "basis_runs_csv": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_basis_runs_to_4096.csv",
+    "aggregate_csv": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_aggregate_to_4096.csv",
+    "practical_selection_csv": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_practical_selection.csv",
+    "retuned_runs_csv": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_retuned_runs.csv",
+    "practical_runs_csv": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_practical_runs.csv",
+    "matched_grid_csv": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_matched_grid.csv",
+    "matched_summary_csv": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_matched_summary.csv",
+    "paired_csv": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_paired.csv",
+    "paired_summary_csv": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_paired_summary.csv",
+    "geometry_audit_csv": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_geometry_audit.csv",
+    "legacy_audit_csv": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_legacy_512_audit.csv",
+    "legacy_audit_summary_csv": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_legacy_512_audit_summary.csv",
+    "local_baseline_csv": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_local_baseline.csv",
+    "plateau_diagnostics_csv": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_plateau_diagnostics.csv",
+    "lambda_frequency_csv": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_lambda_frequency.csv",
+    "overlap_2048_audit_csv": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_overlap_2048_audit.csv",
+    "summary_json": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_summary_to_4096.json",
+    "composite_pdf": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_composite.pdf",
+    "composite_png": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_composite.png",
+    "matched_effect_pdf": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_matched_effect_vs_basis.pdf",
+    "matched_effect_png": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_matched_effect_vs_basis.png",
+    "plateau_pdf": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_plateau_diagnostic.pdf",
+    "plateau_png": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\mock2_loss_weight_mode_convergence_to_4096_plateau_diagnostic.png"
+  }
+}

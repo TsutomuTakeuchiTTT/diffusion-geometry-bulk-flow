@@ -1,0 +1,66 @@
+{
+  "data_file": "<MOCK_DATA_ROOT>\\mock1_complete_sphere\\mock1.npz",
+  "geometry_cache_file": "<MOCK_DATA_ROOT>\\mock1_diffusion_geometry_bulk_cache_m2048.npz",
+  "n_objects": 10000,
+  "n_modes": 2048,
+  "constant_mode_index": 0,
+  "selected_nontrivial_ranks": [
+    1,
+    8,
+    32
+  ],
+  "selected_mode_indices": [
+    1,
+    8,
+    32
+  ],
+  "slab_axis": 2,
+  "slab_half_thickness": 12.5,
+  "slab_points": 1247,
+  "orthogonality_audit_modes": 128,
+  "low_mode_weighted_orthogonality_rms": 7.50498860478089e-16,
+  "mode_panels": [
+    {
+      "panel": "(a)",
+      "nontrivial_rank": 1,
+      "mode_index": 1,
+      "generator_weight_tilde": 0.02136609134403002,
+      "robust_scale": 1.5691744459662038,
+      "slab_points": 1247,
+      "pdf": "<MOCK_DATA_ROOT>\\paperI_figures\\figure2_diffusion_modes\\paperI_fig2_diffusion_modes_m2048_final_mode_rank001.pdf",
+      "png": "<MOCK_DATA_ROOT>\\paperI_figures\\figure2_diffusion_modes\\paperI_fig2_diffusion_modes_m2048_final_mode_rank001.png"
+    },
+    {
+      "panel": "(b)",
+      "nontrivial_rank": 8,
+      "mode_index": 8,
+      "generator_weight_tilde": 0.06460578775472026,
+      "robust_scale": 1.6779738616745674,
+      "slab_points": 1247,
+      "pdf": "<MOCK_DATA_ROOT>\\paperI_figures\\figure2_diffusion_modes\\paperI_fig2_diffusion_modes_m2048_final_mode_rank008.pdf",
+      "png": "<MOCK_DATA_ROOT>\\paperI_figures\\figure2_diffusion_modes\\paperI_fig2_diffusion_modes_m2048_final_mode_rank008.png"
+    },
+    {
+      "panel": "(c)",
+      "nontrivial_rank": 32,
+      "mode_index": 32,
+      "generator_weight_tilde": 0.20174386726740384,
+      "robust_scale": 4.107268092999914,
+      "slab_points": 1247,
+      "pdf": "<MOCK_DATA_ROOT>\\paperI_figures\\figure2_diffusion_modes\\paperI_fig2_diffusion_modes_m2048_final_mode_rank032.pdf",
+      "png": "<MOCK_DATA_ROOT>\\paperI_figures\\figure2_diffusion_modes\\paperI_fig2_diffusion_modes_m2048_final_mode_rank032.png"
+    }
+  ],
+  "spectrum_panel": {
+    "panel": "(d)",
+    "n_nonconstant_modes": 2047,
+    "minimum_positive_eta_tilde": 0.02136609134403002,
+    "maximum_eta_tilde": 2.6170706519794256,
+    "pdf": "<MOCK_DATA_ROOT>\\paperI_figures\\figure2_diffusion_modes\\paperI_fig2_diffusion_modes_m2048_final_spectrum.pdf",
+    "png": "<MOCK_DATA_ROOT>\\paperI_figures\\figure2_diffusion_modes\\paperI_fig2_diffusion_modes_m2048_final_spectrum.png"
+  },
+  "composite_panel": {
+    "pdf": "<MOCK_DATA_ROOT>\\paperI_figures\\figure2_diffusion_modes\\paperI_fig2_diffusion_modes_m2048_final_composite.pdf",
+    "png": "<MOCK_DATA_ROOT>\\paperI_figures\\figure2_diffusion_modes\\paperI_fig2_diffusion_modes_m2048_final_composite.png"
+  }
+}

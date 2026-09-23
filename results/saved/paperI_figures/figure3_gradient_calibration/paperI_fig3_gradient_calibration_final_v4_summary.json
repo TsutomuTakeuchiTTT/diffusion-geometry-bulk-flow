@@ -1,0 +1,40 @@
+{
+  "diagnostics_file": "<MOCK_DATA_ROOT>\\mock1_potential_flow_constrained_v4\\mock1_potential_flow_constrained_gradient_diagnostics.csv",
+  "gradient_cache_file": "<MOCK_DATA_ROOT>\\mock1_potential_flow_gradient_basis_cache_v4.npz",
+  "coordinate_records": [
+    {
+      "coordinate": "x",
+      "naive_rms_error": 0.8490123641337609,
+      "calibrated_rms_error": 4.328405009140548e-16
+    },
+    {
+      "coordinate": "y",
+      "naive_rms_error": 0.8504748802270149,
+      "calibrated_rms_error": 5.8897942803597415e-16
+    },
+    {
+      "coordinate": "z",
+      "naive_rms_error": 0.8501265521837914,
+      "calibrated_rms_error": 4.838004899870302e-16
+    }
+  ],
+  "affine_rms_error": 8.67551452490397e-14,
+  "quadratic_gradient_nrmse": 0.0437762648545636,
+  "constant_mode_gradient_rms": 1.7695642295365369e-15,
+  "metric_condition": {
+    "n": 10000,
+    "median": 1.9122299742357496,
+    "p90": 3.0581205887043166,
+    "p99": 4.725075156002927,
+    "max": 7.995128675704103,
+    "clipped_point_fraction": 0.0
+  },
+  "outputs": {
+    "composite_pdf": "<MOCK_DATA_ROOT>\\paperI_figures\\figure3_gradient_calibration\\paperI_fig3_gradient_calibration_final_v4_composite.pdf",
+    "composite_png": "<MOCK_DATA_ROOT>\\paperI_figures\\figure3_gradient_calibration\\paperI_fig3_gradient_calibration_final_v4_composite.png",
+    "coordinate_pdf": "<MOCK_DATA_ROOT>\\paperI_figures\\figure3_gradient_calibration\\paperI_fig3_gradient_calibration_final_v4_coordinate_calibration.pdf",
+    "coordinate_png": "<MOCK_DATA_ROOT>\\paperI_figures\\figure3_gradient_calibration\\paperI_fig3_gradient_calibration_final_v4_coordinate_calibration.png",
+    "condition_pdf": "<MOCK_DATA_ROOT>\\paperI_figures\\figure3_gradient_calibration\\paperI_fig3_gradient_calibration_final_v4_metric_condition.pdf",
+    "condition_png": "<MOCK_DATA_ROOT>\\paperI_figures\\figure3_gradient_calibration\\paperI_fig3_gradient_calibration_final_v4_metric_condition.png"
+  }
+}

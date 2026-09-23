@@ -1,0 +1,4 @@
+loss_name,loss_label,gamma,cap,probability_min,probability_median,normalized_weight_max,effective_sample_size,effective_sample_fraction,empirical_cap,actual_cap
+unweighted,Unweighted,0.0,1.0,0.0001,0.06332708095860709,1.0,9922.0,1.0,,
+optimized_gamma0p75_cap20,"Radial-CV weighted ($\gamma=0.75$, cap 20)",0.75,20.0,0.0001,0.06332708095860709,1.9855181898222538,6847.3702678251,0.6901199624899315,365.4137382772236,20.0
+previous_mock2_gamma1p00_cap50,"Previous Mock-2 ($\gamma=1$, cap 50)",1.0,50.0,0.0001,0.06332708095860709,2.1782620455760164,6033.731809484177,0.6081164895670406,2612.4417231843254,50.0

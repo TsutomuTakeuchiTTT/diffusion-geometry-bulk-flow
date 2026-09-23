@@ -1,0 +1,2 @@
+all_loss_families_practical_converged,global_practical_loss,global_practical_loss_is_unweighted,needs_larger_eigensystem,recommended_next_step
+True,unweighted,True,False,finalize_mock2_highmode_text_and_then_mock3_audit

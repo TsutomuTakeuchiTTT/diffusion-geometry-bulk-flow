@@ -1,0 +1,24 @@
+{
+  "signature": "7c2902623793b30645695d26e33468f0d4ad87a0871b5407abe5cfafddbbc8b7",
+  "geometry_file": "<MOCK_DATA_ROOT>\\mock3_radial_potential_highmode_capacity_h2_v1\\cache\\mock3_unweighted_alpha0_geometry_m4352.npz",
+  "reference_geometry_file": "<MOCK_DATA_ROOT>\\mock3_primary_mode_convergence_to_4096_v1\\cache\\mock3_unweighted_alpha0_geometry_m4096.npz",
+  "target_total_modes": 4352,
+  "reference_total_modes": 4096,
+  "solver": "checkpointed_blockwise_deflated_eigsh",
+  "eigensolver_elapsed_seconds": 1642.1469179000705,
+  "diagnostics": {
+    "construction": "checkpointed_blockwise_deflated_eigsh",
+    "reference_modes_retained": 4096,
+    "continuation_modes": 256,
+    "continuation_block_size": 64,
+    "stationary_max_abs_difference": 0.0,
+    "reference_continuation_max_abs_inner_product": 6.982261990806649e-17,
+    "continuation_orthogonality_rms": 3.783673151258754e-15,
+    "continuation_residual_max": 9.121683721521205e-11,
+    "continuation_residual_median": 1.4344095761299616e-15,
+    "boundary_eigenvalue_gap": 1.1401847538660206e-05,
+    "continuation_eigenvalue_max": 0.010857554304817647,
+    "continuation_eigenvalue_min": 0.008982106735011484,
+    "checkpoint_blocks": 4
+  }
+}

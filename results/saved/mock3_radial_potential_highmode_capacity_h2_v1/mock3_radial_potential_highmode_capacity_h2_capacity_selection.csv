@@ -1,0 +1,4 @@
+loss_name,loss_label,validation_minimum_basis,validation_minimum_nrmse,practical_plateau_basis,plateau_found,practical_basis_h2,last_adjacent_validation_improvement,maximum_basis,strict_argmin_boundary,practical_converged,convergence_status,needs_larger_eigensystem,upper_boundary_warning
+unweighted,Unweighted,4354,0.05707514212815438,3842,True,3842,0.005350826358844674,4354,True,True,boundary_argmin_with_practical_plateau,False,False
+global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",4354,0.0587824065190552,3842,True,3842,0.005520532243521388,4354,True,True,boundary_argmin_with_practical_plateau,False,False
+octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",4354,0.058193084879000836,3842,True,3842,0.0035062597115381932,4354,True,True,boundary_argmin_with_practical_plateau,False,False

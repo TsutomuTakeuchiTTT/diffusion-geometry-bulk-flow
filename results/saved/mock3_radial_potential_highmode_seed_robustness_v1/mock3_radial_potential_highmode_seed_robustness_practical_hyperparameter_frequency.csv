@@ -1,0 +1,4 @@
+loss_name,n_basis,regularization_strength,penalty_power,count
+global_g0p75_cap20,3842,1e-06,2.0,10
+octant_g1p00_cap20,3842,1e-06,2.0,10
+unweighted,3842,1e-06,2.0,10

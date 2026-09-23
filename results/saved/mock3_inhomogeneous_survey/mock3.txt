@@ -1,0 +1,23 @@
+# Mock-3: inhomogeneous 8-octant survey
+# snapshot        : data/raw/snapshots/snapshot_000.hdf5
+# box_size        : 500.00  h^{-1} Mpc
+# r_cut           : 169.3500  h^{-1} Mpc
+# n_in_sphere     : 2812414
+# m_lim_0         : 10.9559  (reference for octant 0)
+# n_target        : 10000
+# n_output        : 10013
+# Schechter Mstar_h1 : -21.220
+# Schechter alpha    : -1.050
+# Schechter M_bright : -24.000
+# Schechter M_faint  : -14.000
+# h               : 0.6774
+# seed            : 2
+# Octant limits (k=0..7):
+#   k=0 (x- y- z-): m_lim=10.9559  N=435
+#   k=1 (x+ y- z-): m_lim=11.2559  N=506
+#   k=2 (x- y+ z-): m_lim=11.5559  N=597
+#   k=3 (x+ y+ z-): m_lim=11.8559  N=783
+#   k=4 (x- y- z+): m_lim=12.1559  N=663
+#   k=5 (x+ y- z+): m_lim=12.4559  N=1225
+#   k=6 (x- y+ z+): m_lim=12.7559  N=2214
+#   k=7 (x+ y+ z+): m_lim=13.0559  N=3590

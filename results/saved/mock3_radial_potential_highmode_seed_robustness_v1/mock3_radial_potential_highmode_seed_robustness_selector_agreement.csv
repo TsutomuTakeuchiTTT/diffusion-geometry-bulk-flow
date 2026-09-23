@@ -1,0 +1,4 @@
+policy,n_seeds,same_candidate_count,same_loss_count,operational_selects_unweighted_count,hidden_selects_unweighted_count,mean_operational_minus_hidden_basis
+raw,10,0,10,10,10,1305.2
+practical,10,10,10,10,10,0.0
+within_unweighted_raw,10,0,10,10,10,1305.2

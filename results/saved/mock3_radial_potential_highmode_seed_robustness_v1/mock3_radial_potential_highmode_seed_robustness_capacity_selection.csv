@@ -1,0 +1,4 @@
+loss_name,loss_label,n_seed_splits,validation_minimum_basis,validation_minimum_mean,validation_minimum_sem,one_standard_error_threshold,one_standard_error_basis,practical_plateau_basis,plateau_found,combined_practical_basis,strict_argmin_boundary,one_se_boundary,maximum_basis_selected_fraction,last_adjacent_validation_improvement,practical_converged,needs_larger_eigensystem,convergence_status
+unweighted,Unweighted,10,4354,0.05944919570420034,0.0015315667507421304,0.06098076245494247,3842,2818,True,3842,True,False,0.7,0.008083067799501535,True,False,converged
+global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",10,4354,0.061186825914775644,0.001526260941448445,0.06271308685622409,3842,2818,True,3842,True,False,0.7,0.007716995723331192,True,False,converged
+octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",10,4354,0.06060634578418402,0.0015066095276334798,0.0621129553118175,3842,2818,True,3842,True,False,0.7,0.007108210154034165,True,False,converged

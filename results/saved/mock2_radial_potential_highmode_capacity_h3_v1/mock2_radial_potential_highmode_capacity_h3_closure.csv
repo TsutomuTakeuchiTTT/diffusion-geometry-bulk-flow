@@ -1,0 +1,2 @@
+n_basis,n_fit,numerical_rank,closure_solver,coefficient_relative_error,radial_fit_relative_error,query_3d_relative_error,extra_cholesky_jitter,closure_status
+4354,8433,4354,cholesky,3.3948518336012013e-09,9.279548066808577e-13,1.3191774059221361e-11,0.0,pass

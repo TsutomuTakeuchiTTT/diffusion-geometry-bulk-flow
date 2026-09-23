@@ -1,0 +1,211 @@
+{
+  "analysis": "Radial Mock-3 high-mode 10-label-seed robustness",
+  "software": {
+    "python": "3.11.15",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1"
+  },
+  "inputs": {
+    "predictions": "<MOCK_DATA_ROOT>\\mock3_radial_potential_octant_selection_v1\\mock3_radial_potential_octant_selection_predictions.npz",
+    "h2_output": "<MOCK_DATA_ROOT>\\mock3_radial_potential_highmode_capacity_h2_v1",
+    "h2_geometry": "<MOCK_DATA_ROOT>\\mock3_radial_potential_highmode_capacity_h2_v1\\cache\\mock3_unweighted_alpha0_geometry_m4352.npz"
+  },
+  "label_seeds": [
+    20261203,
+    20261213,
+    20261223,
+    20270103,
+    20270113,
+    20270123,
+    20270203,
+    20270213,
+    20270223,
+    20270303
+  ],
+  "potential_parameters": [
+    3,
+    35,
+    67,
+    131,
+    259,
+    387,
+    514,
+    643,
+    771,
+    899,
+    1027,
+    1283,
+    1539,
+    1795,
+    2050,
+    2307,
+    2562,
+    2818,
+    3074,
+    3330,
+    3586,
+    3842,
+    4098,
+    4354
+  ],
+  "loss_families": [
+    {
+      "name": "unweighted",
+      "label": "Unweighted",
+      "mode": "none",
+      "gamma": 0.0,
+      "cap": 1.0
+    },
+    {
+      "name": "global_g0p75_cap20",
+      "label": "Global radial ($\\gamma=0.75$, cap 20)",
+      "mode": "global",
+      "gamma": 0.75,
+      "cap": 20.0
+    },
+    {
+      "name": "octant_g1p00_cap20",
+      "label": "Octant-aware ($\\gamma=1$, cap 20)",
+      "mode": "region",
+      "gamma": 1.0,
+      "cap": 20.0
+    }
+  ],
+  "support": {
+    "survey": 10013,
+    "query": 4966,
+    "region_primary": 283,
+    "common_strict_primary": 32,
+    "near_boundary": 88,
+    "far_boundary": 118,
+    "boundary_scale": 6.045556126020724
+  },
+  "capacity_selection": [
+    {
+      "loss_name": "unweighted",
+      "loss_label": "Unweighted",
+      "n_seed_splits": 10,
+      "validation_minimum_basis": 4354,
+      "validation_minimum_mean": 0.05944919570420034,
+      "validation_minimum_sem": 0.0015315667507421304,
+      "one_standard_error_threshold": 0.06098076245494247,
+      "one_standard_error_basis": 3842,
+      "practical_plateau_basis": 2818,
+      "plateau_found": true,
+      "combined_practical_basis": 3842,
+      "strict_argmin_boundary": true,
+      "one_se_boundary": false,
+      "maximum_basis_selected_fraction": 0.7,
+      "last_adjacent_validation_improvement": 0.008083067799501535,
+      "practical_converged": true,
+      "needs_larger_eigensystem": false,
+      "convergence_status": "converged"
+    },
+    {
+      "loss_name": "global_g0p75_cap20",
+      "loss_label": "Global radial ($\\gamma=0.75$, cap 20)",
+      "n_seed_splits": 10,
+      "validation_minimum_basis": 4354,
+      "validation_minimum_mean": 0.061186825914775644,
+      "validation_minimum_sem": 0.001526260941448445,
+      "one_standard_error_threshold": 0.06271308685622409,
+      "one_standard_error_basis": 3842,
+      "practical_plateau_basis": 2818,
+      "plateau_found": true,
+      "combined_practical_basis": 3842,
+      "strict_argmin_boundary": true,
+      "one_se_boundary": false,
+      "maximum_basis_selected_fraction": 0.7,
+      "last_adjacent_validation_improvement": 0.007716995723331192,
+      "practical_converged": true,
+      "needs_larger_eigensystem": false,
+      "convergence_status": "converged"
+    },
+    {
+      "loss_name": "octant_g1p00_cap20",
+      "loss_label": "Octant-aware ($\\gamma=1$, cap 20)",
+      "n_seed_splits": 10,
+      "validation_minimum_basis": 4354,
+      "validation_minimum_mean": 0.06060634578418402,
+      "validation_minimum_sem": 0.0015066095276334798,
+      "one_standard_error_threshold": 0.0621129553118175,
+      "one_standard_error_basis": 3842,
+      "practical_plateau_basis": 2818,
+      "plateau_found": true,
+      "combined_practical_basis": 3842,
+      "strict_argmin_boundary": true,
+      "one_se_boundary": false,
+      "maximum_basis_selected_fraction": 0.7,
+      "last_adjacent_validation_improvement": 0.007108210154034165,
+      "practical_converged": true,
+      "needs_larger_eigensystem": false,
+      "convergence_status": "converged"
+    }
+  ],
+  "global_practical_policy": [
+    {
+      "loss_name": "unweighted",
+      "loss_label": "Unweighted",
+      "combined_practical_basis": 3842,
+      "validation_mean": 0.060875329881053576,
+      "validation_sem": 0.001405149220918746,
+      "selected_global_practical_loss": true
+    },
+    {
+      "loss_name": "octant_g1p00_cap20",
+      "loss_label": "Octant-aware ($\\gamma=1$, cap 20)",
+      "combined_practical_basis": 3842,
+      "validation_mean": 0.06201124841506282,
+      "validation_sem": 0.0013683712107933931,
+      "selected_global_practical_loss": false
+    },
+    {
+      "loss_name": "global_g0p75_cap20",
+      "loss_label": "Global radial ($\\gamma=0.75$, cap 20)",
+      "combined_practical_basis": 3842,
+      "validation_mean": 0.062707219176869,
+      "validation_sem": 0.0013710973798934975,
+      "selected_global_practical_loss": false
+    }
+  ],
+  "selector_agreement": [
+    {
+      "policy": "raw",
+      "n_seeds": 10,
+      "same_candidate_count": 0,
+      "same_loss_count": 10,
+      "operational_selects_unweighted_count": 10,
+      "hidden_selects_unweighted_count": 10,
+      "mean_operational_minus_hidden_basis": 1305.2
+    },
+    {
+      "policy": "practical",
+      "n_seeds": 10,
+      "same_candidate_count": 10,
+      "same_loss_count": 10,
+      "operational_selects_unweighted_count": 10,
+      "hidden_selects_unweighted_count": 10,
+      "mean_operational_minus_hidden_basis": 0.0
+    },
+    {
+      "policy": "within_unweighted_raw",
+      "n_seeds": 10,
+      "same_candidate_count": 0,
+      "same_loss_count": 10,
+      "operational_selects_unweighted_count": 10,
+      "hidden_selects_unweighted_count": 10,
+      "mean_operational_minus_hidden_basis": 1305.2
+    }
+  ],
+  "decision": {
+    "all_loss_families_practical_converged": true,
+    "global_practical_loss": "unweighted",
+    "global_practical_loss_is_unweighted": true,
+    "octant_aware_practical_validation_better_than_global": true,
+    "octant_aware_matched_query_dispersion_delta_mean": -0.002227379030804133,
+    "octant_aware_matched_query_dispersion_delta_ci_high": -0.0009239890623133114,
+    "octant_aware_query_dispersion_improves_significantly": true,
+    "needs_larger_eigensystem": false,
+    "recommended_next_step": "finalize_mock3_highmode_text_and_update_paper"
+  }
+}

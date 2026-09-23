@@ -1,0 +1,4 @@
+loss_name,loss_label,combined_practical_basis,validation_mean,validation_sem,selected_global_practical_loss
+unweighted,Unweighted,3074,0.06560162372985558,0.002801003710822338,True
+optimized_gamma0p75_cap20,"Radial-CV weighted ($\gamma=0.75$, cap 20)",2818,0.06852327139021253,0.002360860721525377,False
+previous_mock2_gamma1p00_cap50,"Previous Mock-2 ($\gamma=1$, cap 50)",2818,0.06996283674641247,0.002304116805423186,False

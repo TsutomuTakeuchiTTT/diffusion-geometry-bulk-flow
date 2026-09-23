@@ -1,0 +1,25 @@
+{
+  "signature": "0f11cb2a42893e4907f4982139f0a560b34924d567c97f04477fb8f94e7d7ec1",
+  "geometry_file": "<MOCK_DATA_ROOT>\\mock2_radial_potential_highmode_capacity_h3_v1\\cache\\mock2_unweighted_alpha0_geometry_m4352.npz",
+  "reference_geometry_file": "<MOCK_DATA_ROOT>\\mock2_loss_weight_mode_convergence_to_4096_v2\\cache\\mock2_unweighted_alpha0_geometry_m4096.npz",
+  "target_total_modes": 4352,
+  "reference_total_modes": 4096,
+  "solver": "eigsh",
+  "eigensolver_elapsed_seconds": 3941.3945903999265,
+  "diagnostics": {
+    "construction": "nested_rayleigh_ritz_continuation",
+    "reference_modes_retained": 4096,
+    "continuation_modes": 256,
+    "overlap_modes_used": 64,
+    "stationary_max_abs_difference": 0.0,
+    "projected_subspace_numerical_rank": 256,
+    "projected_subspace_selected_min_eigenvalue": 0.9999999999999972,
+    "reference_continuation_max_abs_inner_product": 6.440160904563896e-17,
+    "continuation_orthogonality_rms": 3.886222514615012e-15,
+    "continuation_residual_max": 2.507394409556358e-15,
+    "continuation_residual_median": 1.266575057773033e-15,
+    "boundary_eigenvalue_gap": 1.2297594442526108e-05,
+    "continuation_eigenvalue_max": 0.011102294940762515,
+    "continuation_eigenvalue_min": 0.009213382539487742
+  }
+}

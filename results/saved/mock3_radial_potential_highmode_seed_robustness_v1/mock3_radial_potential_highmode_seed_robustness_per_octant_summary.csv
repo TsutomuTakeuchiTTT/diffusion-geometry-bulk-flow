@@ -1,0 +1,193 @@
+protocol,loss_name,loss_label,octant_subset,region_id,m_lim,n_seeds,nrmse_3d_mean,nrmse_3d_std
+retuned_practical,unweighted,Unweighted,observed_test_octant,0,10.95592439771875,10,0.10790849418452379,0.011788410751163266
+retuned_practical,unweighted,Unweighted,query_region_primary_octant,0,10.95592439771875,10,0.12066345865468411,0.00878424938806769
+retuned_practical,unweighted,Unweighted,observed_test_octant,1,11.25592439771875,10,0.08437516537647807,0.01247948352322543
+retuned_practical,unweighted,Unweighted,query_region_primary_octant,1,11.25592439771875,10,0.06377828743926023,0.0067607504210305995
+retuned_practical,unweighted,Unweighted,observed_test_octant,2,11.55592439771875,10,0.18907723584549357,0.018217248008811446
+retuned_practical,unweighted,Unweighted,query_region_primary_octant,2,11.55592439771875,10,0.23123211250943904,0.025381398052718475
+retuned_practical,unweighted,Unweighted,observed_test_octant,3,11.85592439771875,10,0.13735369850979867,0.0093491655135902
+retuned_practical,unweighted,Unweighted,query_region_primary_octant,3,11.85592439771875,10,0.16954457761521882,0.007100677269377928
+retuned_practical,unweighted,Unweighted,observed_test_octant,4,12.15592439771875,10,0.26597976945744256,0.012473498889012828
+retuned_practical,unweighted,Unweighted,query_region_primary_octant,4,12.15592439771875,10,0.21901949492243564,0.007955012897758316
+retuned_practical,unweighted,Unweighted,observed_test_octant,5,12.45592439771875,10,0.1681343413125555,0.01901751858947991
+retuned_practical,unweighted,Unweighted,query_region_primary_octant,5,12.45592439771875,10,0.17611129627823754,0.0055826061978411475
+retuned_practical,unweighted,Unweighted,observed_test_octant,6,12.75592439771875,10,0.35107026076101544,0.01763858710818448
+retuned_practical,unweighted,Unweighted,query_region_primary_octant,6,12.75592439771875,10,0.3825571291021282,0.018252553108687404
+retuned_practical,unweighted,Unweighted,observed_test_octant,7,13.05592439771875,10,0.2955468712273025,0.014315309585769197
+retuned_practical,unweighted,Unweighted,query_region_primary_octant,7,13.05592439771875,10,0.3076024846152733,0.009271605153825831
+retuned_raw,unweighted,Unweighted,observed_test_octant,0,10.95592439771875,10,0.10621999877783017,0.014020066739099429
+retuned_raw,unweighted,Unweighted,query_region_primary_octant,0,10.95592439771875,10,0.12959289460686751,0.013406602001828938
+retuned_raw,unweighted,Unweighted,observed_test_octant,1,11.25592439771875,10,0.0913262986299466,0.011843868929812594
+retuned_raw,unweighted,Unweighted,query_region_primary_octant,1,11.25592439771875,10,0.0663088161140981,0.005210350767539362
+retuned_raw,unweighted,Unweighted,observed_test_octant,2,11.55592439771875,10,0.1951541237997591,0.016053556500401297
+retuned_raw,unweighted,Unweighted,query_region_primary_octant,2,11.55592439771875,10,0.2503866356217854,0.03676676879021015
+retuned_raw,unweighted,Unweighted,observed_test_octant,3,11.85592439771875,10,0.14479927121498865,0.011286547344828429
+retuned_raw,unweighted,Unweighted,query_region_primary_octant,3,11.85592439771875,10,0.17643422611713683,0.01187701175455642
+retuned_raw,unweighted,Unweighted,observed_test_octant,4,12.15592439771875,10,0.26400996530978815,0.01323632073364909
+retuned_raw,unweighted,Unweighted,query_region_primary_octant,4,12.15592439771875,10,0.2128513348878836,0.010692804313424394
+retuned_raw,unweighted,Unweighted,observed_test_octant,5,12.45592439771875,10,0.17019951217146528,0.01866537690987348
+retuned_raw,unweighted,Unweighted,query_region_primary_octant,5,12.45592439771875,10,0.1908961593859669,0.010411267313100867
+retuned_raw,unweighted,Unweighted,observed_test_octant,6,12.75592439771875,10,0.34642666651458914,0.019437751551289385
+retuned_raw,unweighted,Unweighted,query_region_primary_octant,6,12.75592439771875,10,0.38201918863110085,0.03739786178179902
+retuned_raw,unweighted,Unweighted,observed_test_octant,7,13.05592439771875,10,0.2965377967038014,0.014836947769598331
+retuned_raw,unweighted,Unweighted,query_region_primary_octant,7,13.05592439771875,10,0.3003745572163262,0.009324961714337223
+matched_unweighted_practical,unweighted,Unweighted,observed_test_octant,0,10.95592439771875,10,0.10790849418452379,0.011788410751163266
+matched_unweighted_practical,unweighted,Unweighted,query_region_primary_octant,0,10.95592439771875,10,0.12066345865468411,0.00878424938806769
+matched_unweighted_practical,unweighted,Unweighted,observed_test_octant,1,11.25592439771875,10,0.08437516537647807,0.01247948352322543
+matched_unweighted_practical,unweighted,Unweighted,query_region_primary_octant,1,11.25592439771875,10,0.06377828743926023,0.0067607504210305995
+matched_unweighted_practical,unweighted,Unweighted,observed_test_octant,2,11.55592439771875,10,0.18907723584549357,0.018217248008811446
+matched_unweighted_practical,unweighted,Unweighted,query_region_primary_octant,2,11.55592439771875,10,0.23123211250943904,0.025381398052718475
+matched_unweighted_practical,unweighted,Unweighted,observed_test_octant,3,11.85592439771875,10,0.13735369850979867,0.0093491655135902
+matched_unweighted_practical,unweighted,Unweighted,query_region_primary_octant,3,11.85592439771875,10,0.16954457761521882,0.007100677269377928
+matched_unweighted_practical,unweighted,Unweighted,observed_test_octant,4,12.15592439771875,10,0.26597976945744256,0.012473498889012828
+matched_unweighted_practical,unweighted,Unweighted,query_region_primary_octant,4,12.15592439771875,10,0.21901949492243564,0.007955012897758316
+matched_unweighted_practical,unweighted,Unweighted,observed_test_octant,5,12.45592439771875,10,0.1681343413125555,0.01901751858947991
+matched_unweighted_practical,unweighted,Unweighted,query_region_primary_octant,5,12.45592439771875,10,0.17611129627823754,0.0055826061978411475
+matched_unweighted_practical,unweighted,Unweighted,observed_test_octant,6,12.75592439771875,10,0.35107026076101544,0.01763858710818448
+matched_unweighted_practical,unweighted,Unweighted,query_region_primary_octant,6,12.75592439771875,10,0.3825571291021282,0.018252553108687404
+matched_unweighted_practical,unweighted,Unweighted,observed_test_octant,7,13.05592439771875,10,0.2955468712273025,0.014315309585769197
+matched_unweighted_practical,unweighted,Unweighted,query_region_primary_octant,7,13.05592439771875,10,0.3076024846152733,0.009271605153825831
+matched_raw_operational_structure,unweighted,Unweighted,observed_test_octant,0,10.95592439771875,10,0.10621999877783017,0.014020066739099429
+matched_raw_operational_structure,unweighted,Unweighted,query_region_primary_octant,0,10.95592439771875,10,0.12959289460686751,0.013406602001828938
+matched_raw_operational_structure,unweighted,Unweighted,observed_test_octant,1,11.25592439771875,10,0.0913262986299466,0.011843868929812594
+matched_raw_operational_structure,unweighted,Unweighted,query_region_primary_octant,1,11.25592439771875,10,0.0663088161140981,0.005210350767539362
+matched_raw_operational_structure,unweighted,Unweighted,observed_test_octant,2,11.55592439771875,10,0.1951541237997591,0.016053556500401297
+matched_raw_operational_structure,unweighted,Unweighted,query_region_primary_octant,2,11.55592439771875,10,0.2503866356217854,0.03676676879021015
+matched_raw_operational_structure,unweighted,Unweighted,observed_test_octant,3,11.85592439771875,10,0.14479927121498865,0.011286547344828429
+matched_raw_operational_structure,unweighted,Unweighted,query_region_primary_octant,3,11.85592439771875,10,0.17643422611713683,0.01187701175455642
+matched_raw_operational_structure,unweighted,Unweighted,observed_test_octant,4,12.15592439771875,10,0.26400996530978815,0.01323632073364909
+matched_raw_operational_structure,unweighted,Unweighted,query_region_primary_octant,4,12.15592439771875,10,0.2128513348878836,0.010692804313424394
+matched_raw_operational_structure,unweighted,Unweighted,observed_test_octant,5,12.45592439771875,10,0.17019951217146528,0.01866537690987348
+matched_raw_operational_structure,unweighted,Unweighted,query_region_primary_octant,5,12.45592439771875,10,0.1908961593859669,0.010411267313100867
+matched_raw_operational_structure,unweighted,Unweighted,observed_test_octant,6,12.75592439771875,10,0.34642666651458914,0.019437751551289385
+matched_raw_operational_structure,unweighted,Unweighted,query_region_primary_octant,6,12.75592439771875,10,0.38201918863110085,0.03739786178179902
+matched_raw_operational_structure,unweighted,Unweighted,observed_test_octant,7,13.05592439771875,10,0.2965377967038014,0.014836947769598331
+matched_raw_operational_structure,unweighted,Unweighted,query_region_primary_octant,7,13.05592439771875,10,0.3003745572163262,0.009324961714337223
+retuned_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,0,10.95592439771875,10,0.14213736907310215,0.021030763042677893
+retuned_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,0,10.95592439771875,10,0.16458643338631493,0.020232091940012544
+retuned_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,1,11.25592439771875,10,0.11213453354000957,0.01651112737109068
+retuned_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,1,11.25592439771875,10,0.08440934448883658,0.008836942749985189
+retuned_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,2,11.55592439771875,10,0.2064860448187781,0.020355667806997078
+retuned_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,2,11.55592439771875,10,0.26534499778028076,0.031482735767464756
+retuned_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,3,11.85592439771875,10,0.1713137626459191,0.02698120596617817
+retuned_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,3,11.85592439771875,10,0.2025869139454862,0.024813614247773973
+retuned_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,4,12.15592439771875,10,0.2651549225631952,0.01137626468458662
+retuned_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,4,12.15592439771875,10,0.21593324223570992,0.011429137497317617
+retuned_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,5,12.45592439771875,10,0.17373146662167166,0.01822842871738259
+retuned_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,5,12.45592439771875,10,0.18982927099562547,0.006429187180106471
+retuned_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,6,12.75592439771875,10,0.36560921917798994,0.018810319373491625
+retuned_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,6,12.75592439771875,10,0.39959560592529253,0.016106324555709574
+retuned_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,7,13.05592439771875,10,0.3132197366340062,0.0185555901577493
+retuned_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,7,13.05592439771875,10,0.33347749035497076,0.011767444811058946
+retuned_raw,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,0,10.95592439771875,10,0.1363798089394867,0.024084119750775623
+retuned_raw,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,0,10.95592439771875,10,0.17553345851235938,0.024904556458271276
+retuned_raw,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,1,11.25592439771875,10,0.12458896206458851,0.012203436954019974
+retuned_raw,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,1,11.25592439771875,10,0.09266174960924245,0.00952012134605782
+retuned_raw,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,2,11.55592439771875,10,0.2114899442580013,0.021356979093442523
+retuned_raw,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,2,11.55592439771875,10,0.2852973426079346,0.03963716724359259
+retuned_raw,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,3,11.85592439771875,10,0.18323504317950565,0.02969629771015942
+retuned_raw,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,3,11.85592439771875,10,0.21618454153781608,0.025411996402707884
+retuned_raw,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,4,12.15592439771875,10,0.26378120339134764,0.012434407972159948
+retuned_raw,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,4,12.15592439771875,10,0.20902733352456945,0.013952621311604975
+retuned_raw,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,5,12.45592439771875,10,0.1778906622653368,0.017920531503751627
+retuned_raw,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,5,12.45592439771875,10,0.20506217462299464,0.01087172327113922
+retuned_raw,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,6,12.75592439771875,10,0.3639187496480776,0.023700313248756297
+retuned_raw,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,6,12.75592439771875,10,0.4078112621067865,0.04009008867915296
+retuned_raw,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,7,13.05592439771875,10,0.31460458504463407,0.019487014867286826
+retuned_raw,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,7,13.05592439771875,10,0.32482533653934004,0.009881567820561012
+matched_unweighted_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,0,10.95592439771875,10,0.14213736907310215,0.021030763042677893
+matched_unweighted_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,0,10.95592439771875,10,0.16458643338631493,0.020232091940012544
+matched_unweighted_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,1,11.25592439771875,10,0.11213453354000957,0.01651112737109068
+matched_unweighted_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,1,11.25592439771875,10,0.08440934448883658,0.008836942749985189
+matched_unweighted_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,2,11.55592439771875,10,0.2064860448187781,0.020355667806997078
+matched_unweighted_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,2,11.55592439771875,10,0.26534499778028076,0.031482735767464756
+matched_unweighted_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,3,11.85592439771875,10,0.1713137626459191,0.02698120596617817
+matched_unweighted_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,3,11.85592439771875,10,0.2025869139454862,0.024813614247773973
+matched_unweighted_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,4,12.15592439771875,10,0.2651549225631952,0.01137626468458662
+matched_unweighted_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,4,12.15592439771875,10,0.21593324223570992,0.011429137497317617
+matched_unweighted_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,5,12.45592439771875,10,0.17373146662167166,0.01822842871738259
+matched_unweighted_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,5,12.45592439771875,10,0.18982927099562547,0.006429187180106471
+matched_unweighted_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,6,12.75592439771875,10,0.36560921917798994,0.018810319373491625
+matched_unweighted_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,6,12.75592439771875,10,0.39959560592529253,0.016106324555709574
+matched_unweighted_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,7,13.05592439771875,10,0.3132197366340062,0.0185555901577493
+matched_unweighted_practical,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,7,13.05592439771875,10,0.33347749035497076,0.011767444811058946
+matched_raw_operational_structure,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,0,10.95592439771875,10,0.13512190693329856,0.022182531648369433
+matched_raw_operational_structure,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,0,10.95592439771875,10,0.17801232232482017,0.02949135691858329
+matched_raw_operational_structure,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,1,11.25592439771875,10,0.12497255162622864,0.012527454941475695
+matched_raw_operational_structure,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,1,11.25592439771875,10,0.09105119369162692,0.008726514969580153
+matched_raw_operational_structure,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,2,11.55592439771875,10,0.2117207358739143,0.021332851391592328
+matched_raw_operational_structure,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,2,11.55592439771875,10,0.2851445949196582,0.03975651871868892
+matched_raw_operational_structure,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,3,11.85592439771875,10,0.18340311213441685,0.02952898684071435
+matched_raw_operational_structure,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,3,11.85592439771875,10,0.21695105059025868,0.02417222051270584
+matched_raw_operational_structure,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,4,12.15592439771875,10,0.26369648214725855,0.012510344526778207
+matched_raw_operational_structure,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,4,12.15592439771875,10,0.20763042225150924,0.015099826645884265
+matched_raw_operational_structure,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,5,12.45592439771875,10,0.17791606670212795,0.017918648470550948
+matched_raw_operational_structure,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,5,12.45592439771875,10,0.2068292014088413,0.010322387600740616
+matched_raw_operational_structure,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,6,12.75592439771875,10,0.3627826641959227,0.02306723314542562
+matched_raw_operational_structure,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,6,12.75592439771875,10,0.4049537307337882,0.04063911399457289
+matched_raw_operational_structure,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",observed_test_octant,7,13.05592439771875,10,0.3145946266595193,0.019493052768597884
+matched_raw_operational_structure,global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",query_region_primary_octant,7,13.05592439771875,10,0.3244322099448307,0.009780673823377016
+retuned_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,0,10.95592439771875,10,0.13424441427006034,0.015200199239134328
+retuned_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,0,10.95592439771875,10,0.15807442924961376,0.016005872889314866
+retuned_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,1,11.25592439771875,10,0.10813218583559914,0.013524222628997336
+retuned_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,1,11.25592439771875,10,0.08061780226731212,0.010970924664225412
+retuned_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,2,11.55592439771875,10,0.19768287881026822,0.019670432462409553
+retuned_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,2,11.55592439771875,10,0.24885944771562868,0.029322566869918007
+retuned_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,3,11.85592439771875,10,0.1637779067938953,0.021347808548921425
+retuned_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,3,11.85592439771875,10,0.20167064280130725,0.018897347139524096
+retuned_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,4,12.15592439771875,10,0.2633933674858694,0.011775849232964911
+retuned_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,4,12.15592439771875,10,0.21248007491256898,0.010893470445683435
+retuned_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,5,12.45592439771875,10,0.17218281799181478,0.01855449355924965
+retuned_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,5,12.45592439771875,10,0.18476326262044818,0.006431416481426046
+retuned_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,6,12.75592439771875,10,0.36152060958490717,0.018232709185309254
+retuned_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,6,12.75592439771875,10,0.39441842236012764,0.016728054862511485
+retuned_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,7,13.05592439771875,10,0.3116829333990045,0.017631673715244846
+retuned_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,7,13.05592439771875,10,0.3303449869252898,0.010605828096826385
+retuned_raw,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,0,10.95592439771875,10,0.12724738473649566,0.018721688554696164
+retuned_raw,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,0,10.95592439771875,10,0.16115864180164444,0.02160805135690173
+retuned_raw,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,1,11.25592439771875,10,0.1191959341026606,0.00968369514587514
+retuned_raw,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,1,11.25592439771875,10,0.08618099761397177,0.009104095807826135
+retuned_raw,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,2,11.55592439771875,10,0.20815955977091777,0.02129917254450382
+retuned_raw,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,2,11.55592439771875,10,0.2818883646975758,0.04355302884671817
+retuned_raw,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,3,11.85592439771875,10,0.17605474179404412,0.025609378863679512
+retuned_raw,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,3,11.85592439771875,10,0.21351394258054884,0.022029284915253133
+retuned_raw,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,4,12.15592439771875,10,0.2614100724566031,0.013027858909783538
+retuned_raw,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,4,12.15592439771875,10,0.20522494401910105,0.012214800110213657
+retuned_raw,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,5,12.45592439771875,10,0.17548443965832902,0.01766417466392782
+retuned_raw,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,5,12.45592439771875,10,0.1987889175717117,0.010494356066147272
+retuned_raw,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,6,12.75592439771875,10,0.35860846087119225,0.02308286115430361
+retuned_raw,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,6,12.75592439771875,10,0.39904403775162967,0.03959624831242285
+retuned_raw,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,7,13.05592439771875,10,0.31352205096725455,0.018605231370993465
+retuned_raw,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,7,13.05592439771875,10,0.3228025942558924,0.009197821141715785
+matched_unweighted_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,0,10.95592439771875,10,0.13424441427006034,0.015200199239134328
+matched_unweighted_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,0,10.95592439771875,10,0.15807442924961376,0.016005872889314866
+matched_unweighted_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,1,11.25592439771875,10,0.10813218583559914,0.013524222628997336
+matched_unweighted_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,1,11.25592439771875,10,0.08061780226731212,0.010970924664225412
+matched_unweighted_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,2,11.55592439771875,10,0.19768287881026822,0.019670432462409553
+matched_unweighted_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,2,11.55592439771875,10,0.24885944771562868,0.029322566869918007
+matched_unweighted_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,3,11.85592439771875,10,0.1637779067938953,0.021347808548921425
+matched_unweighted_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,3,11.85592439771875,10,0.20167064280130725,0.018897347139524096
+matched_unweighted_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,4,12.15592439771875,10,0.2633933674858694,0.011775849232964911
+matched_unweighted_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,4,12.15592439771875,10,0.21248007491256898,0.010893470445683435
+matched_unweighted_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,5,12.45592439771875,10,0.17218281799181478,0.01855449355924965
+matched_unweighted_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,5,12.45592439771875,10,0.18476326262044818,0.006431416481426046
+matched_unweighted_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,6,12.75592439771875,10,0.36152060958490717,0.018232709185309254
+matched_unweighted_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,6,12.75592439771875,10,0.39441842236012764,0.016728054862511485
+matched_unweighted_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,7,13.05592439771875,10,0.3116829333990045,0.017631673715244846
+matched_unweighted_practical,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,7,13.05592439771875,10,0.3303449869252898,0.010605828096826385
+matched_raw_operational_structure,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,0,10.95592439771875,10,0.12561265829224735,0.016815263458207122
+matched_raw_operational_structure,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,0,10.95592439771875,10,0.16239994155285514,0.02364831809844397
+matched_raw_operational_structure,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,1,11.25592439771875,10,0.12026779012085323,0.010348170532854035
+matched_raw_operational_structure,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,1,11.25592439771875,10,0.08420401985014234,0.005960348834428184
+matched_raw_operational_structure,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,2,11.55592439771875,10,0.2082280453905081,0.021284339465805442
+matched_raw_operational_structure,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,2,11.55592439771875,10,0.2825328487897367,0.042874179819100855
+matched_raw_operational_structure,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,3,11.85592439771875,10,0.1760409381919993,0.02562328325391222
+matched_raw_operational_structure,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,3,11.85592439771875,10,0.21419292610008284,0.020838067804693
+matched_raw_operational_structure,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,4,12.15592439771875,10,0.26129294568248723,0.013128165173564408
+matched_raw_operational_structure,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,4,12.15592439771875,10,0.20397673775763026,0.01329935052057675
+matched_raw_operational_structure,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,5,12.45592439771875,10,0.17551518647453462,0.017662471909527373
+matched_raw_operational_structure,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,5,12.45592439771875,10,0.20058077484390546,0.010028670899389946
+matched_raw_operational_structure,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,6,12.75592439771875,10,0.3572708174958696,0.022139635577622288
+matched_raw_operational_structure,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,6,12.75592439771875,10,0.39592669466295083,0.03971531023587783
+matched_raw_operational_structure,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",observed_test_octant,7,13.05592439771875,10,0.31379294943278974,0.018450846985055794
+matched_raw_operational_structure,octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",query_region_primary_octant,7,13.05592439771875,10,0.32256041285149956,0.009131054507896145

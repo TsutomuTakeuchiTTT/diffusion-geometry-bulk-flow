@@ -1,0 +1,14 @@
+# Mock-2: Schechter-function magnitude-limited selection
+# snapshot        : data/raw/snapshots/snapshot_000.hdf5
+# box_size        : 500.00  h^{-1} Mpc
+# r_cut           : 169.3500  h^{-1} Mpc
+# n_in_sphere     : 2812414
+# m_lim           : 12.3108
+# n_target        : 10000
+# n_output        : 9922
+# Schechter Mstar_h1 : -21.220
+# Schechter alpha    : -1.050
+# Schechter M_bright : -24.000
+# Schechter M_faint  : -14.000
+# h               : 0.6774
+# seed            : 1

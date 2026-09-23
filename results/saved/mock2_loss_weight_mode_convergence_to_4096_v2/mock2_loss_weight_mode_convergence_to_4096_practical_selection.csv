@@ -1,0 +1,3 @@
+model,minimum_validation_basis,minimum_validation_mean,minimum_validation_sem,one_standard_error_threshold,one_standard_error_basis,practical_plateau_basis,plateau_found,plateau_relative_threshold,plateau_consecutive_steps
+naive,2560,0.03660706446412587,0.0015359996366796616,0.038143064100805535,2560,2560,True,0.02,2
+loss_weighted,2560,0.036939863308441886,0.0014538399180801076,0.038393703226522,2560,2560,True,0.02,2

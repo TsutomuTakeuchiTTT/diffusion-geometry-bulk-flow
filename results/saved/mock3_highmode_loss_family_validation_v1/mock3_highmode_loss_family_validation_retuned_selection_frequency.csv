@@ -1,0 +1,12 @@
+model,n_basis,regularization_strength,count
+global_radial_loss,2560,0.01,5
+global_radial_loss,3072,0.01,4
+global_radial_loss,2560,0.03,1
+octant_aware_loss,2560,0.01,5
+octant_aware_loss,3072,0.01,4
+octant_aware_loss,2560,0.03,1
+unweighted_loss,2560,0.01,3
+unweighted_loss,3072,0.01,3
+unweighted_loss,2560,0.003,2
+unweighted_loss,2560,0.03,1
+unweighted_loss,3072,0.003,1

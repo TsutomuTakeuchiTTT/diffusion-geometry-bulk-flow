@@ -1,0 +1,254 @@
+{
+  "experiment": "Radial Mock-2 high-mode ten-label-seed robustness",
+  "label_seeds": [
+    20261202,
+    20261212,
+    20261222,
+    20270102,
+    20270112,
+    20270122,
+    20270202,
+    20270212,
+    20270222,
+    20270302
+  ],
+  "input": {
+    "predictions": "<MOCK_DATA_ROOT>\\mock2_radial_potential_selection_v1\\mock2_radial_potential_selection_predictions.npz",
+    "h3_output": "<MOCK_DATA_ROOT>\\mock2_radial_potential_highmode_capacity_h3_v1",
+    "h3_geometry": "<MOCK_DATA_ROOT>\\mock2_radial_potential_highmode_capacity_h3_v1\\cache\\mock2_unweighted_alpha0_geometry_m4352.npz",
+    "h3_basis_metadata": "<MOCK_DATA_ROOT>\\mock2_radial_potential_highmode_capacity_h3_v1\\cache\\highmode_basis_metadata.json"
+  },
+  "basis": {
+    "diffusion_mode_counts": [
+      0,
+      32,
+      64,
+      128,
+      256,
+      384,
+      511,
+      640,
+      768,
+      896,
+      1024,
+      1280,
+      1536,
+      1792,
+      2047,
+      2304,
+      2559,
+      2815,
+      3071,
+      3327,
+      3583,
+      3839,
+      4095,
+      4351
+    ],
+    "potential_basis_sizes": [
+      3,
+      35,
+      67,
+      131,
+      259,
+      387,
+      514,
+      643,
+      771,
+      899,
+      1027,
+      1283,
+      1539,
+      1795,
+      2050,
+      2307,
+      2562,
+      2818,
+      3074,
+      3330,
+      3586,
+      3842,
+      4098,
+      4354
+    ],
+    "maximum_basis": 4354,
+    "affine_mode_scale": 0.4825784492639412
+  },
+  "loss_configs": [
+    {
+      "name": "unweighted",
+      "label": "Unweighted",
+      "gamma": 0.0,
+      "cap": 1.0
+    },
+    {
+      "name": "optimized_gamma0p75_cap20",
+      "label": "Radial-CV weighted ($\\gamma=0.75$, cap 20)",
+      "gamma": 0.75,
+      "cap": 20.0
+    },
+    {
+      "name": "previous_mock2_gamma1p00_cap50",
+      "label": "Previous Mock-2 ($\\gamma=1$, cap 50)",
+      "gamma": 1.0,
+      "cap": 50.0
+    }
+  ],
+  "capacity_selection": [
+    {
+      "loss_name": "unweighted",
+      "loss_label": "Unweighted",
+      "n_seed_splits": 10,
+      "validation_minimum_basis": 4098,
+      "validation_minimum_mean": 0.06416234957160669,
+      "validation_minimum_sem": 0.0028450813946060615,
+      "one_standard_error_threshold": 0.06700743096621274,
+      "one_standard_error_basis": 3074,
+      "practical_plateau_basis": 3074,
+      "plateau_found": true,
+      "combined_practical_basis": 3074,
+      "strict_argmin_boundary": false,
+      "one_se_boundary": false,
+      "maximum_basis_selected_fraction": 0.3,
+      "last_adjacent_validation_improvement": -0.0009477657382350224,
+      "practical_converged": true,
+      "needs_larger_eigensystem": false,
+      "convergence_status": "converged"
+    },
+    {
+      "loss_name": "optimized_gamma0p75_cap20",
+      "loss_label": "Radial-CV weighted ($\\gamma=0.75$, cap 20)",
+      "n_seed_splits": 10,
+      "validation_minimum_basis": 4098,
+      "validation_minimum_mean": 0.06734546318455749,
+      "validation_minimum_sem": 0.002276789837544864,
+      "one_standard_error_threshold": 0.06962225302210236,
+      "one_standard_error_basis": 2818,
+      "practical_plateau_basis": 2818,
+      "plateau_found": true,
+      "combined_practical_basis": 2818,
+      "strict_argmin_boundary": false,
+      "one_se_boundary": false,
+      "maximum_basis_selected_fraction": 0.3,
+      "last_adjacent_validation_improvement": -0.0024858245020905204,
+      "practical_converged": true,
+      "needs_larger_eigensystem": false,
+      "convergence_status": "converged"
+    },
+    {
+      "loss_name": "previous_mock2_gamma1p00_cap50",
+      "loss_label": "Previous Mock-2 ($\\gamma=1$, cap 50)",
+      "n_seed_splits": 10,
+      "validation_minimum_basis": 4098,
+      "validation_minimum_mean": 0.06899857245522653,
+      "validation_minimum_sem": 0.0021827458575945737,
+      "one_standard_error_threshold": 0.07118131831282111,
+      "one_standard_error_basis": 2818,
+      "practical_plateau_basis": 2818,
+      "plateau_found": true,
+      "combined_practical_basis": 2818,
+      "strict_argmin_boundary": false,
+      "one_se_boundary": false,
+      "maximum_basis_selected_fraction": 0.3,
+      "last_adjacent_validation_improvement": -0.0012172873177842519,
+      "practical_converged": true,
+      "needs_larger_eigensystem": false,
+      "convergence_status": "converged"
+    }
+  ],
+  "global_practical_policy": [
+    {
+      "loss_name": "unweighted",
+      "loss_label": "Unweighted",
+      "combined_practical_basis": 3074,
+      "validation_mean": 0.06560162372985558,
+      "validation_sem": 0.002801003710822338,
+      "selected_global_practical_loss": true
+    },
+    {
+      "loss_name": "optimized_gamma0p75_cap20",
+      "loss_label": "Radial-CV weighted ($\\gamma=0.75$, cap 20)",
+      "combined_practical_basis": 2818,
+      "validation_mean": 0.06852327139021253,
+      "validation_sem": 0.002360860721525377,
+      "selected_global_practical_loss": false
+    },
+    {
+      "loss_name": "previous_mock2_gamma1p00_cap50",
+      "loss_label": "Previous Mock-2 ($\\gamma=1$, cap 50)",
+      "combined_practical_basis": 2818,
+      "validation_mean": 0.06996283674641247,
+      "validation_sem": 0.002304116805423186,
+      "selected_global_practical_loss": false
+    }
+  ],
+  "selector_agreement": [
+    {
+      "policy": "raw",
+      "n_seeds": 10,
+      "same_candidate_count": 0,
+      "same_loss_count": 9,
+      "operational_selects_unweighted_count": 9,
+      "hidden_selects_unweighted_count": 10,
+      "mean_operational_minus_hidden_basis": 1510.2
+    },
+    {
+      "policy": "practical",
+      "n_seeds": 10,
+      "same_candidate_count": 9,
+      "same_loss_count": 9,
+      "operational_selects_unweighted_count": 9,
+      "hidden_selects_unweighted_count": 10,
+      "mean_operational_minus_hidden_basis": -25.6
+    },
+    {
+      "policy": "within_unweighted_raw",
+      "n_seeds": 10,
+      "same_candidate_count": 0,
+      "same_loss_count": 10,
+      "operational_selects_unweighted_count": 10,
+      "hidden_selects_unweighted_count": 10,
+      "mean_operational_minus_hidden_basis": 1305.5
+    }
+  ],
+  "decision": [
+    {
+      "all_loss_families_practical_converged": true,
+      "global_practical_loss": "unweighted",
+      "global_practical_loss_is_unweighted": true,
+      "needs_larger_eigensystem": false,
+      "recommended_next_step": "finalize_mock2_highmode_text_and_then_mock3_audit"
+    }
+  ],
+  "continuity": {
+    "h3_representative": [
+      {
+        "audit_available": true,
+        "n_common_rows": 720,
+        "expected_rows": 720,
+        "weighted_validation_nrmse_radial_max_abs_difference": 3.3306690738754696e-16,
+        "unweighted_validation_nrmse_radial_max_abs_difference": 1.1102230246251565e-16,
+        "weighted_validation_nrmse_tangential_max_abs_difference": 0.0,
+        "weighted_validation_nrmse_3d_max_abs_difference": 0.0
+      }
+    ],
+    "legacy_514": [
+      {
+        "audit_available": true,
+        "n_common_rows": 2100,
+        "expected_current_rows": 2100,
+        "weighted_validation_nrmse_radial_max_abs_difference": 2.1236096214849454e-11,
+        "unweighted_validation_nrmse_radial_max_abs_difference": 8.249059768594691e-11,
+        "weighted_validation_nrmse_tangential_max_abs_difference": 2.3614893374102053e-10,
+        "weighted_validation_nrmse_3d_max_abs_difference": 1.8492990472296356e-10
+      }
+    ]
+  },
+  "outputs": {
+    "candidate_grid_csv": "<MOCK_DATA_ROOT>\\mock2_radial_potential_highmode_seed_robustness_v1\\mock2_radial_potential_highmode_seed_robustness_candidate_grid.csv",
+    "capacity_selection_csv": "<MOCK_DATA_ROOT>\\mock2_radial_potential_highmode_seed_robustness_v1\\mock2_radial_potential_highmode_seed_robustness_capacity_selection.csv",
+    "evaluation_csv": "<MOCK_DATA_ROOT>\\mock2_radial_potential_highmode_seed_robustness_v1\\mock2_radial_potential_highmode_seed_robustness_evaluation.csv",
+    "paired_summary_csv": "<MOCK_DATA_ROOT>\\mock2_radial_potential_highmode_seed_robustness_v1\\mock2_radial_potential_highmode_seed_robustness_paired_summary.csv",
+    "selector_agreement_csv": "<MOCK_DATA_ROOT>\\mock2_radial_potential_highmode_seed_robustness_v1\\mock2_radial_potential_highmode_seed_robustness_selector_agreement.csv"
+  }
+}

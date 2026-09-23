@@ -1,0 +1,4 @@
+loss_name,validation_minimum_basis,validation_minimum_nrmse,practical_plateau_basis,plateau_found,practical_basis_h3,validation_nrmse_at_h2_ceiling,validation_nrmse_at_maximum_basis,relative_validation_improvement_h2_to_maximum,last_adjacent_validation_improvement,maximum_basis,strict_argmin_boundary,practical_converged,convergence_status,needs_larger_eigensystem,upper_boundary_warning
+unweighted,4098,0.0534225486996282,3842,True,3842,0.0534225486996282,0.053772816393553,-0.006556551539579235,-0.006556551539579235,4354,False,True,practical_converged,False,False
+optimized_gamma0p75_cap20,4098,0.0564641945913086,3074,True,3074,0.0564641945913086,0.057130364283715,-0.011798090758721975,-0.011798090758721975,4354,False,True,practical_converged,False,False
+previous_mock2_gamma1p00_cap50,4098,0.0577633795710279,3074,True,3074,0.0577633795710279,0.0585055800118543,-0.01284897882253857,-0.01284897882253857,4354,False,True,practical_converged,False,False

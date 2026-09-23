@@ -1,0 +1,77 @@
+{
+  "scope": "Mock-3 first-stage high-mode convergence for the primary unweighted loss with fixed unweighted alpha_DM=0 geometry",
+  "fixed_regularization_strength": 0.01,
+  "basis_sizes": [
+    512,
+    1024,
+    1536,
+    2048,
+    2560,
+    3072,
+    3584,
+    4096
+  ],
+  "label_split_seeds": [
+    20261203,
+    20261213,
+    20261223,
+    20270103,
+    20270113,
+    20270123,
+    20270203,
+    20270213,
+    20270223,
+    20270303
+  ],
+  "primary_metric_weight": {
+    "gamma": 1.0,
+    "cap": 50.0,
+    "raw_weight_max": 10000.0,
+    "normalized_weight_max": 2.0649511807788263,
+    "effective_sample_size": 6470.534276590873,
+    "effective_sample_fraction": 0.6462133503036924
+  },
+  "practical_selection": {
+    "minimum_validation_basis": 2560,
+    "minimum_validation_mean": 0.03507758882858318,
+    "minimum_validation_sem": 0.0011362642035448712,
+    "one_standard_error_threshold": 0.036213853032128054,
+    "one_standard_error_basis": 2560,
+    "practical_plateau_basis": 2560,
+    "plateau_found": true
+  },
+  "geometry_cache": "<MOCK_DATA_ROOT>\\mock3_primary_mode_convergence_to_4096_v1\\cache\\mock3_unweighted_alpha0_geometry_m4096.npz",
+  "geometry_loaded_from_cache": true,
+  "geometry_continuity_audit": [
+    {
+      "quantity": "legacy_geometry_available",
+      "value": 1.0
+    },
+    {
+      "quantity": "stationary_max_abs_difference",
+      "value": 0.0
+    },
+    {
+      "quantity": "first_512_markov_eigenvalue_max_abs_difference",
+      "value": 1.5987211554602254e-14
+    },
+    {
+      "quantity": "first_64_mode_correlation_median",
+      "value": 1.0
+    },
+    {
+      "quantity": "first_64_mode_correlation_minimum",
+      "value": 0.9999999999999996
+    }
+  ],
+  "outputs": {
+    "runs_csv": "<MOCK_DATA_ROOT>\\mock3_primary_mode_convergence_to_4096_v1\\mock3_primary_mode_convergence_to_4096_runs.csv",
+    "aggregate_csv": "<MOCK_DATA_ROOT>\\mock3_primary_mode_convergence_to_4096_v1\\mock3_primary_mode_convergence_to_4096_aggregate.csv",
+    "practical_selection_csv": "<MOCK_DATA_ROOT>\\mock3_primary_mode_convergence_to_4096_v1\\mock3_primary_mode_convergence_to_4096_practical_selection.csv",
+    "plateau_diagnostics_csv": "<MOCK_DATA_ROOT>\\mock3_primary_mode_convergence_to_4096_v1\\mock3_primary_mode_convergence_to_4096_plateau_diagnostics.csv",
+    "composite_pdf": "<MOCK_DATA_ROOT>\\mock3_primary_mode_convergence_to_4096_v1\\mock3_primary_mode_convergence_to_4096_composite.pdf",
+    "composite_png": "<MOCK_DATA_ROOT>\\mock3_primary_mode_convergence_to_4096_v1\\mock3_primary_mode_convergence_to_4096_composite.png",
+    "plateau_pdf": "<MOCK_DATA_ROOT>\\mock3_primary_mode_convergence_to_4096_v1\\mock3_primary_mode_convergence_to_4096_plateau_diagnostic.pdf",
+    "plateau_png": "<MOCK_DATA_ROOT>\\mock3_primary_mode_convergence_to_4096_v1\\mock3_primary_mode_convergence_to_4096_plateau_diagnostic.png"
+  }
+}

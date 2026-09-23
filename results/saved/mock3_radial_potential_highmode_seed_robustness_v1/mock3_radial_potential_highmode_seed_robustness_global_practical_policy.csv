@@ -1,0 +1,4 @@
+loss_name,loss_label,combined_practical_basis,validation_mean,validation_sem,selected_global_practical_loss
+unweighted,Unweighted,3842,0.060875329881053576,0.001405149220918746,True
+octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",3842,0.06201124841506282,0.0013683712107933931,False
+global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",3842,0.062707219176869,0.0013710973798934975,False

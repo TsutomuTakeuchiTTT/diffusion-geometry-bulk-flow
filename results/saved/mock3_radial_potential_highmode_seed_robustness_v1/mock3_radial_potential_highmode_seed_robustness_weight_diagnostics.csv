@@ -1,0 +1,4 @@
+loss_name,loss_label,loss_mode,gamma,cap,probability_min,probability_median,normalized_weight_max,effective_sample_size,effective_sample_fraction,empirical_cap,actual_cap
+unweighted,Unweighted,none,0.0,1.0,1.0,1.0,1.0,10013.0,1.0,,
+global_g0p75_cap20,"Global radial ($\gamma=0.75$, cap 20)",global,0.75,20.0,0.0001,0.033950836984711956,1.6118444655458486,7628.841618475372,0.7618937000374885,710.0481910239573,20.0
+octant_g1p00_cap20,"Octant-aware ($\gamma=1$, cap 20)",region,1.0,20.0,0.0001,0.055018076371709336,1.3969532852289752,8349.780953978412,0.8338940331547401,2560.4479645041297,20.0

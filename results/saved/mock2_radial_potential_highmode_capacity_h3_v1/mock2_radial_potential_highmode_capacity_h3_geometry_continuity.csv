@@ -1,0 +1,8 @@
+quantity,value
+legacy_geometry_available,1.0
+stationary_max_abs_difference,0.0
+markov_eigenvalue_max_abs_difference,1.8318679906315083e-14
+generator_eigenvalue_max_abs_difference,1.127986593019159e-13
+first64_mode_correlation_median,1.0000000000000007
+first64_mode_correlation_minimum,0.9999999999999946
+first64_subspace_minimum_singular_value,0.9999999999999993
