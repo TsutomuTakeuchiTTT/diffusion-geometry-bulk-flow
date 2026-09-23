@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+outputs/
+mock_data/
+local_data/
+*.npz
+*.npy
+.env
+.env.*
+.DS_Store
+Thumbs.db
