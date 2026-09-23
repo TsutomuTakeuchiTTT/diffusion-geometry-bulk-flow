@@ -1,0 +1,33 @@
+name: Verify paper-code release
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    tags: [v0.1.0]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      MPLBACKEND: Agg
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - run: python -m pip install -r requirements-test.txt
+      - run: python tools/verify_release.py
+      - run: python tools/finalize_deposition.py --check
+      - run: python -m unittest discover -s tests -v
+      - run: python tools/demo.py --output outputs/demo
+      - run: python tools/recompute_capacity.py --output outputs/capacity
+      - run: python tools/export_table_review.py --output outputs/paper_table_review.csv
+      - run: python tools/redraw_saved_mock1.py --output outputs/paperI_figure06
+      
